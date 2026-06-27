@@ -28,9 +28,8 @@ sections:
           </div>
 
           <div class="research-text">
-            <h2>Museum collections and biogeography</h2>
-            <p>Much of my work returns to historical fossil fish collections that have been underused in modern macroevolutionary and biogeographic studies. These specimens provide important records from regions outside classic European fossil localities.</p>
-            <p>By combining museum specimens with spatial analyses and geologic data, I aim to identify where future collecting can best improve our understanding of Cenozoic tropical marine biodiversity.</p>
+            <h2>Museum collections </h2>
+            <p>Test.</p>
           </div>
         </div>
 
