@@ -13,9 +13,8 @@ sections:
 
         <div class="research-split">
           <div class="research-text">
-            <h2>Cenozoic tropical marine fishes</h2>
-            <p>I study the fossil record of tropical marine fishes to understand how ancient biodiversity patterns shaped the modern Indo–West Pacific. This work uses skeletal fossils, otoliths, and museum collections to examine when and where major marine fish lineages appeared, diversified, and shifted geographically.</p>
-            <p>A major goal of this research is to test whether apparent biodiversity hotspots reflect true biological history or uneven sampling across regions, environments, and time intervals.</p>
+            <h2>Changes within lineage </h2>
+            <p>I study the individual lineage fossil record of tropical marine fishes to understand how they changed morphologically and look at lineage specific ranges.</p>
           </div>
 
           <div class="research-image">
