@@ -1,0 +1,102 @@
+/* TRUE BLACK / TRUE WHITE THEME OVERRIDES */
+
+/* Light mode: true white */
+html,
+body,
+body.light,
+[data-bs-theme="light"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Dark mode: true black */
+html.dark,
+body.dark,
+[data-theme="dark"],
+[data-bs-theme="dark"],
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Main body areas */
+[data-bs-theme="dark"] body,
+[data-bs-theme="dark"] main,
+[data-bs-theme="dark"] section,
+[data-bs-theme="dark"] .page-body,
+[data-bs-theme="dark"] .article-container,
+[data-bs-theme="dark"] .container,
+[data-bs-theme="dark"] .container-fluid {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="light"] body,
+[data-bs-theme="light"] main,
+[data-bs-theme="light"] section,
+[data-bs-theme="light"] .page-body,
+[data-bs-theme="light"] .article-container,
+[data-bs-theme="light"] .container,
+[data-bs-theme="light"] .container-fluid {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Bootstrap variables */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #000000 !important;
+  --bs-body-color: #ffffff !important;
+  --bs-emphasis-color: #ffffff !important;
+  --bs-secondary-bg: #000000 !important;
+  --bs-tertiary-bg: #000000 !important;
+  --bs-border-color: #333333 !important;
+}
+
+[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff !important;
+  --bs-body-color: #000000 !important;
+  --bs-emphasis-color: #000000 !important;
+  --bs-secondary-bg: #ffffff !important;
+  --bs-tertiary-bg: #ffffff !important;
+  --bs-border-color: #dddddd !important;
+}
+
+/* Navbar */
+[data-bs-theme="dark"] .navbar,
+html.dark .navbar,
+body.dark .navbar {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="light"] .navbar {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Cards and content blocks */
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .card-body,
+[data-bs-theme="dark"] .docs-article-container,
+[data-bs-theme="dark"] .article-style {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="light"] .card,
+[data-bs-theme="light"] .card-body,
+[data-bs-theme="light"] .docs-article-container,
+[data-bs-theme="light"] .article-style {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Links and accent colors */
+a {
+  color: #DA77AC;
+}
+
+a:hover {
+  color: #F9B665;
+}
