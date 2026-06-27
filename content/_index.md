@@ -13,7 +13,7 @@ sections:
         Ph.D. Candidate in Paleontology  
         University of Michigan
 
-        I use museum data, fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
+        I use museum data,fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
       primary_action:
         text: "View my research"
         url: "/research/"
