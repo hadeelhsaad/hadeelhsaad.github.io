@@ -25,11 +25,10 @@ bio: |
 affiliations:
   - name: University of Michigan, Ann Arbor
     url: https://lsa.umich.edu/earth
-
-links:
-  - icon: at-symbol
+  - name: hhsaad@umich.edu
     url: mailto:hhsaad@umich.edu
-    label: hhsaad@umich.edu
+
+links: []
     
 interests: []
 
