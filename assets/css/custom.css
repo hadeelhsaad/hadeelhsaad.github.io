@@ -1,0 +1,12 @@
+/* Hide the circular email icon, but keep the email text */
+a[href="mailto:hhsaad@umich.edu"] svg,
+a[href="mailto:hhsaad@umich.edu"] .icon,
+a[href="mailto:hhsaad@umich.edu"] span:first-child {
+  display: none !important;
+}
+
+a[href="mailto:hhsaad@umich.edu"] {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
