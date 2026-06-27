@@ -14,9 +14,9 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ' '
-        education: ' '
-        interests: ' '
+        about: "About Me"
+        education: " "
+        interests: " "
     design:
       background:
         color: "#000000"
