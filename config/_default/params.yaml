@@ -31,7 +31,7 @@ hugoblox:
   # THEME
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
- hugoblox:
+  hugoblox:
   theme:
     mode: system
     colors:
