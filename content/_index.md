@@ -24,7 +24,7 @@ sections:
         color: "#000000"
         text_color_light: true
         image:
-          filename: "background.jpg"
+          filename: "background.png"
           filters:
             brightness: 0.45
       spacing:
