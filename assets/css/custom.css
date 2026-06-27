@@ -26,3 +26,54 @@ section:has(h2) .flex:has(h2) > :first-child {
 section:has(h2) .flex:has(h2) {
   gap: 0 !important;
 }
+/* Research page split image/text sections */
+.research-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+
+  width: 95vw;
+  max-width: 1400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.research-text h2 {
+  font-size: clamp(2.4rem, 4vw, 4.5rem);
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+}
+
+.research-text p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.research-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(0,0,0,0.25);
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .research-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 92vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .research-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .research-text p {
+    font-size: 1.1rem;
+  }
+}
