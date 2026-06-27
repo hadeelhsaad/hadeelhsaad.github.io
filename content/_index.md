@@ -1,57 +1,36 @@
 ---
-title: "Hadeel H. Saad"
-summary: "Ph.D. Candidate in Paleontology at the University of Michigan"
+# Leave the homepage title empty to use the site title
+title: ''
+summary: ''
 date: 2026-06-27
 type: landing
 
 sections:
-  - block: hero
+  - block: resume-biography-3
     content:
-      title: "Hadeel H. Saad"
-      text: |
-        <img src="uploads/headshot.jpg" alt="Hadeel H. Saad" style="width: 170px; height: 170px; object-fit: cover; object-position: center; border: 4px solid #DA77AC; margin-bottom: 1.5rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
-
-        Ph.D. Candidate in Paleontology  
-        University of Michigan
-
-        I use museum data, fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
-      primary_action:
-        text: "View my research"
-        url: "/research/"
-      secondary_action:
-        text: "View my CV"
-        url: "/cv/"
+      # This pulls your name, photo, role, organization, and bio from content/authors/me/_index.md
+      username: me
+      text: ''
+      # Remove the CV button for now
+      button:
+        text: ''
+        url: ''
+      headings:
+        about: ''
+        education: ''
+        interests: ''
     design:
+      # Use the original gradient mesh background
       background:
-        color: "#000000"
-        text_color_light: true
-        image:
-          filename: "background.png"
-          filters:
-            brightness: 0.45
-      spacing:
-        padding: ["120px", "0", "120px", "0"]
+        gradient_mesh:
+          enable: true
 
-  - block: markdown
-    content:
-      title: "About Me"
-      text: |
-        I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with Matt Friedman.
+      # Name heading sizing
+      name:
+        size: md # Options: xs, sm, md, lg, xl
 
-        My research examines how marine biodiversity hotspots changed through the Cenozoic, with a focus on how fishes entered, diversified, and shifted across the Indo–West Pacific. I combine museum specimens, fossil data, spatial analyses, and quantitative paleobiology to understand how ancient ecosystems shaped modern tropical marine diversity.
-
-        I am especially interested in the fossil record of Cenozoic tropical marine fishes, including skeletal assemblages, otoliths, and underutilized museum collections. My work uses these records to test whether apparent biodiversity patterns reflect true biological history or uneven sampling.
-
-  - block: markdown
-    content:
-      title: "Education"
-      text: |
-        **Ph.D. Candidate, Earth and Environmental Sciences**  
-        University of Michigan  
-        Advisor: Matt Friedman  
-        Expected graduation: 2027
-
-        **B.S. Biology, Ecology, Evolution & the Environment**  
-        The George Washington University  
-        Minor: Bioinformatics
+      # Avatar customization
+      avatar:
+        size: large # Options: small, medium, large, xl, xxl
+        shape: square # Options: circle, square, rounded
 ---
