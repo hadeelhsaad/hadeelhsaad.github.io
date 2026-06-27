@@ -9,7 +9,7 @@ sections:
     content:
       title: "Research"
       text: |
-        My research examines how marine biodiversity hotspots have changed through the Cenozoic, with a focus on tropical marine fishes and the Indo–West Pacific.
+        My research focuses on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). Current hypothesis is that biodiversity hotspots are not fixed, and have shifted geographically (“hotspot hopping”),from the Tethys region, proto-mediterranean, to the modern IWP in response to tectonic and environmental change. Because the fossil fish record is heavily biased toward European assemblages, apparent patterns may reflect uneven sampling rather than true biological history. By integrating underutilized fossil assemblages from the IWP and surrounding regions, this work reconstructs more accurate patterns of species richness (“hotspot hopping”) and lineage distributions (“lineage sliding”), improving understanding of how tropical marine biodiversity has evolved across space and time.
 
   - block: markdown
     content:
