@@ -31,25 +31,9 @@ links:
     url: mailto:hhsaad@umich.edu
     label: E-mail Me
 
-interests:
-  - Cenozoic marine fish diversity
-  - Indo-West Pacific biogeography
-  - Fossil biodiversity hotspots
-  - Museum collections
-  - Quantitative paleobiology
-  - Otolith and skeletal fish fossil records
+interests: []
 
-education:
-  - degree: Ph.D. Candidate, Earth and Environmental Sciences
-    institution: University of Michigan
-    start: 2022-09-01
-    end: 2027-06-30
-    summary: |
-      Dissertation research on the evolution and biogeography of tropical marine fishes across the Cenozoic, with a focus on the Indo-West Pacific.
-  - degree: B.S. Biology, Ecology, Evolution & the Environment
-    institution: The George Washington University
-    summary: |
-      Minor in Bioinformatics.
+education: []
 
 experience: []
 
