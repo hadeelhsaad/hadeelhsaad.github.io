@@ -1,56 +1,139 @@
-/* TRUE BLACK / TRUE WHITE THEME OVERRIDES */
+/* ==========================================================================
+   TRUE BLACK / TRUE WHITE THEME OVERRIDES
+   Forces HugoBlox dark mode away from blue-black/navy.
+   ========================================================================== */
 
-/* Light mode: true white */
-html,
-body,
-body.light,
-[data-bs-theme="light"] {
+
+/* --------------------------------------------------------------------------
+   LIGHT MODE: true white
+   -------------------------------------------------------------------------- */
+
+html:not(.dark),
+html:not(.dark) body,
+[data-bs-theme="light"],
+[data-bs-theme="light"] body {
+  background: #ffffff !important;
   background-color: #ffffff !important;
   color: #000000 !important;
 }
 
-/* Dark mode: true black */
+
+/* --------------------------------------------------------------------------
+   DARK MODE: true black
+   -------------------------------------------------------------------------- */
+
 html.dark,
+html.dark body,
 body.dark,
 [data-theme="dark"],
+[data-theme="dark"] body,
 [data-bs-theme="dark"],
-html[data-theme="dark"],
-body[data-theme="dark"] {
+[data-bs-theme="dark"] body {
+  background: #000000 !important;
   background-color: #000000 !important;
   color: #ffffff !important;
 }
 
-/* Main body areas */
-[data-bs-theme="dark"] body,
-[data-bs-theme="dark"] main,
-[data-bs-theme="dark"] section,
-[data-bs-theme="dark"] .page-body,
-[data-bs-theme="dark"] .article-container,
-[data-bs-theme="dark"] .container,
-[data-bs-theme="dark"] .container-fluid {
+
+/* --------------------------------------------------------------------------
+   FORCE MAIN PAGE AREAS TO TRUE BLACK IN DARK MODE
+   -------------------------------------------------------------------------- */
+
+html.dark main,
+html.dark section,
+html.dark article,
+html.dark aside,
+html.dark footer,
+html.dark nav,
+html.dark header,
+html.dark .page-body,
+html.dark .page-wrapper,
+html.dark .article-container,
+html.dark .container,
+html.dark .container-fluid,
+html.dark .max-w-screen-xl,
+html.dark .mx-auto {
+  background: #000000 !important;
+  background-color: #000000 !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   HUGOBLOX / TAILWIND-LIKE DARK BACKGROUND CLASSES
+   This is probably where the midnight blue is coming from.
+   -------------------------------------------------------------------------- */
+
+html.dark .bg-slate-900,
+html.dark .bg-slate-950,
+html.dark .bg-gray-900,
+html.dark .bg-gray-950,
+html.dark .bg-neutral-900,
+html.dark .bg-neutral-950,
+html.dark .bg-zinc-900,
+html.dark .bg-zinc-950,
+html.dark .bg-black,
+html.dark .dark\:bg-slate-900,
+html.dark .dark\:bg-slate-950,
+html.dark .dark\:bg-gray-900,
+html.dark .dark\:bg-gray-950,
+html.dark .dark\:bg-neutral-900,
+html.dark .dark\:bg-neutral-950,
+html.dark .dark\:bg-zinc-900,
+html.dark .dark\:bg-zinc-950,
+html.dark .dark\:bg-black {
+  background: #000000 !important;
+  background-color: #000000 !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   NAVBAR / HEADER TRUE BLACK
+   -------------------------------------------------------------------------- */
+
+html.dark .navbar,
+html.dark .nav-container,
+html.dark header,
+html.dark nav,
+[data-bs-theme="dark"] .navbar,
+[data-bs-theme="dark"] header,
+[data-bs-theme="dark"] nav {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  border-color: #222222 !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   CARDS / BLOCKS TRUE BLACK
+   -------------------------------------------------------------------------- */
+
+html.dark .card,
+html.dark .card-body,
+html.dark .article-style,
+html.dark .docs-article-container,
+html.dark .prose,
+html.dark .hb-card,
+html.dark .blox,
+html.dark .section,
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .card-body {
+  background: #000000 !important;
   background-color: #000000 !important;
   color: #ffffff !important;
 }
 
-[data-bs-theme="light"] body,
-[data-bs-theme="light"] main,
-[data-bs-theme="light"] section,
-[data-bs-theme="light"] .page-body,
-[data-bs-theme="light"] .article-container,
-[data-bs-theme="light"] .container,
-[data-bs-theme="light"] .container-fluid {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-}
 
-/* Bootstrap variables */
+/* --------------------------------------------------------------------------
+   BOOTSTRAP VARIABLES
+   -------------------------------------------------------------------------- */
+
 [data-bs-theme="dark"] {
   --bs-body-bg: #000000 !important;
   --bs-body-color: #ffffff !important;
   --bs-emphasis-color: #ffffff !important;
   --bs-secondary-bg: #000000 !important;
   --bs-tertiary-bg: #000000 !important;
-  --bs-border-color: #333333 !important;
+  --bs-border-color: #222222 !important;
 }
 
 [data-bs-theme="light"] {
@@ -62,37 +145,16 @@ body[data-theme="dark"] {
   --bs-border-color: #dddddd !important;
 }
 
-/* Navbar */
-[data-bs-theme="dark"] .navbar,
-html.dark .navbar,
-body.dark .navbar {
-  background-color: #000000 !important;
+
+/* --------------------------------------------------------------------------
+   TEXT AND LINKS
+   -------------------------------------------------------------------------- */
+
+html.dark,
+html.dark body {
   color: #ffffff !important;
 }
 
-[data-bs-theme="light"] .navbar {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-}
-
-/* Cards and content blocks */
-[data-bs-theme="dark"] .card,
-[data-bs-theme="dark"] .card-body,
-[data-bs-theme="dark"] .docs-article-container,
-[data-bs-theme="dark"] .article-style {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-}
-
-[data-bs-theme="light"] .card,
-[data-bs-theme="light"] .card-body,
-[data-bs-theme="light"] .docs-article-container,
-[data-bs-theme="light"] .article-style {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-}
-
-/* Links and accent colors */
 a {
   color: #DA77AC;
 }
