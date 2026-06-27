@@ -1,74 +1,127 @@
 ---
-title: "Hadeel H. Saad"
-summary: "Ph.D. Candidate in Paleontology at the University of Michigan"
-date: 2026-06-27
+# Leave the homepage title empty to use the site title
+title: ''
+summary: ''
+date: 2022-10-24
 type: landing
 
 sections:
-  - block: markdown
+  - block: resume-biography-3
     content:
-      title: ""
-      text: |
-        <section style="min-height: 90vh; display: grid; grid-template-columns: minmax(260px, 34%) minmax(320px, 66%); gap: 4rem; align-items: center; max-width: 1250px; margin: 0 auto; padding: 5rem 2rem;">
-
-          <div style="text-align: center;">
-            <img src="/uploads/headshot.jpg" alt="Hadeel H. Saad" style="width: 300px; height: 300px; object-fit: cover; object-position: center; border: 6px solid #ffffff; box-shadow: 0 18px 50px rgba(0,0,0,0.22); margin-bottom: 2rem;">
-
-            <h1 style="font-size: clamp(3rem, 6vw, 5.5rem); line-height: 0.95; margin: 0 0 1.25rem 0;">
-              Hadeel H.<br>Saad
-            </h1>
-
-            <p style="font-size: clamp(1.4rem, 2.5vw, 2.1rem); font-weight: 700; color: #DA77AC; margin: 0;">
-              Ph.D. Candidate
-            </p>
-
-            <p style="font-size: 1.2rem; margin-top: 0.75rem;">
-              University of Michigan, Ann Arbor
-            </p>
-          </div>
-
-          <div>
-            <h2 style="font-size: clamp(2.4rem, 4vw, 4rem); margin-bottom: 2rem;">
-              About Me
-            </h2>
-
-            <p style="font-size: clamp(1.2rem, 1.8vw, 1.65rem); line-height: 1.65;">
-              I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with Matt Friedman.
-            </p>
-
-            <p style="font-size: clamp(1.2rem, 1.8vw, 1.65rem); line-height: 1.65;">
-              My research examines how marine biodiversity hotspots changed through the Cenozoic, with a focus on how fishes entered, diversified, and shifted across the Indo–West Pacific. I combine museum specimens, fossil data, spatial analyses, and quantitative paleobiology to understand how ancient ecosystems shaped modern tropical marine diversity.
-            </p>
-
-            <p style="font-size: clamp(1.2rem, 1.8vw, 1.65rem); line-height: 1.65;">
-              I am especially interested in the fossil record of Cenozoic tropical marine fishes, including skeletal assemblages, otoliths, and underutilized museum collections.
-            </p>
-
-            <p style="margin-top: 2.5rem;">
-              <a href="/research/" style="display: inline-block; padding: 0.9rem 1.4rem; background: linear-gradient(90deg, #DA77AC, #F9B665); color: white; border-radius: 999px; text-decoration: none; font-weight: 700;">
-                View my research
-              </a>
-            </p>
-          </div>
-
-        </section>
-
-        <style>
-          @media (max-width: 800px) {
-            section {
-              grid-template-columns: 1fr !important;
-              gap: 2rem !important;
-              padding: 3rem 1.25rem !important;
-            }
-
-            section img {
-              width: 220px !important;
-              height: 220px !important;
-            }
-          }
-        </style>
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: me
+      text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
     design:
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
+
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: md # Options: xs, sm, md, lg (default), xl
+
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
+  - block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+
+        Please reach out to collaborate 😃
+    design:
+      columns: '1'
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - events
+    design:
+      view: card
+  - block: collection
+    id: news
+    content:
+      title: Recent News
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      page_type: blog
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 10
+      # Filter on criteria
+      filters:
+        author: ''
+        category: ''
+        tag: ''
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ''
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: card
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+  - block: cta-card
+    demo: true # Only display this section in the HugoBlox Kit demo site
+    content:
+      title: 👉 Build your own academic website like this
+      text: |-
+        This site is generated by HugoBlox Kit - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+
+        <a class="github-button" href="https://github.com/HugoBlox/kit" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/kit on GitHub">Star</a>
+
+        Easily build anything with blocks - no-code required!
+
+        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+      button:
+        text: Get Started
+        url: https://hugoblox.com/templates/
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'
+        css_style: ''
 ---
