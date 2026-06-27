@@ -18,7 +18,7 @@ sections:
         This is a test embed of one interactive HTML file.
 
         <iframe 
-          src="/interactive/my-interactive.html"
+          src="../interactive/my-interactive.html"
           width="100%" 
           height="750px" 
           style="border: none; background: white; border-radius: 16px;"
