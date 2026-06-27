@@ -33,7 +33,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   hugoblox:
   theme:
-    mode: minimal
+    mode: system
     colors:
       primary: "#DA77AC"
       secondary: "#F9B665"
