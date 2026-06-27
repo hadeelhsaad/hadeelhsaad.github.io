@@ -10,3 +10,11 @@ a[href="mailto:hhsaad@umich.edu"] {
   box-shadow: none !important;
   border: none !important;
 }
+
+/* Remove the icon next to the About Me / Professional Summary heading */
+.resume-biography-3 h2 svg,
+.resume-biography-3 .section-heading svg,
+.resume-biography-3 [class*="heading"] svg,
+.resume-biography-3 [class*="icon"] {
+  display: none !important;
+}
