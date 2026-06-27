@@ -27,7 +27,8 @@ affiliations:
     url: https://lsa.umich.edu/earth
 
 links:
-  - url: mailto:hhsaad@umich.edu
+  - icon: ''
+    url: mailto:hhsaad@umich.edu
     label: hhsaad@umich.edu
     
 interests: []
