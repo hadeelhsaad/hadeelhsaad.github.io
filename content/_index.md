@@ -35,22 +35,7 @@ sections:
     content:
       title: "About Me"
       text: |
-        I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with Matt Friedman.
-
-        My research examines how marine biodiversity hotspots changed through the Cenozoic, with a focus on how fishes entered, diversified, and shifted across the Indo–West Pacific. I combine museum specimens, fossil data, spatial analyses, and quantitative paleobiology to understand how ancient ecosystems shaped modern tropical marine diversity.
-
-        I am especially interested in the fossil record of Cenozoic tropical marine fishes, including skeletal assemblages, otoliths, and underutilized museum collections. My work uses these records to test whether apparent biodiversity patterns reflect true biological history or uneven sampling.
-
-  - block: markdown
-    content:
-      title: "Research Interests"
-      text: |
-        - Cenozoic marine fish diversity
-        - Indo–West Pacific biogeography
-        - Fossil biodiversity hotspots
-        - Museum collections and underutilized fossil material
-        - Quantitative paleobiology and spatial analysis
-        - Otolith and skeletal fish fossil records
+        Test
 
   - block: markdown
     content:
@@ -61,7 +46,7 @@ sections:
         Advisor: Matt Friedman  
         Expected graduation: 2027
 
-        **B.S. Biology, Ecology, Evolution & the Environment**  
+        **B.S. Biology: Ecology, Evolution & the Environment**  
         The George Washington University  
         Minor: Bioinformatics
 ---
