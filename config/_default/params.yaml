@@ -47,6 +47,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     mode: system
+    pack: minimal
     colors:
       primary: "#DA77AC"
       secondary: "#F9B665"
