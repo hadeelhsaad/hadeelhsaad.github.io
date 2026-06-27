@@ -1,5 +1,4 @@
 ---
-
 title: "Hadeel H. Saad"
 summary: "Ph.D. Candidate in Paleontology at the University of Michigan"
 date: 2026-06-27
@@ -10,10 +9,12 @@ sections:
     content:
       title: "Hadeel H. Saad"
       text: |
+        <img src="uploads/headshot.jpg" alt="Hadeel H. Saad" style="width: 170px; height: 170px; object-fit: cover; object-position: center; border: 4px solid #DA77AC; margin-bottom: 1.5rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
+
         Ph.D. Candidate in Paleontology  
         University of Michigan
 
-        I use museum data,fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
+        I use museum data, fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
       primary_action:
         text: "View my research"
         url: "/research/"
@@ -35,7 +36,12 @@ sections:
     content:
       title: "About Me"
       text: |
-        Test
+        I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with Matt Friedman.
+
+        My research examines how marine biodiversity hotspots changed through the Cenozoic, with a focus on how fishes entered, diversified, and shifted across the Indo–West Pacific. I combine museum specimens, fossil data, spatial analyses, and quantitative paleobiology to understand how ancient ecosystems shaped modern tropical marine diversity.
+
+        I am especially interested in the fossil record of Cenozoic tropical marine fishes, including skeletal assemblages, otoliths, and underutilized museum collections. My work uses these records to test whether apparent biodiversity patterns reflect true biological history or uneven sampling.
+
 
   - block: markdown
     content:
@@ -46,7 +52,7 @@ sections:
         Advisor: Matt Friedman  
         Expected graduation: 2027
 
-        **B.S. Biology: Ecology, Evolution & the Environment**  
+        **B.S. Biology, Ecology, Evolution & the Environment**  
         The George Washington University  
         Minor: Bioinformatics
 ---
