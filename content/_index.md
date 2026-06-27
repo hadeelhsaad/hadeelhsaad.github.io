@@ -11,12 +11,12 @@ sections:
       username: me
       text: ''
       button:
-        text: ''
-        url: ''
+        text: Download CV
+        url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: ' '
+        education: ' '
+        interests: ' '
     design:
       background:
         color: "#000000"
