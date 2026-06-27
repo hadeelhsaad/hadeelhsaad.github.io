@@ -11,6 +11,22 @@ sections:
       text: |
         My research examines how marine biodiversity hotspots have changed through the Cenozoic, with a focus on tropical marine fishes and the Indo–West Pacific.
 
+- block: markdown
+    content:
+      title: "Interactive Map: Region by Stage"
+      text: |
+        This interactive map shows regional patterns through geologic stages.
+
+        <div style="width: 95vw; max-width: 1200px; margin-left: 50%; transform: translateX(-50%);">
+          <iframe 
+            src="/interactive/Region_V_Stages.html"
+            width="100%" 
+            height="850px" 
+            style="border: none; background: white; border-radius: 16px; display: block;"
+            loading="lazy">
+          </iframe>
+        </div>
+
   - block: markdown
     content:
       title: "Interactive Test"
