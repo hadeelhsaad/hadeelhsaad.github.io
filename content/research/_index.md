@@ -10,7 +10,6 @@ sections:
       title: "Research"
       text: |
         My research examines how marine biodiversity hotspots have changed through the Cenozoic, with a focus on tropical marine fishes and the Indo–West Pacific.
-
 - block: markdown
     content:
       title: "Interactive Map: Region by Stage"
@@ -26,7 +25,6 @@ sections:
             loading="lazy">
           </iframe>
         </div>
-
   - block: markdown
     content:
       title: "Interactive Test"
