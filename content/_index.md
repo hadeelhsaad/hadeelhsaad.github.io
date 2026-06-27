@@ -7,14 +7,27 @@ type: landing
 sections:
   - block: hero
     content:
-      title: "Hadeel H. Saad"
+      title: ""
       text: |
-        <img src="uploads/headshot.jpg" alt="Hadeel H. Saad" style="width: 170px; height: 170px; object-fit: cover; object-position: center; border: 4px solid #DA77AC; margin-bottom: 1.5rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
+        <div style="display: grid; grid-template-columns: 38% 58%; grid-template-rows: auto auto; gap: 2rem; align-items: center; max-width: 1250px; margin: 0 auto;">
 
-        Ph.D. Candidate in Paleontology  
-        University of Michigan
+          <div style="grid-column: 1; grid-row: 1 / span 2; display: flex; align-items: center; justify-content: center;">
+            <img src="uploads/headshot.jpg" alt="Hadeel H. Saad" style="width: 100%; max-width: 430px; aspect-ratio: 1 / 1; object-fit: cover; object-position: center; border: 6px solid #DA77AC; box-shadow: 0 12px 40px rgba(0,0,0,0.45);">
+          </div>
 
-        I use museum data, fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
+          <div style="grid-column: 2; grid-row: 1; text-align: center;">
+            <h1 style="font-size: 4.8rem; line-height: 1; margin: 0 0 1rem 0; color: white;">
+              Hadeel H. Saad
+            </h1>
+          </div>
+
+          <div style="grid-column: 2; grid-row: 2; text-align: center;">
+            <p style="font-size: 1.55rem; line-height: 1.7; max-width: 850px; margin: 0 auto; color: white;">
+              Ph.D. Candidate in Paleontology, University of Michigan. I use museum data, fossil and living fishes, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic.
+            </p>
+          </div>
+
+        </div>
       primary_action:
         text: "View my research"
         url: "/research/"
@@ -30,7 +43,7 @@ sections:
           filters:
             brightness: 0.45
       spacing:
-        padding: ["120px", "0", "120px", "0"]
+        padding: ["90px", "0", "90px", "0"]
 
   - block: markdown
     content:
