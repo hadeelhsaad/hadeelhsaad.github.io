@@ -11,10 +11,18 @@ a[href="mailto:hhsaad@umich.edu"] {
   border: none !important;
 }
 
-/* Remove the icon next to the About Me / Professional Summary heading */
-.resume-biography-3 h2 svg,
-.resume-biography-3 .section-heading svg,
-.resume-biography-3 [class*="heading"] svg,
-.resume-biography-3 [class*="icon"] {
+/* Remove the circular icon next to the About Me heading only */
+section h2,
+section h2 + * {
+  position: relative;
+}
+
+/* Hide the icon circle immediately before the About Me heading */
+section:has(h2) .flex:has(h2) > :first-child {
   display: none !important;
+}
+
+/* Remove extra spacing left by the hidden icon */
+section:has(h2) .flex:has(h2) {
+  gap: 0 !important;
 }
