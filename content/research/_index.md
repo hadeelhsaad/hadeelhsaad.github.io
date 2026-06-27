@@ -17,11 +17,13 @@ sections:
       text: |
         This is a test embed of one interactive HTML file.
 
-        <iframe 
-          src="../interactive/my-interactive.html"
-          width="100%" 
-          height="750px" 
-          style="border: none; background: white; border-radius: 16px;"
-          loading="lazy">
-        </iframe>
+        <div style="width: 95vw; max-width: 1200px; margin-left: 50%; transform: translateX(-50%);">
+          <iframe 
+            src="../interactive/my-interactive.html"
+            width="100%" 
+            height="850px" 
+            style="border: none; background: white; border-radius: 16px; display: block;"
+            loading="lazy">
+          </iframe>
+        </div>
 ---
