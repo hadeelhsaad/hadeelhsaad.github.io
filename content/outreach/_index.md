@@ -55,7 +55,7 @@ sections:
                   left: slides[index].offsetLeft,
                   behavior: "smooth"
                 });
-              }, 2000);
+              }, 3000);
             });
           });
         </script>
