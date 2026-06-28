@@ -11,5 +11,5 @@ main:
     url: /outreach/
     weight: 20
    - name: CV
-    url: /CV/
+    url: /cv/
     weight: 20
