@@ -33,16 +33,16 @@ sections:
         ## Publications
 
         **2026**  
-        El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, **Saad H**, Speijer R, Sallam H. Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte. *Science Advances* (in press).
+        El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, **Saad H**, Speijer R, Sallam H. [Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte   (https://www.science.org/doi/10.1126/sciadv.aec8978). *Science Advances*.
 
         **2025**  
-        Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, **Saad H**, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. Macroevolutionary role reversals in the earliest radiation of bony fishes. *Current Biology*.
+        Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, **Saad H**, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. [Macroevolutionary role reversals in the earliest radiation of bony fishes](https://pubmed.ncbi.nlm.nih.gov/40897172/). *Current Biology*.
 
         **2023**  
-        Friedman M, Andrews JV, **Saad H**, El Sayed S. The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record. *Geologica Belgica* 26(1–2), 1–23.
+        Friedman M, Andrews JV, **Saad H**, El Sayed S. [The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record](https://popups.uliege.be/1374-8505/index.php?id=7048). *Geologica Belgica* 26(1–2), 1–23.
 
         **2021**  
-        Hughes LC, Ortí G, **Saad H**, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics. *Molecular Ecology Resources*.
+        Hughes LC, Ortí G, **Saad H**, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. [Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287). *Molecular Ecology Resources*.
 
         ## Fellowships & Grants
 
