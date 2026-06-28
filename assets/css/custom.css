@@ -252,3 +252,16 @@ header a {
     font-size: 1.05rem;
   }
 }
+
+.cv-total {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.cv-entry {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
