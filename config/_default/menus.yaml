@@ -6,10 +6,12 @@
 main:
   - name: Research
     url: /research/
-    weight: 20
+    weight: 10
+    
   - name: Outreach
     url: /outreach/
     weight: 20
+    
   - name: CV
     url: /cv/
-    weight: 20
+    weight: 30
