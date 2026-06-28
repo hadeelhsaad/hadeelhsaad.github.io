@@ -77,3 +77,66 @@ section:has(h2) .flex:has(h2) {
     font-size: 1.1rem;
   }
 }
+/* Outreach page split text/carousel sections */
+.outreach-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+
+  width: 95vw;
+  max-width: 1400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.outreach-text h2 {
+  font-size: clamp(2.4rem, 4vw, 4.5rem);
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+}
+
+.outreach-text p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.outreach-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.75rem;
+}
+
+.outreach-carousel img {
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(0,0,0,0.25);
+  scroll-snap-align: center;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .outreach-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 92vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .outreach-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .outreach-text p {
+    font-size: 1.1rem;
+  }
+}
