@@ -49,10 +49,16 @@ sections:
 
               if (slides.length <= 1) return;
 
+              carousel.scrollTo({
+                left: 0,
+                behavior: "auto"
+              });
+
               setInterval(function () {
                 index = (index + 1) % slides.length;
+
                 carousel.scrollTo({
-                  left: slides[index].offsetLeft,
+                  left: carousel.clientWidth * index,
                   behavior: "smooth"
                 });
               }, 3000);
