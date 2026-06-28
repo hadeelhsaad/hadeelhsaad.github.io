@@ -26,6 +26,16 @@ section:has(h2) .flex:has(h2) > :first-child {
 section:has(h2) .flex:has(h2) {
   gap: 0 !important;
 }
+
+/* Research image credit / acknowledgement */
+.image-credit {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.75;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
 /* Research page split image/text sections */
 .research-split {
   display: grid;
@@ -77,6 +87,7 @@ section:has(h2) .flex:has(h2) {
     font-size: 1.1rem;
   }
 }
+
 /* Outreach page split text/carousel sections */
 .outreach-split {
   display: grid;
@@ -103,11 +114,13 @@ section:has(h2) .flex:has(h2) {
   line-height: 1.7;
 }
 
+/* Auto-changing outreach carousel */
 .outreach-carousel {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   gap: 1rem;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   padding-bottom: 0.75rem;
 }
 
