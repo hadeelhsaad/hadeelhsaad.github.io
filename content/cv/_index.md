@@ -46,17 +46,29 @@ sections:
 
         ## Fellowships & Grants
 
-        **2023** Rackham Pre-Candidate Research Grant, University of Michigan — $1,500  
-        **2023** Cashner Travel Grant, ASIH — $1,000  
-        **2023** Heidemarie Johnson Grant, Paleontological Society — $3,000  
-        **2023** National Science Foundation Graduate Research Fellowship Program, Biodiversity & Systematics — $125,000  
-        **2023** Museum Studies Fellow Program, University of Michigan — $10,000  
-        **2022-5** Rackham Travel Grant, University of Michigan — $4,000  
-        **2022-6** Turner Research Grant, University of Michigan — $6,100  
-        **2021** Rackham Merit Fellowship, University of Michigan — ~$60,000  
-        **2019** Harlan Undergraduate Research Fellow, George Washington University — $5,000  
-        **2018** Summer Training Academy for Research Success, UC San Diego — $5,000  
-        **2016** Presidential Academic Scholarship, George Washington University — $120,000  
+        <div class="cv-total"><strong>Total funding received:</strong> $340,600</div>
+
+        <div class="cv-entry"><strong>2023</strong> Rackham Pre-Candidate Research Grant, University of Michigan — $1,500</div>
+
+        <div class="cv-entry"><strong>2023</strong> Cashner Travel Grant, ASIH — $1,000</div>
+
+        <div class="cv-entry"><strong>2023</strong> Heidemarie Johnson Grant, Paleontological Society — $3,000</div>
+
+        <div class="cv-entry"><strong>2023</strong> National Science Foundation Graduate Research Fellowship Program, Biodiversity & Systematics — $125,000</div>
+
+        <div class="cv-entry"><strong>2023</strong> Museum Studies Fellow Program, University of Michigan — $10,000</div>
+
+        <div class="cv-entry"><strong>2022–2025</strong> Rackham Travel Grant, University of Michigan — $4,000</div>
+
+        <div class="cv-entry"><strong>2022–2026</strong> Turner Research Grant, University of Michigan — $6,100</div>
+
+        <div class="cv-entry"><strong>2021</strong> Rackham Merit Fellowship, University of Michigan — ~$60,000</div>
+
+        <div class="cv-entry"><strong>2019</strong> Harlan Undergraduate Research Fellow, George Washington University — $5,000</div>
+
+        <div class="cv-entry"><strong>2018</strong> Summer Training Academy for Research Success, UC San Diego — $5,000</div>
+
+        <div class="cv-entry"><strong>2016</strong> Presidential Academic Scholarship, George Washington University — $120,000</div>
 
         ## Conference Presentations
 
@@ -127,13 +139,21 @@ sections:
 
         ## Professional Service
 
-        Peer review: *Contributions from the Museum of Paleontology*, University of Michigan  
-        **2026** Michigan Geophysical Union Judge, undergraduate posters  
-        **2025** Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Outreach Chair  
-        **2024** Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Social Committee  
-        **2024** North American Paleontology Convention, Student Chair and DEI Committee  
-        **2023** Great Lakes Student Paleo Conference, Organizing Committee  
-        **2021–present** Black in Natural History Museums, Founding Member & Website Manager  
+        <div class="cv-entry">Peer review: <em>Contributions from the Museum of Paleontology</em>, University of Michigan</div>
+
+        <br>
+
+        <div class="cv-entry"><strong>2026</strong> Michigan Geophysical Union Judge, undergraduate posters</div>
+
+        <div class="cv-entry"><strong>2025</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Outreach Chair</div>
+
+        <div class="cv-entry"><strong>2024</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Social Committee</div>
+
+        <div class="cv-entry"><strong>2024</strong> North American Paleontology Convention, Student Chair and DEI Committee</div>
+
+        <div class="cv-entry"><strong>2023</strong> Great Lakes Student Paleo Conference, Organizing Committee</div>
+
+        <div class="cv-entry"><strong>2021–present</strong> Black in Natural History Museums, Founding Member & Website Manager</div>
 
         ## Online Talks and Videos
 
