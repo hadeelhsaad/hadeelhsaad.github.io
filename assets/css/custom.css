@@ -206,3 +206,49 @@ header a {
   padding-top: 0.85rem !important;
   padding-bottom: 0.85rem !important;
 }
+
+/* CV page width to match Research and Outreach pages */
+.cv-page {
+  width: 95vw;
+  max-width: 1400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.cv-page h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cv-page p,
+.cv-page li {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+/* CV download button */
+.cv-download-button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  background: linear-gradient(90deg, #DA77AC, #F9B665);
+  color: white !important;
+  border-radius: 999px;
+  text-decoration: none !important;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Keep CV readable on mobile */
+@media (max-width: 800px) {
+  .cv-page {
+    width: 92vw;
+  }
+
+  .cv-page p,
+  .cv-page li {
+    font-size: 1.05rem;
+  }
+}
