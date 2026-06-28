@@ -138,7 +138,7 @@ sections:
         ## Online Talks and Videos
 
         **2022** Evolutionary Biologist Video, Black in Natural History Museums  
-        **2022** Importance of Museums for exhibit at University of Michigan Museum of Natural History  
+        **2022** Importance of Museums for exhibit at the University of Michigan Museum of Natural History  
         **2021** Moderator, Black in Natural History Role Models, Black in Natural History Museums Week  
 
         ## Invited Speaking and Outreach
