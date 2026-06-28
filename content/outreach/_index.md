@@ -38,4 +38,25 @@ sections:
             <p>My outreach work focuses on communicating paleontology in ways that are welcoming, visually engaging, and accessible to people with different backgrounds and levels of scientific experience.</p>
           </div>
         </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const carousels = document.querySelectorAll(".outreach-carousel");
+
+            carousels.forEach(function (carousel) {
+              const slides = carousel.querySelectorAll("img");
+              let index = 0;
+
+              if (slides.length <= 1) return;
+
+              setInterval(function () {
+                index = (index + 1) % slides.length;
+                carousel.scrollTo({
+                  left: slides[index].offsetLeft,
+                  behavior: "smooth"
+                });
+              }, 2000);
+            });
+          });
+        </script>
 ---
