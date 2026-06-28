@@ -13,6 +13,8 @@ sections:
           <a href="/uploads/Hadeel_Saad_CV.pdf" class="cv-download-button">Download CV</a>
         </p>
 
+        <div class="cv-page">
+
         I use museum data, including extant and extinct taxa, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic. By combining quantitative paleobiology and biogeography, I explore how ancient ecosystems inform the origins of modern tropical diversity.
 
         ## Education
@@ -190,4 +192,6 @@ sections:
         **Anna Zhao**  
         B.S. Ecology and Evolutionary Biology, Minor: Paleontology  
         Recommendation for Stocker-Nesbitt Fund, received
+
+        </div>
 ---
