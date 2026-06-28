@@ -11,20 +11,19 @@ a[href="mailto:hhsaad@umich.edu"] {
   border: none !important;
 }
 
-/* Remove the circular icon next to the About Me heading only */
-section h2,
-section h2 + * {
-  position: relative;
-}
-
-/* Hide the icon circle immediately before the About Me heading */
+/* Remove the circular icon next to the About Me heading */
 section:has(h2) .flex:has(h2) > :first-child {
   display: none !important;
 }
 
-/* Remove extra spacing left by the hidden icon */
+/* Remove extra spacing left by the hidden About Me icon */
 section:has(h2) .flex:has(h2) {
   gap: 0 !important;
+}
+
+/* Stronger fallback: hide circular heading icons */
+section .rounded-full:has(svg) {
+  display: none !important;
 }
 
 /* Research image credit / acknowledgement */
