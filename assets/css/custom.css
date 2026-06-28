@@ -152,3 +152,57 @@ section .rounded-full:has(svg) {
     font-size: 1.1rem;
   }
 }
+
+/* Make top menu thicker/taller and slightly larger */
+header,
+nav,
+.navbar {
+  min-height: 72px !important;
+}
+
+/* Make site name on the left larger/bolder */
+.navbar-brand,
+nav a[href="/"],
+header a[href="/"] {
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+}
+
+/* Make menu links slightly larger and thicker */
+.navbar-nav a,
+nav a,
+header a {
+  font-size: 1.08rem !important;
+  font-weight: 700 !important;
+}
+
+/* Keep name/logo left, push Research/Outreach to the right */
+.navbar,
+nav > div,
+header > div {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Push navigation menu items to the right */
+.navbar-nav,
+nav ul,
+header ul {
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+/* Add nicer spacing between Research and Outreach */
+.navbar-nav li,
+nav ul li,
+header ul li {
+  margin-left: 1.25rem !important;
+}
+
+/* Add a little vertical padding to make the menu feel thicker */
+.navbar a,
+nav a,
+header a {
+  padding-top: 0.85rem !important;
+  padding-bottom: 0.85rem !important;
+}
