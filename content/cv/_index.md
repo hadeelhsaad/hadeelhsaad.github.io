@@ -51,12 +51,12 @@ sections:
         **2023** Heidemarie Johnson Grant, Paleontological Society — $3,000  
         **2023** National Science Foundation Graduate Research Fellowship Program, Biodiversity & Systematics — $125,000  
         **2023** Museum Studies Fellow Program, University of Michigan — $10,000  
-        **2022, 2023, 2025** Rackham Travel Grant, University of Michigan — $4,000  
-        **2022, 2024** Turner Research Grant, University of Michigan — $4,100  
+        **2022-5** Rackham Travel Grant, University of Michigan — $4,000  
+        **2022-6** Turner Research Grant, University of Michigan — $6,100  
         **2021** Rackham Merit Fellowship, University of Michigan — ~$60,000  
         **2019** Harlan Undergraduate Research Fellow, George Washington University — $5,000  
         **2018** Summer Training Academy for Research Success, UC San Diego — $5,000  
-        **2016–2020** Presidential Academic Scholarship, George Washington University — $120,000  
+        **2016** Presidential Academic Scholarship, George Washington University — $120,000  
 
         ## Conference Presentations
 
