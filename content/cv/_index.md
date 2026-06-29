@@ -13,9 +13,30 @@ sections:
           <a href="/uploads/Hadeel_Saad_CV.pdf" class="cv-download-button">Download CV</a>
         </p>
 
+        <div class="cv-jump-menu">
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#fellowships-grants">Fellowships & Grants</a>
+          <a href="#conference-presentations">Presentations</a>
+          <a href="#conference-posters">Posters</a>
+          <a href="#awards">Awards</a>
+          <a href="#professional-development">Professional Development</a>
+          <a href="#professional-experience">Experience</a>
+          <a href="#teaching-experience">Teaching</a>
+          <a href="#professional-service">Service</a>
+          <a href="#online-talks">Online Talks</a>
+          <a href="#outreach">Outreach</a>
+          <a href="#multimedia-projects">Multimedia</a>
+          <a href="#workshops">Workshops</a>
+          <a href="#collections-field-work">Field Work</a>
+          <a href="#mentorship">Mentorship</a>
+        </div>
+
         <div class="cv-page">
 
         I use museum data, including extant and extinct taxa, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic. By combining quantitative paleobiology and biogeography, I explore how ancient ecosystems inform the origins of modern tropical diversity.
+
+        <a id="education"></a>
 
         ## Education
 
@@ -30,6 +51,8 @@ sections:
         Concentration: Ecology, Evolution & the Environment  
         Minor: Bioinformatics
 
+        <a id="publications"></a>
+
         ## Publications
 
         **2026**  
@@ -37,12 +60,13 @@ sections:
 
         **2025**  
         Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, **Saad H**, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. [Macroevolutionary role reversals in the earliest radiation of bony fishes](https://www.sciencedirect.com/science/article/pii/S0960982225010395). *Current Biology*.
-
         **2023**  
         Friedman M, Andrews JV, **Saad H**, El Sayed S. [The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record](https://popups.uliege.be/1374-8505/index.php?id=7048). *Geologica Belgica* 26(1–2), 1–23.
 
         **2021**  
         Hughes LC, Ortí G, **Saad H**, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. [Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287). *Molecular Ecology Resources*.
+
+        <a id="fellowships-grants"></a>
 
         ## Fellowships & Grants
 
@@ -70,7 +94,9 @@ sections:
 
         <div class="cv-entry"><strong>2016</strong> Presidential Academic Scholarship, George Washington University — $120,000</div>
 
-        ## Conference Presentations (selected)
+        <a id="conference-presentations"></a>
+
+        ## Conference Presentations
 
         **2025**  
         Saad H, Friedman M. The paleontological perspective of marine tropical fishes throughout the Paleogene and Neogene of the Indo-West Pacific. Taipei, Taiwan.
@@ -87,7 +113,9 @@ sections:
         **2018**  
         Saad H, Neu A, Roy K. Determining marine molluscan larval diversity at Scripps Pier using DNA barcoding. Summer Research Conference, University of California San Diego. San Diego, California.
 
-        ## Conference Posters (selected)
+        <a id="conference-posters"></a>
+
+        ## Conference Posters
 
         **2025**  
         Killbrew R, Saad H, Friedman M. Re-evaluation of a fossil fish from the Miocene of Indonesia. Undergraduate Research Opportunity Program Spring Symposium. Ann Arbor, Michigan.
@@ -107,16 +135,22 @@ sections:
         **2019**  
         Saad H, Peterson R, Hughes L. Data Fishing: Curating a Library of Actinopterygii Transcriptomic Data. Harlan Presentation. Washington, DC.
 
+        <a id="awards"></a>
+
         ## Awards
 
         **2026** Best Graduate Student Poster, Michigan Geophysical Union  
         **2026** Best Student Presentation, International Biogeography Society, Aarhus  
         **2019** Undergraduate Student Employee of the Year, George Washington University  
 
+        <a id="professional-development"></a>
+
         ## Professional Development
 
         **2022** Science Communication Fellowship, University of Michigan  
         **2017** NASA-BMSIS Young Scientist Program in Space Biosciences, San José State University  
+
+        <a id="professional-experience"></a>
 
         ## Professional Experience
 
@@ -127,6 +161,8 @@ sections:
         **2019–2020** Lab Manager, BISC 1111 & 1112 Introduction to Biology, George Washington University  
         **2018–2021** Research Assistant, Guillermo Ortí’s FishLife Lab, George Washington University  
 
+        <a id="teaching-experience"></a>
+
         ## Teaching Experience
 
         **2025** Earth Camp for rising 11th graders  
@@ -136,6 +172,8 @@ sections:
         **2021** Instructor Assistant, BISC 1112: Introduction to Biology Lab, George Washington University  
         **2020** Instructor Assistant, BISC 1111: Introduction to Biology Lab, George Washington University  
         **2019** Undergraduate Teaching Assistant, BISC 1112: Introduction to Biology Lab, George Washington University  
+
+        <a id="professional-service"></a>
 
         ## Professional Service
 
@@ -155,11 +193,15 @@ sections:
 
         <div class="cv-entry"><strong>2021–present</strong> Black in Natural History Museums, Founding Member & Website Manager</div>
 
+        <a id="online-talks"></a>
+
         ## Online Talks and Videos
 
         **2022** Evolutionary Biologist Video, Black in Natural History Museums  
         **2022** Importance of Museums for exhibit at the University of Michigan Museum of Natural History  
         **2021** Moderator, Black in Natural History Role Models, Black in Natural History Museums Week  
+
+        <a id="outreach"></a>
 
         ## Invited Speaking and Outreach
 
@@ -176,6 +218,8 @@ sections:
         **2017** Volunteer, USA Science & Engineering Festival, Washington, DC  
         **2017–2019** Evolution and Biodiversity Ambassador, Smithsonian National Museum of Natural History  
 
+        <a id="multimedia-projects"></a>
+
         ## Multimedia Projects and Educational Material
 
         **2025** Lino prints of reef fishes for Joint Meeting of Ichthyologists and Herpetologists book raffle  
@@ -184,11 +228,15 @@ sections:
         **2017** Water We Learning  
         **2017** The Amazing Hydrogen Bond  
 
+        <a id="workshops"></a>
+
         ## Workshops and Online Courses
 
         **2024** Physalia, Biogeography in R  
         **2023** PaleoSynthesis, Analytical Paleobiology School  
         **2023** Physalia, Mapping and Spatial Analysis in R: Using R as a GIS  
+
+        <a id="collections-field-work"></a>
 
         ## Collections and Field Work
 
@@ -203,6 +251,8 @@ sections:
         **2023** Naturalis Biodiversity Center, Leiden, Netherlands — 5 days  
         **2023** National Museum of Natural History, Paris, France — 5 days  
         **2018** Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks  
+
+        <a id="mentorship"></a>
 
         ## Mentorship
 
