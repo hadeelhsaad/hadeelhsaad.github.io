@@ -1,4 +1,8 @@
-/* Hide the circular email icon, but keep the email text */
+/* =========================================================
+   HOME PAGE / PROFILE FIXES
+   ========================================================= */
+
+/* Hide circular email icon if the email link is still used */
 a[href="mailto:hhsaad@umich.edu"] svg,
 a[href="mailto:hhsaad@umich.edu"] .icon,
 a[href="mailto:hhsaad@umich.edu"] span:first-child {
@@ -16,7 +20,7 @@ section:has(h2) .flex:has(h2) > :first-child {
   display: none !important;
 }
 
-/* Remove extra spacing left by the hidden About Me icon */
+/* Remove extra spacing left by hidden heading icon */
 section:has(h2) .flex:has(h2) {
   gap: 0 !important;
 }
@@ -26,68 +30,25 @@ section .rounded-full:has(svg) {
   display: none !important;
 }
 
-/* Research image credit / acknowledgement */
-.image-credit {
-  font-size: 0.85rem;
-  line-height: 1.4;
-  opacity: 0.75;
-  margin-top: 0.6rem;
-  text-align: center;
+/* Stop homepage background image from moving/parallaxing */
+.hero,
+.blox-hero,
+.resume-biography-3,
+section[data-block="resume-biography-3"],
+[class*="hero"],
+[class*="parallax"],
+[class*="background"] {
+  background-attachment: scroll !important;
+  transform: none !important;
+  animation: none !important;
 }
 
-/* Research page split image/text sections */
-.research-split {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
 
-  width: 95vw;
-  max-width: 1400px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
+/* =========================================================
+   SHARED SPLIT SECTIONS: RESEARCH + ENGAGEMENT
+   ========================================================= */
 
-.research-text h2 {
-  font-size: clamp(2.4rem, 4vw, 4.5rem);
-  line-height: 1.05;
-  margin-bottom: 1.5rem;
-}
-
-.research-text p {
-  font-size: 1.25rem;
-  line-height: 1.7;
-}
-
-.research-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 18px;
-  box-shadow: 0 16px 45px rgba(0,0,0,0.25);
-  display: block;
-}
-
-@media (max-width: 800px) {
-  .research-split {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    width: 92vw;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  .research-text h2 {
-    font-size: 2.3rem;
-  }
-
-  .research-text p {
-    font-size: 1.1rem;
-  }
-}
-
-/* Outreach page split text/carousel sections */
+.research-split,
 .outreach-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,18 +63,41 @@ section .rounded-full:has(svg) {
   margin-bottom: 5rem;
 }
 
+.research-text h2,
 .outreach-text h2 {
   font-size: clamp(2.4rem, 4vw, 4.5rem);
   line-height: 1.05;
   margin-bottom: 1.5rem;
 }
 
+.research-text p,
 .outreach-text p {
   font-size: 1.25rem;
   line-height: 1.7;
 }
 
-/* Auto-changing outreach carousel */
+.research-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(0,0,0,0.25);
+  display: block;
+}
+
+/* Research image credit / acknowledgement */
+.image-credit {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.75;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+
+/* =========================================================
+   ENGAGEMENT / OUTREACH CAROUSEL
+   ========================================================= */
+
 .outreach-carousel {
   display: flex;
   overflow-x: hidden;
@@ -135,32 +119,19 @@ section .rounded-full:has(svg) {
   display: block;
 }
 
-@media (max-width: 800px) {
-  .outreach-split {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    width: 92vw;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
 
-  .outreach-text h2 {
-    font-size: 2.3rem;
-  }
+/* =========================================================
+   NAVBAR / MENU
+   ========================================================= */
 
-  .outreach-text p {
-    font-size: 1.1rem;
-  }
-}
-
-/* Make top menu thicker/taller and slightly larger */
+/* Make top menu thicker/taller */
 header,
 nav,
 .navbar {
   min-height: 72px !important;
 }
 
-/* Make site name on the left larger/bolder */
+/* Make site name larger/bolder */
 .navbar-brand,
 nav a[href="/"],
 header a[href="/"] {
@@ -176,7 +147,7 @@ header a {
   font-weight: 700 !important;
 }
 
-/* Keep name/logo left, push Research/Outreach to the right */
+/* Keep name/logo left and push menu items right */
 .navbar,
 nav > div,
 header > div {
@@ -184,7 +155,6 @@ header > div {
   align-items: center !important;
 }
 
-/* Push navigation menu items to the right */
 .navbar-nav,
 nav ul,
 header ul {
@@ -192,14 +162,14 @@ header ul {
   justify-content: flex-end !important;
 }
 
-/* Add nicer spacing between Research and Outreach */
+/* Space between menu items */
 .navbar-nav li,
 nav ul li,
 header ul li {
   margin-left: 1.25rem !important;
 }
 
-/* Add a little vertical padding to make the menu feel thicker */
+/* Taller menu links */
 .navbar a,
 nav a,
 header a {
@@ -207,7 +177,11 @@ header a {
   padding-bottom: 0.85rem !important;
 }
 
-/* CV page width to match Research and Outreach pages */
+
+/* =========================================================
+   CV PAGE
+   ========================================================= */
+
 .cv-page {
   width: 95vw;
   max-width: 1400px;
@@ -241,31 +215,6 @@ header a {
   margin-bottom: 2rem;
 }
 
-/* Keep CV readable on mobile */
-@media (max-width: 800px) {
-  .cv-page {
-    width: 92vw;
-  }
-
-  .cv-page p,
-  .cv-page li {
-    font-size: 1.05rem;
-  }
-}
-
-.cv-total {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-}
-
-.cv-entry {
-  font-size: 1.15rem;
-  line-height: 1.65;
-  margin-bottom: 0.75rem;
-}
-
 /* Small CV jump menu */
 .cv-jump-menu {
   display: flex;
@@ -293,4 +242,52 @@ header a {
 .cv-jump-menu a:hover {
   background: #DA77AC;
   color: white !important;
+}
+
+.cv-total {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.cv-entry {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .research-split,
+  .outreach-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 92vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .research-text h2,
+  .outreach-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .research-text p,
+  .outreach-text p {
+    font-size: 1.1rem;
+  }
+
+  .cv-page {
+    width: 92vw;
+  }
+
+  .cv-page p,
+  .cv-page li {
+    font-size: 1.05rem;
+  }
 }
