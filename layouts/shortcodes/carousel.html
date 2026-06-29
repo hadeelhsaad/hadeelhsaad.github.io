@@ -1,0 +1,8 @@
+{{ $pattern := .Get "pattern" }}
+{{ $alt := .Get "alt" | default "Carousel image" }}
+
+<div class="outreach-carousel">
+  {{ range .Page.Resources.Match $pattern }}
+    <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+  {{ end }}
+</div>
