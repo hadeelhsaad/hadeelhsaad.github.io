@@ -265,3 +265,32 @@ header a {
   line-height: 1.65;
   margin-bottom: 0.75rem;
 }
+
+/* Small CV jump menu */
+.cv-jump-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 95vw;
+  max-width: 1400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cv-jump-menu a {
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #DA77AC;
+  border-radius: 999px;
+  text-decoration: none !important;
+  color: #DA77AC;
+  font-weight: 600;
+}
+
+.cv-jump-menu a:hover {
+  background: #DA77AC;
+  color: white !important;
+}
