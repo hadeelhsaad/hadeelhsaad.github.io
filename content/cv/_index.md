@@ -33,10 +33,10 @@ sections:
         ## Publications
 
         **2026**  
-        El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, **Saad H**, Speijer R, Sallam H. [Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte   (https://www.science.org/doi/10.1126/sciadv.aec8978). *Science Advances*.
+        El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, **Saad H**, Speijer R, Sallam H. [Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte]   (https://www.science.org/doi/10.1126/sciadv.aec8978). *Science Advances*.
 
         **2025**  
-        Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, **Saad H**, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. [Macroevolutionary role reversals in the earliest radiation of bony fishes](https://pubmed.ncbi.nlm.nih.gov/40897172/). *Current Biology*.
+        Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, **Saad H**, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. [Macroevolutionary role reversals in the earliest radiation of bony fishes](https://www.sciencedirect.com/science/article/pii/S0960982225010395). *Current Biology*.
 
         **2023**  
         Friedman M, Andrews JV, **Saad H**, El Sayed S. [The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record](https://popups.uliege.be/1374-8505/index.php?id=7048). *Geologica Belgica* 26(1–2), 1–23.
@@ -70,7 +70,7 @@ sections:
 
         <div class="cv-entry"><strong>2016</strong> Presidential Academic Scholarship, George Washington University — $120,000</div>
 
-        ## Conference Presentations
+        ## Conference Presentations (selected)
 
         **2025**  
         Saad H, Friedman M. The paleontological perspective of marine tropical fishes throughout the Paleogene and Neogene of the Indo-West Pacific. Taipei, Taiwan.
@@ -87,7 +87,7 @@ sections:
         **2018**  
         Saad H, Neu A, Roy K. Determining marine molluscan larval diversity at Scripps Pier using DNA barcoding. Summer Research Conference, University of California San Diego. San Diego, California.
 
-        ## Conference Posters
+        ## Conference Posters (selected)
 
         **2025**  
         Killbrew R, Saad H, Friedman M. Re-evaluation of a fossil fish from the Miocene of Indonesia. Undergraduate Research Opportunity Program Spring Symposium. Ann Arbor, Michigan.
