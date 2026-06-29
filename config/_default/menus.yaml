@@ -8,7 +8,7 @@ main:
     url: /research/
     weight: 10
     
-  - name: Outreach
+  - name: Engagement
     url: /outreach/
     weight: 20
     
