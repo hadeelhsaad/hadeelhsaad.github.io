@@ -83,6 +83,10 @@ sections:
           <em>Molecular Ecology Resources</em>.
         </div>
 
+        <div class="cv-entry">
+        Saad H, Friedman M.(submitted) First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with     comments on the ephippid fossil record and the distribution of Paleogene marine fishes. Submitted.
+        </div>
+
         <a id="fellowships-grants"></a>
 
         ## Fellowships & Grants
