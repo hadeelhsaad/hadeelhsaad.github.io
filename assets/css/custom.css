@@ -291,3 +291,82 @@ header a {
     font-size: 1.05rem;
   }
 }
+
+
+/* =========================================================
+   HOMEPAGE: compact static hero
+   ========================================================= */
+
+/* Keep the homepage from feeling scrollable */
+.home section,
+.home .resume-biography-3,
+body:has(.resume-biography-3) .resume-biography-3 {
+  min-height: calc(100vh - 72px) !important;
+  height: calc(100vh - 72px) !important;
+  overflow: hidden !important;
+}
+
+/* Stop background image movement/parallax */
+.resume-biography-3,
+section[data-block="resume-biography-3"],
+body:has(.resume-biography-3) section {
+  background-attachment: scroll !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+/* Hide the About Me heading row and icon on homepage */
+.resume-biography-3 h2,
+.resume-biography-3 h2::before,
+.resume-biography-3 .flex:has(h2),
+.resume-biography-3 .rounded-full:has(svg) {
+  display: none !important;
+}
+
+/* Make homepage name larger */
+.resume-biography-3 h1 {
+  font-size: clamp(3.2rem, 5vw, 5.8rem) !important;
+  line-height: 1 !important;
+}
+
+/* Make role/institution/email larger */
+.resume-biography-3 p,
+.resume-biography-3 a {
+  font-size: 1.15rem !important;
+}
+
+/* Make bio text larger */
+.resume-biography-3 .prose,
+.resume-biography-3 .prose p,
+.resume-biography-3 article p {
+  font-size: 1.25rem !important;
+  line-height: 1.65 !important;
+}
+
+/* Make headshot slightly larger */
+.resume-biography-3 img {
+  max-width: 320px !important;
+}
+
+/* Mobile homepage adjustments */
+@media (max-width: 800px) {
+  .home section,
+  .home .resume-biography-3,
+  body:has(.resume-biography-3) .resume-biography-3 {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .resume-biography-3 h1 {
+    font-size: 3rem !important;
+  }
+
+  .resume-biography-3 .prose,
+  .resume-biography-3 .prose p,
+  .resume-biography-3 article p {
+    font-size: 1.05rem !important;
+  }
+}
