@@ -52,10 +52,10 @@ sections:
             const carousels = document.querySelectorAll(".outreach-carousel");
 
             carousels.forEach(function (carousel) {
-              const slides = carousel.querySelectorAll("img");
+              const slides = carousel.querySelectorAll(".carousel-slide");
               let index = 0;
 
-              if (slides.length <= 1) return;
+              if (slides.length <= 2) return;
 
               carousel.scrollTo({
                 left: 0,
@@ -63,12 +63,22 @@ sections:
               });
 
               setInterval(function () {
-                index = (index + 1) % slides.length;
+                index = index + 1;
 
                 carousel.scrollTo({
                   left: carousel.clientWidth * index,
                   behavior: "smooth"
                 });
+
+                if (index === slides.length - 1) {
+                  setTimeout(function () {
+                    carousel.scrollTo({
+                      left: 0,
+                      behavior: "auto"
+                    });
+                    index = 0;
+                  }, 700);
+                }
               }, 3000);
             });
           });
