@@ -143,19 +143,31 @@ body:has(.resume-biography-3) .resume-biography-3 {
    ENGAGEMENT / OUTREACH CAROUSEL
    ========================================================= */
 
+.outreach-carousel-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .outreach-carousel {
-  display: flex;
-  overflow-x: hidden;
-  gap: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  overflow: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  gap: 0 !important;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   padding-bottom: 0.75rem;
 }
 
 .carousel-slide {
-  width: 100%;
-  min-width: 100%;
-  margin: 0;
+  flex: 0 0 100% !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
   scroll-snap-align: center;
 }
 
