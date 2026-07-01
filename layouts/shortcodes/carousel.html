@@ -2,7 +2,27 @@
 {{ $alt := .Get "alt" | default "Carousel image" }}
 
 <div class="outreach-carousel">
-  {{ range .Page.Resources.Match $pattern }}
-    <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+  {{ $images := .Page.Resources.Match $pattern }}
+
+  {{ range $images }}
+    {{ $caption := replaceRE "\\.[^.]+$" "" .Name }}
+    {{ $caption = replace $caption "-" " " }}
+    {{ $caption = title $caption }}
+
+    <figure class="carousel-slide">
+      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+      <figcaption>{{ $caption }}</figcaption>
+    </figure>
+  {{ end }}
+
+  {{ with index $images 0 }}
+    {{ $caption := replaceRE "\\.[^.]+$" "" .Name }}
+    {{ $caption = replace $caption "-" " " }}
+    {{ $caption = title $caption }}
+
+    <figure class="carousel-slide carousel-clone">
+      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+      <figcaption>{{ $caption }}</figcaption>
+    </figure>
   {{ end }}
 </div>
