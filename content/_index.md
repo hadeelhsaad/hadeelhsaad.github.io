@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2026-06-27
@@ -27,12 +26,12 @@ sections:
             brightness: 0.45
 
       name:
-        size: lg
+        size: md
 
       avatar:
         size: large
         shape: square
 
       spacing:
-        padding: ["40px", "0", "40px", "0"]
+        padding: ["35px", "0", "35px", "0"]
 ---
