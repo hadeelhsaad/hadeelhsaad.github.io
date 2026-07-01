@@ -11,12 +11,12 @@ sections:
       username: me
       text: ''
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: ''
+        url: ''
       headings:
-        about: "About Me"
-        education: " "
-        interests: " "
+        about: ' '
+        education: ' '
+        interests: ' '
     design:
       background:
         color: "#000000"
@@ -27,9 +27,12 @@ sections:
             brightness: 0.45
 
       name:
-        size: md
+        size: lg
 
       avatar:
         size: large
         shape: square
+
+      spacing:
+        padding: ["40px", "0", "40px", "0"]
 ---
