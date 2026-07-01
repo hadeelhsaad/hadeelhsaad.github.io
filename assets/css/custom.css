@@ -137,25 +137,36 @@ body:has(.resume-biography-3) .resume-biography-3 {
 .outreach-carousel {
   display: flex;
   overflow-x: hidden;
-  gap: 1rem;
+  gap: 0;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   padding-bottom: 0.75rem;
 }
 
-/* Engagement carousel images: no drop shadow */
-.outreach-carousel img {
+.carousel-slide {
   width: 100%;
   min-width: 100%;
+  margin: 0;
+  scroll-snap-align: center;
+}
+
+.carousel-slide img {
+  width: 100%;
   height: auto;
   max-height: 520px;
   object-fit: cover;
   border-radius: 18px;
   box-shadow: none !important;
-  scroll-snap-align: center;
   display: block;
 }
 
+.carousel-slide figcaption {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.75;
+  margin-top: 0.55rem;
+  text-align: center;
+}
 
 /* =========================================================
    NAVBAR / MENU
