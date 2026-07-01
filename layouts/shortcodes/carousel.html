@@ -26,3 +26,39 @@
     </figure>
   {{ end }}
 </div>
+
+{{ $pattern := .Get "pattern" }}
+{{ $alt := .Get "alt" | default "Carousel image" }}
+{{ $captions := dict }}
+
+{{ with .Page.Resources.GetMatch "captions.yaml" }}
+  {{ $captions = . | transform.Unmarshal }}
+{{ end }}
+
+<div class="outreach-carousel">
+  {{ $images := .Page.Resources.Match $pattern }}
+
+  {{ range $images }}
+    {{ $fallback := replaceRE "\\.[^.]+$" "" .Name }}
+    {{ $fallback = replace $fallback "-" " " }}
+    {{ $fallback = title $fallback }}
+    {{ $caption := index $captions .Name | default $fallback }}
+
+    <figure class="carousel-slide">
+      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+      <figcaption>{{ $caption }}</figcaption>
+    </figure>
+  {{ end }}
+
+  {{ with index $images 0 }}
+    {{ $fallback := replaceRE "\\.[^.]+$" "" .Name }}
+    {{ $fallback = replace $fallback "-" " " }}
+    {{ $fallback = title $fallback }}
+    {{ $caption := index $captions .Name | default $fallback }}
+
+    <figure class="carousel-slide carousel-clone">
+      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+      <figcaption>{{ $caption }}</figcaption>
+    </figure>
+  {{ end }}
+</div>
