@@ -39,7 +39,7 @@ sections:
       text: |
         This interactive map shows otolith-bearing localities grouped by region.
 
-        <div class="interactive-figure">
+        <div class="interactive-figure interactive-map">
           <iframe src="/interactive/Otoliths_Map_WithRegions.html" loading="lazy"></iframe>
         </div>
 
@@ -49,10 +49,10 @@ sections:
       text: |
         This interactive figure shows logged genus abundance patterns in the otolith dataset.
 
-        <div class="interactive-figure">
+        <div class="interactive-figure interactive-plot">
           <iframe src="/interactive/Otolith_GenusAbundanceLogged.html" loading="lazy"></iframe>
         </div>
-
+    
   - block: markdown
     content:
       title: "Interactive Map: Region by Stage"
