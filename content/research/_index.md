@@ -43,15 +43,6 @@ sections:
           <iframe src="/interactive/Otoliths_Map_WithRegions.html" width="100%" height="650"></iframe>
         </div>
 
-  - block: markdown
-    content:
-      title: "Interactive Plot: Otolith Genus Abundance"
-      text: |
-        This interactive figure shows logged genus abundance patterns in the otolith dataset.
-
-        <div class="interactive-figure interactive-large">
-          <iframe src="/interactive/Otolith_GenusAbundanceLogged.html" width="100%" height="650"></iframe>
-        </div>
 
   - block: markdown
     content:
