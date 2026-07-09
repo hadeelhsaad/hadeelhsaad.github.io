@@ -39,8 +39,8 @@ sections:
       text: |
         This interactive map shows otolith-bearing localities grouped by region.
 
-        <div class="interactive-figure interactive-map">
-          <iframe src="/interactive/Otoliths_Map_WithRegions.html" loading="lazy"></iframe>
+        <div class="interactive-figure interactive-large">
+          <iframe src="/interactive/Otoliths_Map_WithRegions.html" width="100%" height="650"></iframe>
         </div>
 
   - block: markdown
@@ -49,18 +49,18 @@ sections:
       text: |
         This interactive figure shows logged genus abundance patterns in the otolith dataset.
 
-        <div class="interactive-figure interactive-plot">
-          <iframe src="/interactive/Otolith_GenusAbundanceLogged.html" loading="lazy"></iframe>
+        <div class="interactive-figure interactive-large">
+          <iframe src="/interactive/Otolith_GenusAbundanceLogged.html" width="100%" height="650"></iframe>
         </div>
-    
+
   - block: markdown
     content:
       title: "Interactive Map: Region by Stage"
       text: |
         This interactive map shows regional patterns through geologic stages.
 
-        <div class="interactive-figure">
-          <iframe src="/interactive/Region_V_Stages.html" loading="lazy"></iframe>
+        <div class="interactive-figure interactive-small">
+          <iframe src="/interactive/Region_V_Stages.html" width="100%" height="430"></iframe>
         </div>
 
   - block: markdown
@@ -69,7 +69,7 @@ sections:
       text: |
         This interactive figure shows deposition through geologic stages.
 
-        <div class="interactive-figure">
-          <iframe src="/interactive/Deposition_V_Stage.html" loading="lazy"></iframe>
+        <div class="interactive-figure interactive-small">
+          <iframe src="/interactive/Deposition_V_Stage.html" width="100%" height="430"></iframe>
         </div>
 ---
