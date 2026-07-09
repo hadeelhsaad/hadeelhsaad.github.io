@@ -1,34 +1,5 @@
 {{ $pattern := .Get "pattern" }}
 {{ $alt := .Get "alt" | default "Carousel image" }}
-
-<div class="outreach-carousel">
-  {{ $images := .Page.Resources.Match $pattern }}
-
-  {{ range $images }}
-    {{ $caption := replaceRE "\\.[^.]+$" "" .Name }}
-    {{ $caption = replace $caption "-" " " }}
-    {{ $caption = title $caption }}
-
-    <figure class="carousel-slide">
-      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
-      <figcaption>{{ $caption }}</figcaption>
-    </figure>
-  {{ end }}
-
-  {{ with index $images 0 }}
-    {{ $caption := replaceRE "\\.[^.]+$" "" .Name }}
-    {{ $caption = replace $caption "-" " " }}
-    {{ $caption = title $caption }}
-
-    <figure class="carousel-slide carousel-clone">
-      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
-      <figcaption>{{ $caption }}</figcaption>
-    </figure>
-  {{ end }}
-</div>
-
-{{ $pattern := .Get "pattern" }}
-{{ $alt := .Get "alt" | default "Carousel image" }}
 {{ $captions := dict }}
 
 {{ with .Page.Resources.GetMatch "captions.yaml" }}
@@ -38,26 +9,14 @@
 <div class="outreach-carousel">
   {{ $images := .Page.Resources.Match $pattern }}
 
-  {{ range $images }}
-    {{ $fallback := replaceRE "\\.[^.]+$" "" .Name }}
+  {{ range $index, $image := $images }}
+    {{ $fallback := replaceRE "\\.[^.]+$" "" $image.Name }}
     {{ $fallback = replace $fallback "-" " " }}
     {{ $fallback = title $fallback }}
-    {{ $caption := index $captions .Name | default $fallback }}
+    {{ $caption := index $captions $image.Name | default $fallback }}
 
-    <figure class="carousel-slide">
-      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
-      <figcaption>{{ $caption }}</figcaption>
-    </figure>
-  {{ end }}
-
-  {{ with index $images 0 }}
-    {{ $fallback := replaceRE "\\.[^.]+$" "" .Name }}
-    {{ $fallback = replace $fallback "-" " " }}
-    {{ $fallback = title $fallback }}
-    {{ $caption := index $captions .Name | default $fallback }}
-
-    <figure class="carousel-slide carousel-clone">
-      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+    <figure class="carousel-slide{{ if eq $index 0 }} active{{ end }}">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
       <figcaption>{{ $caption }}</figcaption>
     </figure>
   {{ end }}
