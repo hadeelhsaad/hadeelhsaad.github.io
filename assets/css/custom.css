@@ -257,24 +257,24 @@ header a {
   max-width: 1400px;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .interactive-figure iframe {
   width: 100%;
   border: none;
   background: white;
-  border-radius: 16px;
+  border-radius: 12px;
   display: block;
 }
 
-.interactive-map iframe {
-  height: 900px;
+.interactive-large iframe {
+  height: 650px;
 }
 
-.interactive-plot iframe {
-  height: 950px;
+.interactive-small iframe {
+  height: 430px;
 }
 
 @media (max-width: 800px) {
@@ -282,12 +282,14 @@ header a {
     width: 92vw;
   }
 
-  .interactive-map iframe,
-  .interactive-plot iframe {
-    height: 650px;
+  .interactive-large iframe {
+    height: 550px;
+  }
+
+  .interactive-small iframe {
+    height: 360px;
   }
 }
-
 
 /* =========================================================
    CV PAGE
