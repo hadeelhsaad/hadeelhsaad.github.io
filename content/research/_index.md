@@ -13,24 +13,44 @@ sections:
 
         <div class="research-split">
           <div class="research-text">
-            <h2>Changes within lineage </h2>
-            <p>I study the individual lineage fossil record of tropical marine fishes to understand how they changed morphologically and look at lineage specific ranges.</p>
+            <h2>Changes within lineages</h2>
+            <p>I study the fossil record of individual tropical marine fish lineages to understand how they changed morphologically through time and how their geographic ranges shifted across the Cenozoic.</p>
           </div>
 
           <div class="research-image">
-            {{< figure src="Eoplataxweb.png" alt="Eoplatax range map" >}}
+            <img src="Eoplataxweb.png" alt="Eoplatax range map">
           </div>
         </div>
 
         <div class="research-split">
           <div class="research-image">
-            {{< figure src="research-2.jpg" alt="Museum collections and fossil fish research" >}}
+            <img src="research-2.jpg" alt="Museum collections and fossil fish research">
           </div>
 
           <div class="research-text">
-            <h2>Museum collections </h2>
-            <p>Test.</p>
+            <h2>Museum collections</h2>
+            <p>Museum collections are central to my research because they preserve records from places and time intervals that are often underrepresented in large-scale fossil datasets. By revisiting historical specimens and combining them with spatial and quantitative analyses, I can test whether apparent biodiversity patterns reflect biological history or uneven sampling.</p>
           </div>
+        </div>
+
+  - block: markdown
+    content:
+      title: "Interactive Map: Otolith Localities by Region"
+      text: |
+        This interactive map shows otolith-bearing localities grouped by region.
+
+        <div class="interactive-figure">
+          <iframe src="/interactive/Otoliths_Map_WithRegions.html" loading="lazy"></iframe>
+        </div>
+
+  - block: markdown
+    content:
+      title: "Interactive Plot: Otolith Genus Abundance"
+      text: |
+        This interactive figure shows logged genus abundance patterns in the otolith dataset.
+
+        <div class="interactive-figure">
+          <iframe src="/interactive/Otolith_GenusAbundanceLogged.html" loading="lazy"></iframe>
         </div>
 
   - block: markdown
@@ -39,7 +59,9 @@ sections:
       text: |
         This interactive map shows regional patterns through geologic stages.
 
-        <div style="width: 95vw; max-width: 1200px; margin-left: 50%; transform: translateX(-50%);"><iframe src="/interactive/Region_V_Stages.html" width="100%" height="850px" style="border: none; background: white; border-radius: 16px; display: block;" loading="lazy"></iframe></div>
+        <div class="interactive-figure">
+          <iframe src="/interactive/Region_V_Stages.html" loading="lazy"></iframe>
+        </div>
 
   - block: markdown
     content:
@@ -47,5 +69,7 @@ sections:
       text: |
         This interactive figure shows deposition through geologic stages.
 
-        <div style="width: 95vw; max-width: 1200px; margin-left: 50%; transform: translateX(-50%);"><iframe src="/interactive/Deposition_V_Stage.html" width="100%" height="850px" style="border: none; background: white; border-radius: 16px; display: block;" loading="lazy"></iframe></div>
+        <div class="interactive-figure">
+          <iframe src="/interactive/Deposition_V_Stage.html" loading="lazy"></iframe>
+        </div>
 ---
