@@ -202,29 +202,29 @@ header a {
 .outreach-carousel-wrap {
   width: 100%;
   max-width: 100%;
-  overflow: hidden;
 }
 
 .outreach-carousel {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important;
-  overflow: hidden !important;
+  position: relative;
   width: 100%;
   max-width: 100%;
-  gap: 0 !important;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  padding-bottom: 0.75rem;
+  min-height: 560px;
 }
 
 .carousel-slide {
-  flex: 0 0 100% !important;
-  width: 100% !important;
-  min-width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  scroll-snap-align: center;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
 }
 
 .carousel-slide img {
@@ -244,8 +244,6 @@ header a {
   margin-top: 0.55rem;
   text-align: center;
 }
-
-
 /* =========================================================
    INTERACTIVE FIGURES
    ========================================================= */
