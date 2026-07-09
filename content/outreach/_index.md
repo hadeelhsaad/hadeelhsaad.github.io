@@ -55,31 +55,15 @@ sections:
               const slides = carousel.querySelectorAll(".carousel-slide");
               let index = 0;
 
-              if (slides.length <= 2) return;
+              if (slides.length <= 1) return;
 
-              carousel.scrollTo({
-                left: 0,
-                behavior: "auto"
-              });
+              slides[0].classList.add("active");
 
               setInterval(function () {
-                index = index + 1;
-
-                carousel.scrollTo({
-                  left: carousel.clientWidth * index,
-                  behavior: "smooth"
-                });
-
-                if (index === slides.length - 1) {
-                  setTimeout(function () {
-                    carousel.scrollTo({
-                      left: 0,
-                      behavior: "auto"
-                    });
-                    index = 0;
-                  }, 700);
-                }
-              }, 3000);
+                slides[index].classList.remove("active");
+                index = (index + 1) % slides.length;
+                slides[index].classList.add("active");
+              }, 4000);
             });
           });
         </script>
