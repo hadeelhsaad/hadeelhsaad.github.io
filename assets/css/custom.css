@@ -248,9 +248,13 @@ header a {
    INTERACTIVE FIGURES
    ========================================================= */
 
+/* =========================================================
+   INTERACTIVE FIGURES
+   ========================================================= */
+
 .interactive-figure {
   width: 95vw;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 2rem;
@@ -259,11 +263,29 @@ header a {
 
 .interactive-figure iframe {
   width: 100%;
-  height: 850px;
   border: none;
   background: white;
   border-radius: 16px;
   display: block;
+}
+
+.interactive-map iframe {
+  height: 900px;
+}
+
+.interactive-plot iframe {
+  height: 950px;
+}
+
+@media (max-width: 800px) {
+  .interactive-figure {
+    width: 92vw;
+  }
+
+  .interactive-map iframe,
+  .interactive-plot iframe {
+    height: 650px;
+  }
 }
 
 
