@@ -9,7 +9,7 @@ sections:
     content:
       title: "Research"
       text: |
-        My primary focus is on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). The current hypothesis is that biodiversity hotspots are not fixed, but have shifted geographically (“hotspot hopping”) from the Tethys region, proto-Mediterranean, to the modern IWP in response to tectonic and environmental change. I study “forgotten” fossils from the IWP and surrounding regions to investigate species richness and endemism (“hotspot hopping”) and lineage distributions (“lineage sliding”), helping us better understand how tropical marine biodiversity has changed across space and time.
+        My primary focus is on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). The current hypothesis is that biodiversity hotspots are not fixed, but have shifted geographically (“hotspot hopping”) from the Tethys region, proto-Mediterranean, to the modern IWP in response to tectonic and environmental change. I study “forgotten” fossils from the IWP and surrounding regions to investigate species richness and endemism (“hotspot hopping”) and lineage distributions (“lineage sliding”), helping us better understand how tropical marine biodiversity has changed across space and time. 
 
         I am not a fish loyalist and often work with people outside my typical scope, including bats, plants, molecular data, education, and other biodiversity-related projects. Feel free to send me an email as long as it is biodiversity related :)
 
