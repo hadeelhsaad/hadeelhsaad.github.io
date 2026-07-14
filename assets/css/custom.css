@@ -21,7 +21,11 @@ a[href="mailto:hhsaad@umich.edu"] {
 .resume-biography-3 .flex:has(h2),
 .resume-biography-3 .rounded-full:has(svg),
 section:has(.resume-biography-3) h2,
-section:has(.resume-biography-3) .flex:has(h2) {
+section:has(.resume-biography-3) .flex:has(h2),
+body:has(.resume-biography-3) h2,
+body:has(.resume-biography-3) .flex:has(h2),
+body:has(.resume-biography-3) .mb-6:has(h2),
+body:has(.resume-biography-3) .mb-8:has(h2) {
   display: none !important;
 }
 
@@ -146,6 +150,26 @@ header a {
 
 
 /* =========================================================
+   ABOUT PAGE
+   ========================================================= */
+
+.about-page {
+  width: 90vw;
+  max-width: 950px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.about-page p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+
+/* =========================================================
    SHARED SPLIT SECTIONS: RESEARCH + ENGAGEMENT
    ========================================================= */
 
@@ -244,9 +268,7 @@ header a {
   margin-top: 0.55rem;
   text-align: center;
 }
-/* =========================================================
-   INTERACTIVE FIGURES
-   ========================================================= */
+
 
 /* =========================================================
    INTERACTIVE FIGURES
@@ -277,19 +299,6 @@ header a {
   height: 430px;
 }
 
-@media (max-width: 800px) {
-  .interactive-figure {
-    width: 92vw;
-  }
-
-  .interactive-large iframe {
-    height: 550px;
-  }
-
-  .interactive-small iframe {
-    height: 360px;
-  }
-}
 
 /* =========================================================
    CV PAGE
@@ -395,6 +404,14 @@ header a {
     font-size: 1.2rem !important;
   }
 
+  .about-page {
+    width: 92vw;
+  }
+
+  .about-page p {
+    font-size: 1.1rem;
+  }
+
   .research-split,
   .outreach-split {
     grid-template-columns: 1fr;
@@ -418,8 +435,12 @@ header a {
     width: 92vw;
   }
 
-  .interactive-figure iframe {
-    height: 650px;
+  .interactive-large iframe {
+    height: 550px;
+  }
+
+  .interactive-small iframe {
+    height: 360px;
   }
 
   .cv-page {
