@@ -10,10 +10,10 @@ sections:
       title: "Research"
       text: |
         My primary focus is on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). The current hypothesis is that biodiversity hotspots are not fixed, but have shifted geographically (“hotspot hopping”) from the Tethys region, proto-Mediterranean, to the modern IWP in response to tectonic and environmental change. I study “forgotten” fossils from the IWP and surrounding regions to investigate species richness and endemism (“hotspot hopping”) and lineage distributions (“lineage sliding”), helping us better understand how tropical marine biodiversity has changed across space and time.
-
-        <br><br>
-
-        I am not a fish loyalist and often work with people outside my typical scope, including bats, plants, molecular data, education, and other biodiversity-related projects. Feel free to send me an email as long as it is biodiversity related :)
+    
+        <br>
+        
+        I am not a fish loyalist and often work with people outside my typical scope, including bats, plants, molecular data, education, and other biodiversity-related projects. Feel free to send me an email as long as it is biodiversity-related :)
 
         <div class="research-split">
           <div class="research-text">
@@ -37,17 +37,13 @@ sections:
           </div>
         </div>
 
-        <div class="research-split">
-          <div class="research-text">
-            <h2>Measuring biodiversity</h2>
-            <p>Understanding how fish diversity responded to environmental change is central to studying how biodiversity hotspots form, shift, and collapse through time. To examine biodiversity over deep time, I use the fish otolith, also known as the ear stone, record to measure diversity at multiple scales, including alpha, beta, and gamma diversity.</p>
+- block: markdown
+    content:
+      title: "Measuring biodiversity"
+      text: |
+        Understanding how fish diversity responded to environmental change is central to studying how biodiversity hotspots form, shift, and collapse through time. To examine biodiversity over deep time, I use the fish otolith, also known as the ear stone, record to measure diversity at multiple scales, including alpha, beta, and gamma diversity.</p>
             <p>Although this dataset is still in progress, it currently includes 80 localities spanning the Paleocene to Miocene and represents nearly 100,000 individual otolith fossils. The examples shown here provide a short preview of the data I am using to explore changes in fish diversity through time.</p>
-          </div>
-
-          <div class="research-image">
-            <img src="otoliths.jpg" alt="Fish otolith fossils">
-          </div>
-        </div>
+    
 
   - block: markdown
     content:
