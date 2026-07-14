@@ -9,12 +9,16 @@ sections:
     content:
       title: "Research"
       text: |
-        My research focuses on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). Current hypothesis is that biodiversity hotspots are not fixed, and have shifted geographically (“hotspot hopping”), from the Tethys region, proto-Mediterranean, to the modern IWP in response to tectonic and environmental change. Because the fossil fish record is heavily biased toward European assemblages, apparent patterns may reflect uneven sampling rather than true biological history. By integrating underutilized fossil assemblages from the IWP and surrounding regions, this work reconstructs more accurate patterns of species richness (“hotspot hopping”) and lineage distributions (“lineage sliding”), improving understanding of how tropical marine biodiversity has evolved across space and time.
+        My primary focus is on how marine biodiversity hotspots in the Cenozoic have changed through time, specifically focusing on how fish entered and diversified in the Indo–West Pacific (IWP). The current hypothesis is that biodiversity hotspots are not fixed, but have shifted geographically (“hotspot hopping”) from the Tethys region, proto-Mediterranean, to the modern IWP in response to tectonic and environmental change. I study “forgotten” fossils from the IWP and surrounding regions to investigate species richness and endemism (“hotspot hopping”) and lineage distributions (“lineage sliding”), helping us better understand how tropical marine biodiversity has changed across space and time.
+
+        <br><br>
+
+        I am not a fish loyalist and often work with people outside my typical scope, including bats, plants, molecular data, education, and other biodiversity-related projects. Feel free to send me an email as long as it is biodiversity related :)
 
         <div class="research-split">
           <div class="research-text">
-            <h2>Changes within lineages</h2>
-            <p>I study the fossil record of individual tropical marine fish lineages to understand how they changed morphologically through time and how their geographic ranges shifted across the Cenozoic.</p>
+            <h2>Describing fossil lineages</h2>
+            <p>Although much of my work uses analytical approaches to study large-scale patterns in the fossil record, I also value descriptive research as the foundation for those analyses. Fossils must be carefully documented, identified, and sometimes reclassified before they can be used to ask broader evolutionary or biogeographic questions. I have contributed to descriptive and taxonomic projects, especially on fossils from regions that are underrepresented in existing datasets. These specimens add important baseline information and help reveal when and where ecological and trophic innovations appeared through time.</p>
           </div>
 
           <div class="research-image">
@@ -28,8 +32,20 @@ sections:
           </div>
 
           <div class="research-text">
-            <h2>Museum collections</h2>
-            <p>Museum collections are central to my research because they preserve records from places and time intervals that are often underrepresented in large-scale fossil datasets. By revisiting historical specimens and combining them with spatial and quantitative analyses, I can test whether apparent biodiversity patterns reflect biological history or uneven sampling.</p>
+            <h2>Documenting past ecosystems</h2>
+            <p>A major limitation in understanding biodiversity today is that we still know relatively little about how fish communities have changed since the last major extinction event. As a result, researchers working on extant tropical fishes rely disproportionately on Eocene localities in Europe, largely because they remain among the only well-documented Cenozoic tropical fish assemblages. I have worked on numerous projects that quantitatively compare fossil faunas to examine the relative paleoenvironmental, paleogeographic, and stratigraphic controls on ancient fish communities in and around the IWP.</p>
+          </div>
+        </div>
+
+        <div class="research-split">
+          <div class="research-text">
+            <h2>Measuring biodiversity</h2>
+            <p>Understanding how fish diversity responded to environmental change is central to studying how biodiversity hotspots form, shift, and collapse through time. To examine biodiversity over deep time, I use the fish otolith, also known as the ear stone, record to measure diversity at multiple scales, including alpha, beta, and gamma diversity.</p>
+            <p>Although this dataset is still in progress, it currently includes 80 localities spanning the Paleocene to Miocene and represents nearly 100,000 individual otolith fossils. The examples shown here provide a short preview of the data I am using to explore changes in fish diversity through time.</p>
+          </div>
+
+          <div class="research-image">
+            <img src="otoliths.jpg" alt="Fish otolith fossils">
           </div>
         </div>
 
@@ -42,7 +58,6 @@ sections:
         <div class="interactive-figure interactive-large">
           <iframe src="/interactive/Otoliths_Map_WithRegions.html" width="100%" height="650"></iframe>
         </div>
-
 
   - block: markdown
     content:
