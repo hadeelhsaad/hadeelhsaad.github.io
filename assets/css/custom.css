@@ -484,3 +484,18 @@ header a {
     font-size: 1.05rem;
   }
 }
+
+
+/* Force-hide homepage Professional Summary heading */
+.resume-biography-3 h2,
+.resume-biography-3 h2:first-of-type,
+section[data-block="resume-biography-3"] h2,
+section[data-block="resume-biography-3"] h2:first-of-type,
+body:has(.resume-biography-3) main h2:first-of-type {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
