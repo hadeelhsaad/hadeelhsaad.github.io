@@ -2,87 +2,178 @@
    HOME PAGE / PROFILE
    ========================================================= */
 
-/* Hide circular email icon if the email link is still used */
+/*
+Hide the title automatically generated above the custom homepage
+content. This removes "Professional Summary" without hiding the
+"Ph.D. Candidate" heading inside .home-profile.
+*/
+
+.home-custom-section .section-heading,
+.home-custom-section .section-subheading,
+.home-custom-section header.mb-6,
+.home-custom-section header.mb-8,
+.home-custom-section header.mb-12,
+.home-custom-section > .container > header,
+.home-custom-section > div > header:first-child,
+.home-custom-section div[class*="section-heading"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Remove extra spacing around the markdown block */
+.home-custom-section {
+  min-height: calc(100vh - 72px) !important;
+  display: flex !important;
+  align-items: center !important;
+  overflow: hidden !important;
+}
+
+/* Allow the homepage content to use most of the screen width */
+.home-custom-section > .container,
+.home-custom-section .container,
+.home-custom-section .max-w-prose,
+.home-custom-section .prose {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Main two-column homepage layout */
+.home-custom {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.8fr) minmax(500px, 1.65fr);
+  gap: clamp(3rem, 5vw, 6rem);
+  align-items: start;
+
+  width: 94vw;
+  max-width: 1550px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Left profile column */
+.home-profile {
+  width: 100%;
+  text-align: center;
+}
+
+/* Homepage photograph */
+.home-headshot {
+  display: block;
+  width: 100% !important;
+  max-width: 470px !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  margin: 0 auto 1.5rem;
+  border: 6px solid white;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Homepage name */
+.home-profile h1 {
+  font-size: clamp(3rem, 5vw, 5.2rem) !important;
+  line-height: 0.95 !important;
+  margin: 0 0 1.7rem !important;
+  color: white !important;
+  text-align: center;
+}
+
+/* Ph.D. Candidate */
+.home-profile h2 {
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+
+  font-size: clamp(1.7rem, 2.5vw, 2.5rem) !important;
+  line-height: 1.1 !important;
+  margin: 0 0 1.2rem !important;
+  padding: 0 !important;
+
+  color: #efb4d2 !important;
+  text-align: center;
+}
+
+/* Institution and email */
+.home-profile p,
+.home-profile a {
+  font-size: clamp(1.15rem, 1.5vw, 1.55rem) !important;
+  line-height: 1.4 !important;
+  color: white !important;
+  text-align: center;
+}
+
+.home-institution {
+  margin: 0 0 1rem !important;
+}
+
+.home-email {
+  margin: 0 !important;
+}
+
+.home-email a {
+  display: inline-block;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.home-email a:hover {
+  text-decoration: underline !important;
+}
+
+/* Hide an email icon if Hugo inserts one */
 a[href="mailto:hhsaad@umich.edu"] svg,
 a[href="mailto:hhsaad@umich.edu"] .icon,
 a[href="mailto:hhsaad@umich.edu"] span:first-child {
   display: none !important;
 }
 
-a[href="mailto:hhsaad@umich.edu"] {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
+/* Right biography column */
+.home-bio {
+  padding-top: clamp(2rem, 4vw, 5rem);
+  width: 100%;
 }
 
-/* Stop homepage background image from moving/parallaxing */
-.hero,
-.blox-hero,
-.resume-biography-3,
-section[data-block="resume-biography-3"],
-body:has(.resume-biography-3) section,
-[class*="hero"],
-[class*="parallax"],
-[class*="background"] {
+.home-bio p {
+  font-size: clamp(1.35rem, 1.65vw, 1.8rem) !important;
+  line-height: 1.6 !important;
+  color: white !important;
+  margin: 0 0 2.2rem !important;
+}
+
+/* Remove prose restrictions added by the markdown block */
+.home-custom-section .prose,
+.home-custom-section .prose p,
+.home-custom-section article,
+.home-custom-section article p {
+  max-width: none !important;
+}
+
+/* Stop the homepage background from moving or parallaxing */
+.home-custom-section,
+.home-custom-section::before,
+.home-custom-section::after,
+body:has(.home-custom-section) section,
+body:has(.home-custom-section) [class*="hero"],
+body:has(.home-custom-section) [class*="parallax"],
+body:has(.home-custom-section) [class*="background"] {
   background-attachment: scroll !important;
   background-position: center center !important;
   background-size: cover !important;
-  transform: none !important;
+  transform-style: flat !important;
   animation: none !important;
-}
-
-/* Keep homepage compact and prevent tiny scroll */
-.home section,
-.home .resume-biography-3,
-body:has(.resume-biography-3) .resume-biography-3 {
-  min-height: calc(100vh - 72px) !important;
-  height: calc(100vh - 72px) !important;
-  overflow: hidden !important;
-}
-
-/* Homepage name */
-.resume-biography-3 h1 {
-  font-size: clamp(2.8rem, 4vw, 4.5rem) !important;
-  line-height: 1 !important;
-}
-
-/* Role / institution / email */
-.resume-biography-3 p,
-.resume-biography-3 a {
-  font-size: 1.15rem !important;
-}
-
-/* Homepage bio text */
-.resume-biography-3 .prose,
-.resume-biography-3 .prose p,
-.resume-biography-3 article p,
-.resume-biography-3 .max-w-prose p {
-  font-size: 1.55rem !important;
-  line-height: 1.65 !important;
-}
-
-/* Homepage headshot */
-.resume-biography-3 img {
-  max-width: 320px !important;
-}
-
-/* Strong homepage-only fix: hide Professional Summary heading and icon */
-body:has(.resume-biography-3) main section:first-of-type h2,
-body:has(.resume-biography-3) main section:first-of-type .rounded-full,
-body:has(.resume-biography-3) main section:first-of-type .flex:has(h2),
-body:has(.resume-biography-3) main section:first-of-type .flex:has(svg),
-body:has(.resume-biography-3) main section:first-of-type div:has(> .rounded-full):has(h2),
-.resume-biography-3 h2,
-.resume-biography-3 .rounded-full,
-.resume-biography-3 .flex:has(h2),
-.resume-biography-3 .flex:has(svg) {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  max-height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
 }
 
 
@@ -261,7 +352,9 @@ header a {
   margin: 0;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  transition:
+    opacity 0.8s ease-in-out,
+    visibility 0.8s ease-in-out;
 }
 
 .carousel-slide.active {
@@ -348,7 +441,7 @@ header a {
 .cv-download-button {
   display: inline-block;
   padding: 0.9rem 1.4rem;
-  background: linear-gradient(90deg, #DA77AC, #F9B665);
+  background: linear-gradient(90deg, #da77ac, #f9b665);
   color: white !important;
   border-radius: 999px;
   text-decoration: none !important;
@@ -373,15 +466,15 @@ header a {
   font-size: 0.85rem;
   line-height: 1;
   padding: 0.45rem 0.7rem;
-  border: 1px solid #DA77AC;
+  border: 1px solid #da77ac;
   border-radius: 999px;
   text-decoration: none !important;
-  color: #DA77AC;
+  color: #da77ac;
   font-weight: 600;
 }
 
 .cv-jump-menu a:hover {
-  background: #DA77AC;
+  background: #da77ac;
   color: white !important;
 }
 
@@ -400,27 +493,81 @@ header a {
 
 
 /* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .home-custom {
+    grid-template-columns: minmax(280px, 0.8fr) minmax(400px, 1.4fr);
+    gap: 3rem;
+    width: 92vw;
+  }
+
+  .home-headshot {
+    max-width: 390px !important;
+  }
+
+  .home-bio {
+    padding-top: 2rem;
+  }
+}
+
+
+/* =========================================================
    MOBILE
    ========================================================= */
 
 @media (max-width: 800px) {
-  .home section,
-  .home .resume-biography-3,
-  body:has(.resume-biography-3) .resume-biography-3 {
+  .home-custom-section {
     height: auto !important;
     min-height: auto !important;
     overflow: visible !important;
+    display: block !important;
   }
 
-  .resume-biography-3 h1 {
-    font-size: 3rem !important;
+  .home-custom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+
+    width: 90vw;
+    max-width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
-  .resume-biography-3 .prose,
-  .resume-biography-3 .prose p,
-  .resume-biography-3 article p,
-  .resume-biography-3 .max-w-prose p {
+  .home-profile {
+    width: 100%;
+  }
+
+  .home-headshot {
+    width: min(100%, 390px) !important;
+    max-width: 390px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-profile h1 {
+    font-size: clamp(3rem, 13vw, 4.5rem) !important;
+  }
+
+  .home-profile h2 {
+    font-size: 2rem !important;
+  }
+
+  .home-profile p,
+  .home-profile a {
+    font-size: 1.15rem !important;
+  }
+
+  .home-bio {
+    padding-top: 0;
+  }
+
+  .home-bio p {
     font-size: 1.2rem !important;
+    line-height: 1.65 !important;
+    margin-bottom: 1.7rem !important;
   }
 
   .about-page {
