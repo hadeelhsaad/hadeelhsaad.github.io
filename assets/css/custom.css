@@ -422,14 +422,15 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto 3rem;
   text-align: center;
+  margin: 2rem 0 3rem;
 }
 
+/* CV download button */
 .cv-download-button {
   display: inline-block;
   padding: 0.9rem 1.4rem;
-  background: linear-gradient(90deg, #DA77AC, #F9B665);
+  background: linear-gradient(90deg, #da77ac, #f9b665);
   color: white !important;
   border-radius: 999px;
   text-decoration: none !important;
@@ -437,51 +438,65 @@ header a {
   text-align: center;
 }
 
-.cv-download-button:hover {
-  transform: translateY(-1px);
-}
-
-/* Center the CV jump buttons */
+/* Center the navigation buttons across the full page */
 .cv-jump-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
   width: 95vw;
   max-width: 1400px;
-  margin: 1rem auto 3rem;
+
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
+/* Individual navigation buttons */
 .cv-jump-menu a {
+  display: inline-block;
   font-size: 0.85rem;
   line-height: 1;
   padding: 0.45rem 0.7rem;
-  border: 1px solid #DA77AC;
+  border: 1px solid #da77ac;
   border-radius: 999px;
   text-decoration: none !important;
-  color: #DA77AC;
+  color: #da77ac;
   font-weight: 600;
-  text-align: center;
+  white-space: nowrap;
 }
 
 .cv-jump-menu a:hover {
-  background: #DA77AC;
+  background: #da77ac;
   color: white !important;
 }
 
+/* Main CV content */
 .cv-page {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
   width: 95vw;
   max-width: 1400px;
-  margin: 2rem auto 5rem;
+
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
+/* CV headings */
 .cv-page h2 {
   font-size: clamp(2rem, 3vw, 3rem);
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
+/* CV body text */
 .cv-page p,
 .cv-page li {
   font-size: 1.15rem;
@@ -501,24 +516,24 @@ header a {
   margin-bottom: 0.75rem;
 }
 
-@media (max-width: 800px) {
-  .cv-download-wrap {
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-  }
 
-  .cv-download-button {
-    font-size: 0.95rem;
-    padding: 0.85rem 1.15rem;
+/* =========================================================
+   CV MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .cv-jump-menu,
+  .cv-page {
+    width: 92vw;
   }
 
   .cv-jump-menu {
-    width: 92vw;
-    gap: 0.55rem;
+    gap: 0.5rem;
   }
 
-  .cv-page {
-    width: 92vw;
+  .cv-jump-menu a {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.6rem;
   }
 
   .cv-page p,
