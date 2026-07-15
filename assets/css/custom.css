@@ -416,13 +416,64 @@ header a {
    CV PAGE
    ========================================================= */
 
+/* Center the download button */
+.cv-download-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 3rem;
+  text-align: center;
+}
+
+.cv-download-button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  background: linear-gradient(90deg, #DA77AC, #F9B665);
+  color: white !important;
+  border-radius: 999px;
+  text-decoration: none !important;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cv-download-button:hover {
+  transform: translateY(-1px);
+}
+
+/* Center the CV jump buttons */
+.cv-jump-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  width: 95vw;
+  max-width: 1400px;
+  margin: 1rem auto 3rem;
+}
+
+.cv-jump-menu a {
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #DA77AC;
+  border-radius: 999px;
+  text-decoration: none !important;
+  color: #DA77AC;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cv-jump-menu a:hover {
+  background: #DA77AC;
+  color: white !important;
+}
+
 .cv-page {
   width: 95vw;
   max-width: 1400px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin: 2rem auto 5rem;
 }
 
 .cv-page h2 {
@@ -435,47 +486,6 @@ header a {
 .cv-page li {
   font-size: 1.15rem;
   line-height: 1.7;
-}
-
-/* CV download button */
-.cv-download-button {
-  display: inline-block;
-  padding: 0.9rem 1.4rem;
-  background: linear-gradient(90deg, #da77ac, #f9b665);
-  color: white !important;
-  border-radius: 999px;
-  text-decoration: none !important;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-
-/* Small CV jump menu */
-.cv-jump-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  width: 95vw;
-  max-width: 1400px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.cv-jump-menu a {
-  font-size: 0.85rem;
-  line-height: 1;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid #da77ac;
-  border-radius: 999px;
-  text-decoration: none !important;
-  color: #da77ac;
-  font-weight: 600;
-}
-
-.cv-jump-menu a:hover {
-  background: #da77ac;
-  color: white !important;
 }
 
 .cv-total {
@@ -491,7 +501,31 @@ header a {
   margin-bottom: 0.75rem;
 }
 
+@media (max-width: 800px) {
+  .cv-download-wrap {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
 
+  .cv-download-button {
+    font-size: 0.95rem;
+    padding: 0.85rem 1.15rem;
+  }
+
+  .cv-jump-menu {
+    width: 92vw;
+    gap: 0.55rem;
+  }
+
+  .cv-page {
+    width: 92vw;
+  }
+
+  .cv-page p,
+  .cv-page li {
+    font-size: 1.05rem;
+  }
+}
 /* =========================================================
    TABLET
    ========================================================= */
