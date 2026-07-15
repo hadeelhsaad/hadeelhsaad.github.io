@@ -15,31 +15,6 @@ a[href="mailto:hhsaad@umich.edu"] {
   border: none !important;
 }
 
-/* Hide homepage heading: About Me / Professional Summary */
-.resume-biography-3 h2,
-.resume-biography-3 h2::before,
-.resume-biography-3 .flex:has(h2),
-.resume-biography-3 .rounded-full:has(svg),
-section:has(.resume-biography-3) h2,
-section:has(.resume-biography-3) .flex:has(h2),
-body:has(.resume-biography-3) h2,
-body:has(.resume-biography-3) .flex:has(h2),
-body:has(.resume-biography-3) .mb-6:has(h2),
-body:has(.resume-biography-3) .mb-8:has(h2) {
-  display: none !important;
-}
-
-/* Remove circular heading icons elsewhere */
-section:has(h2) .flex:has(h2) > :first-child,
-section .rounded-full:has(svg) {
-  display: none !important;
-}
-
-/* Remove spacing left by hidden heading icons */
-section:has(h2) .flex:has(h2) {
-  gap: 0 !important;
-}
-
 /* Stop homepage background image from moving/parallaxing */
 .hero,
 .blox-hero,
@@ -89,6 +64,25 @@ body:has(.resume-biography-3) .resume-biography-3 {
 /* Homepage headshot */
 .resume-biography-3 img {
   max-width: 320px !important;
+}
+
+/* Strong homepage-only fix: hide Professional Summary heading and icon */
+body:has(.resume-biography-3) main section:first-of-type h2,
+body:has(.resume-biography-3) main section:first-of-type .rounded-full,
+body:has(.resume-biography-3) main section:first-of-type .flex:has(h2),
+body:has(.resume-biography-3) main section:first-of-type .flex:has(svg),
+body:has(.resume-biography-3) main section:first-of-type div:has(> .rounded-full):has(h2),
+.resume-biography-3 h2,
+.resume-biography-3 .rounded-full,
+.resume-biography-3 .flex:has(h2),
+.resume-biography-3 .flex:has(svg) {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 
 
@@ -483,25 +477,4 @@ header a {
   .cv-page li {
     font-size: 1.05rem;
   }
-}
-
-
-/* Force-hide homepage Professional Summary heading */
-.resume-biography-3 h2,
-.resume-biography-3 h2:first-of-type,
-section[data-block="resume-biography-3"] h2,
-section[data-block="resume-biography-3"] h2:first-of-type,
-body:has(.resume-biography-3) main h2:first-of-type {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-}
-
-/* Backup: hide the homepage Professional Summary heading area */
-body:has(h1) h1:first-child,
-body:has(h2) h2:first-child {
-  margin-top: 0 !important;
 }
