@@ -10,7 +10,7 @@ sections:
       title: "Curriculum Vitae"
       text: |
         <p>
-          <a href="/uploads/Hadeel_Saad_CV.pdf" class="cv-download-button">Download CV</a>
+          <a href="/uploads/CV.pdf" class="cv-download-button">Download CV</a>
         </p>
 
         <div class="cv-jump-menu">
