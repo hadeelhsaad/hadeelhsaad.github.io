@@ -13,9 +13,9 @@ sections:
         text: ''
         url: ''
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: ' '
+        education: ' '
+        interests: ' '
     design:
       background:
         color: "#000000"
