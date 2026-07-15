@@ -1,4 +1,3 @@
----
 title: "CV"
 summary: "Curriculum vitae for Hadeel Saad"
 date: 2026-06-28
@@ -9,9 +8,9 @@ sections:
     content:
       title: "Curriculum Vitae"
       text: |
-        <p>
-          <a href="/uploads/CV.pdf" class="cv-download-button">Download CV</a>
-        </p>
+        <div class="cv-download-wrap">
+        <a href="/uploads/CV.pdf" class="cv-download-button">Download CV · Last updated 6/26</a>
+        </div>
 
         <div class="cv-jump-menu">
           <a href="#education">Education</a>
@@ -31,6 +30,8 @@ sections:
           <a href="#collections-field-work">Field Work</a>
           <a href="#mentorship">Mentorship</a>
         </div>
+
+        <div class="cv-page">
 
         <div class="cv-page">
 
