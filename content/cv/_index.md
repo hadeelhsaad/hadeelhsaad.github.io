@@ -1,3 +1,4 @@
+---
 title: "CV"
 summary: "Curriculum vitae for Hadeel Saad"
 date: 2026-06-28
@@ -13,30 +14,25 @@ sections:
         </div>
 
         <div class="cv-jump-menu">
-          <a href="#education">Education</a>
-          <a href="#publications">Publications</a>
-          <a href="#fellowships-grants">Fellowships & Grants</a>
-          <a href="#conference-presentations">Presentations</a>
-          <a href="#conference-posters">Posters</a>
-          <a href="#awards">Awards</a>
-          <a href="#professional-development">Professional Development</a>
-          <a href="#professional-experience">Experience</a>
-          <a href="#teaching-experience">Teaching</a>
-          <a href="#professional-service">Service</a>
-          <a href="#online-talks">Online Talks</a>
-          <a href="#outreach">Outreach</a>
-          <a href="#multimedia-projects">Multimedia</a>
-          <a href="#workshops">Workshops</a>
-          <a href="#collections-field-work">Field Work</a>
-          <a href="#mentorship">Mentorship</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#fellowships-grants">Fellowships & Grants</a>
+        <a href="#conference-presentations">Presentations</a>
+        <a href="#conference-posters">Posters</a>
+        <a href="#awards">Awards</a>
+        <a href="#professional-development">Professional Development</a>
+        <a href="#professional-experience">Experience</a>
+        <a href="#teaching-experience">Teaching</a>
+        <a href="#professional-service">Service</a>
+        <a href="#online-talks">Online Talks</a>
+        <a href="#outreach">Outreach</a>
+        <a href="#multimedia-projects">Multimedia</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#collections-field-work">Field Work</a>
+        <a href="#mentorship">Mentorship</a>
         </div>
 
         <div class="cv-page">
-
-        <div class="cv-page">
-
-        I use museum data, including extant and extinct taxa, and spatial analyses to investigate how marine fish diversity and distributions have shifted through the Cenozoic. By combining quantitative paleobiology and biogeography, I explore how ancient ecosystems inform the origins of modern tropical diversity.
-
         <a id="education"></a>
 
         ## Education
@@ -56,38 +52,15 @@ sections:
 
         ## Publications
 
-        <div class="cv-entry">
-          <strong>2026</strong><br>
-          El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, <strong>Saad H</strong>, Speijer R, Sallam H. 
-          <a href="https://www.science.org/doi/10.1126/sciadv.aec8978">Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte</a>. 
-          <em>Science Advances</em>.
-        </div>
+        <div class="cv-entry"><strong>2026</strong><br>El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, <strong>Saad H</strong>, Speijer R, Sallam H. <a href="https://www.science.org/doi/10.1126/sciadv.aec8978">Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte</a>. <em>Science Advances</em>.</div>
 
-        <div class="cv-entry">
-          <strong>2025</strong><br>
-          Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, <strong>Saad H</strong>, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. 
-          <a href="https://www.sciencedirect.com/science/article/pii/S0960982225010395">Macroevolutionary role reversals in the earliest radiation of bony fishes</a>. 
-          <em>Current Biology</em>.
-        </div>
+        <div class="cv-entry"><strong>2025</strong><br>Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, <strong>Saad H</strong>, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. <a href="https://www.sciencedirect.com/science/article/pii/S0960982225010395">Macroevolutionary role reversals in the earliest radiation of bony fishes</a>. <em>Current Biology</em>.</div>
 
-        <div class="cv-entry">
-          <strong>2023</strong><br>
-          Friedman M, Andrews JV, <strong>Saad H</strong>, El Sayed S. 
-          <a href="https://popups.uliege.be/1374-8505/index.php?id=7048">The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record</a>. 
-          <em>Geologica Belgica</em> 26(1–2), 1–23.
-        </div>
+        <div class="cv-entry"><strong>2023</strong><br>Friedman M, Andrews JV, <strong>Saad H</strong>, El Sayed S. <a href="https://popups.uliege.be/1374-8505/index.php?id=7048">The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record</a>. <em>Geologica Belgica</em> 26(1–2), 1–23.</div>
 
-        <div class="cv-entry">
-          <strong>2021</strong><br>
-          Hughes LC, Ortí G, <strong>Saad H</strong>, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. 
-          <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287">Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics</a>. 
-          <em>Molecular Ecology Resources</em>.
-        </div>
+        <div class="cv-entry"><strong>2021</strong><br>Hughes LC, Ortí G, <strong>Saad H</strong>, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287">Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics</a>. <em>Molecular Ecology Resources</em>.</div>
 
-        <div class="cv-entry">
-          <strong>Manuscripts in Preparation</strong><br>
-          Saad H, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em>
-        </div>
+        <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br>Saad H, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
 
         <a id="fellowships-grants"></a>
 
@@ -119,7 +92,7 @@ sections:
 
         <a id="conference-presentations"></a>
 
-        ## Conference Presentations
+        ## Conference Presentations (selected)
 
         **2025**  
         Saad H, Friedman M. The paleontological perspective of marine tropical fishes throughout the Paleogene and Neogene of the Indo-West Pacific. Taipei, Taiwan.
@@ -138,7 +111,7 @@ sections:
 
         <a id="conference-posters"></a>
 
-        ## Conference Posters
+        ## Conference Posters (selected)
 
         **2025**  
         Killbrew R, Saad H, Friedman M. Re-evaluation of a fossil fish from the Miocene of Indonesia. Undergraduate Research Opportunity Program Spring Symposium. Ann Arbor, Michigan.
@@ -163,15 +136,15 @@ sections:
         ## Awards
 
         **2026** Best Graduate Student Poster, Michigan Geophysical Union  
-        **2026** Best Student Presentation, International Biogeography Society, Aarhus  
-        **2019** Undergraduate Student Employee of the Year, George Washington University  
+        **2026** Best Student Presentation, the International Biogeography Society, Aarhus  
+        **2019** Undergraduate Student Employee of the Year, George Washington University
 
         <a id="professional-development"></a>
 
         ## Professional Development
 
         **2022** Science Communication Fellowship, University of Michigan  
-        **2017** NASA-BMSIS Young Scientist Program in Space Biosciences, San José State University  
+        **2017** NASA-BMSIS Young Scientist Program in Space Biosciences, San José State University
 
         <a id="professional-experience"></a>
 
@@ -182,7 +155,7 @@ sections:
         **2024** Museum Assistant, *Sea Change: Ancient Fossils, New Discoveries?*, University of Michigan Museum of Natural History  
         **2022** Research Assistant, Matt Friedman Lab, University of Michigan  
         **2019–2020** Lab Manager, BISC 1111 & 1112 Introduction to Biology, George Washington University  
-        **2018–2021** Research Assistant, Guillermo Ortí’s FishLife Lab, George Washington University  
+        **2018–2021** Research Assistant, Guillermo Ortí’s FishLife Lab, George Washington University
 
         <a id="teaching-experience"></a>
 
@@ -194,15 +167,13 @@ sections:
         **2022** Graduate Student Instructor, EARTH 201: Introduction to Geography Lecture & Labs  
         **2021** Instructor Assistant, BISC 1112: Introduction to Biology Lab, George Washington University  
         **2020** Instructor Assistant, BISC 1111: Introduction to Biology Lab, George Washington University  
-        **2019** Undergraduate Teaching Assistant, BISC 1112: Introduction to Biology Lab, George Washington University  
+        **2019** Undergraduate Teaching Assistant, BISC 1112: Introduction to Biology Lab, George Washington University
 
         <a id="professional-service"></a>
 
         ## Professional Service
 
         <div class="cv-entry">Peer review: <em>Contributions from the Museum of Paleontology</em>, University of Michigan</div>
-
-        <br>
 
         <div class="cv-entry"><strong>2026</strong> Michigan Geophysical Union Judge, undergraduate posters</div>
 
@@ -222,7 +193,7 @@ sections:
 
         **2022** Evolutionary Biologist Video, Black in Natural History Museums  
         **2022** Importance of Museums for exhibit at the University of Michigan Museum of Natural History  
-        **2021** Moderator, Black in Natural History Role Models, Black in Natural History Museums Week  
+        **2021** Moderator, Black in Natural History Role Models, Black in Natural History Museums Week
 
         <a id="outreach"></a>
 
@@ -239,7 +210,7 @@ sections:
         **2022, 2024** Scientist Spotlight at University of Michigan Museum of Natural History  
         **2019** Insect Biodiversity at Adams Morgan Oyster Bilingual School  
         **2017** Volunteer, USA Science & Engineering Festival, Washington, DC  
-        **2017–2019** Evolution and Biodiversity Ambassador, Smithsonian National Museum of Natural History  
+        **2017–2019** Evolution and Biodiversity Ambassador, Smithsonian National Museum of Natural History
 
         <a id="multimedia-projects"></a>
 
@@ -249,7 +220,7 @@ sections:
         **2022** Endemism in the Red Sea, UM Ecology of Fishes Film Festival  
         **2018** GWU Lab Textbook: Introduction to Biology Lab: Cells & Molecules  
         **2017** Water We Learning  
-        **2017** The Amazing Hydrogen Bond  
+        **2017** The Amazing Hydrogen Bond
 
         <a id="workshops"></a>
 
@@ -257,7 +228,7 @@ sections:
 
         **2024** Physalia, Biogeography in R  
         **2023** PaleoSynthesis, Analytical Paleobiology School  
-        **2023** Physalia, Mapping and Spatial Analysis in R: Using R as a GIS  
+        **2023** Physalia, Mapping and Spatial Analysis in R: Using R as a GIS
 
         <a id="collections-field-work"></a>
 
@@ -273,7 +244,7 @@ sections:
         **2023** Hessisches Landesmuseum Darmstadt, Darmstadt, Germany — 4 days  
         **2023** Naturalis Biodiversity Center, Leiden, Netherlands — 5 days  
         **2023** National Museum of Natural History, Paris, France — 5 days  
-        **2018** Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks  
+        **2018** Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks
 
         <a id="mentorship"></a>
 
