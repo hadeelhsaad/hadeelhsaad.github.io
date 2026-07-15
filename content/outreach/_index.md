@@ -27,23 +27,12 @@ sections:
 
         <div class="outreach-split">
         <div class="outreach-carousel-wrap">
-        {{< carousel pattern="fieldwork-*" alt="Fieldwork and collections photo" >}}
+        {{< carousel pattern="outreach-*" alt="Museum and public outreach photo" >}}
         </div>
-        <div class="outreach-text">
-        <h2>Fieldwork and collections</h2>
-        <p>Fieldwork and museum collections are central to how I think about paleontology. Collecting, documenting, and revisiting specimens connects local field observations to larger questions about biodiversity, evolution, and environmental change through deep time.</p>
-        <p>I am interested in how field-based research and museum collections can work together to expand what we know about fossil fishes and the ecosystems they lived in.</p>
-        </div>
-        </div>
-
-        <div class="outreach-split">
         <div class="outreach-text">
         <h2>Museum and public outreach</h2>
         <p>If it were not for the museums I visited as a child and during my early undergraduate years, I would not be fortunate enough to be a researcher today. Museum outreach, particularly specimen-based outreach, offers a direct and tangible way for people to connect with biodiversity, evolution, and the history of life.</p>
-        <p>Since my undergraduate years, I have participated in a wide range of museum and public outreach activities. These experiences have included serving as an Evolution Ambassador at the Smithsonian, completing science communication fellowships, developing new museum activities, participating in a museum studies fellowship, contributing to digital media at the University of Michigan Museum of Natural History, and helping create museum exhibits.</p>
-        </div>
-        <div class="outreach-carousel-wrap">
-        {{< carousel pattern="outreach-*" alt="Museum and public outreach photo" >}}
+        <p>Since my undergraduate years, I have participated in a wide range of museum and public outreach activities. These experiences have included serving as an Evolution Ambassador at the Smithsonian, completing science communication fellowships, developing new museum activities, participating in a museum studies fellowship, contributing to digital media at the University of Michigan Museum of Natural History, and helping create museum exhibits.</p> 
         </div>
         </div>
 
