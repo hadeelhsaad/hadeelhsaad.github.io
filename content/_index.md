@@ -11,7 +11,7 @@ sections:
       text: |
         <div class="home-custom">
         <div class="home-profile">
-        <img src="/media/authors/me.jpg" alt="Hadeel Saad" class="home-headshot">
+        <img src="static/me.jpg" alt="Hadeel Saad" class="home-headshot">
         <h1>Hadeel Saad</h1>
         <h2>Ph.D. Candidate</h2>
         <p class="home-institution">University of Michigan, Ann Arbor</p>
