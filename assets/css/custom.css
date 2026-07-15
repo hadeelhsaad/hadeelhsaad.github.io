@@ -499,3 +499,9 @@ body:has(.resume-biography-3) main h2:first-of-type {
   padding: 0 !important;
   overflow: hidden !important;
 }
+
+/* Backup: hide the homepage Professional Summary heading area */
+body:has(h1) h1:first-child,
+body:has(h2) h2:first-child {
+  margin-top: 0 !important;
+}
