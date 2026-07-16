@@ -46,12 +46,12 @@ content. This removes "Professional Summary" without hiding the
 /* Main two-column homepage layout */
 .home-custom {
   display: grid;
-  grid-template-columns: minmax(320px, 0.8fr) minmax(500px, 1.65fr);
-  gap: clamp(3rem, 5vw, 6rem);
+  grid-template-columns: 340px minmax(600px, 1fr);
+  gap: clamp(3rem, 5vw, 5rem);
   align-items: start;
 
   width: 94vw;
-  max-width: 1550px;
+  max-width: 1450px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
@@ -59,6 +59,8 @@ content. This removes "Professional Summary" without hiding the
 /* Left profile column */
 .home-profile {
   width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -66,21 +68,21 @@ content. This removes "Professional Summary" without hiding the
 .home-headshot {
   display: block;
   width: 100% !important;
-  max-width: 470px !important;
+  max-width: 300px !important;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 
-  margin: 0 auto 1.5rem;
-  border: 6px solid white;
+  margin: 0 auto 1rem;
+  border: 5px solid white;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
 
 /* Homepage name */
 .home-profile h1 {
-  font-size: clamp(3rem, 5vw, 5.2rem) !important;
+  font-size: clamp(2.8rem, 4vw, 4.2rem) !important;
   line-height: 0.95 !important;
-  margin: 0 0 1.7rem !important;
+  margin: 0 0 1rem !important;
   color: white !important;
   text-align: center;
 }
@@ -93,9 +95,9 @@ content. This removes "Professional Summary" without hiding the
   max-height: none !important;
   overflow: visible !important;
 
-  font-size: clamp(1.7rem, 2.5vw, 2.5rem) !important;
+  font-size: clamp(1.2rem, 1.7vw, 1.7rem) !important;
   line-height: 1.1 !important;
-  margin: 0 0 1.2rem !important;
+  margin: 0 0 0.9rem !important;
   padding: 0 !important;
 
   color: #efb4d2 !important;
@@ -105,14 +107,14 @@ content. This removes "Professional Summary" without hiding the
 /* Institution and email */
 .home-profile p,
 .home-profile a {
-  font-size: clamp(1.15rem, 1.5vw, 1.55rem) !important;
-  line-height: 1.4 !important;
+  font-size: clamp(0.95rem, 1.1vw, 1.15rem) !important;
+  line-height: 1.35 !important;
   color: white !important;
   text-align: center;
 }
 
 .home-institution {
-  margin: 0 0 1rem !important;
+  margin: 0 0 0.7rem !important;
 }
 
 .home-email {
@@ -541,19 +543,38 @@ header a {
     font-size: 1.05rem;
   }
 }
+
+
 /* =========================================================
    TABLET
    ========================================================= */
 
 @media (max-width: 1100px) {
   .home-custom {
-    grid-template-columns: minmax(280px, 0.8fr) minmax(400px, 1.4fr);
+    grid-template-columns: 300px minmax(400px, 1fr);
     gap: 3rem;
     width: 92vw;
   }
 
+  .home-profile {
+    max-width: 300px;
+  }
+
   .home-headshot {
-    max-width: 390px !important;
+    max-width: 270px !important;
+  }
+
+  .home-profile h1 {
+    font-size: clamp(2.6rem, 5vw, 3.7rem) !important;
+  }
+
+  .home-profile h2 {
+    font-size: clamp(1.15rem, 2vw, 1.5rem) !important;
+  }
+
+  .home-profile p,
+  .home-profile a {
+    font-size: 0.95rem !important;
   }
 
   .home-bio {
@@ -587,11 +608,12 @@ header a {
 
   .home-profile {
     width: 100%;
+    max-width: 100%;
   }
 
   .home-headshot {
-    width: min(100%, 390px) !important;
-    max-width: 390px !important;
+    width: min(100%, 340px) !important;
+    max-width: 340px !important;
     margin-left: auto;
     margin-right: auto;
   }
