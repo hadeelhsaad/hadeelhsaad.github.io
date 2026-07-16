@@ -18,6 +18,4 @@ sections:
         Today, my research examines why species are unevenly distributed across space and time. While global events, such as the end-Cretaceous mass extinction, have been studied extensively, regional ecological changes remain comparatively understudied, even though they likely played a major role in shaping modern patterns of biodiversity. I use the fossil record to investigate how regional changes, extinctions, and ecosystem shifts produced the distributions of species we see today.
 
         Museums have strengthened this interest by allowing me to explore biodiversity across regions and deep time. As a result, both my research and public engagement center on museums, scientific collections, and tangible objects that help people connect with biodiversity.
-
-        </div>
 ---
