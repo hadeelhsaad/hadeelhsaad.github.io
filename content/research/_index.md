@@ -58,7 +58,7 @@ sections:
         This interactive map shows regional patterns through geologic stages.
 
         <div class="interactive-figure interactive-small">
-          <iframe src="/interactive/Region_V_Stages.html" width="100%" height="430"></iframe>
+          <iframe src="/interactive/interactive_region_stage_bar.html" width="100%" height="430"></iframe>
         </div>
 
   - block: markdown
