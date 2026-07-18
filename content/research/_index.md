@@ -48,7 +48,7 @@ sections:
         This interactive map shows otolith-bearing localities grouped by region.
 
         <div class="interactive-figure interactive-large">
-          <iframe src="/interactive/Otoliths_Map_WithRegions.html" width="100%" height="650"></iframe>
+          <iframe src="/interactive/interactive_meow_localities.html" width="100%" height="650"></iframe>
         </div>
 
   - block: markdown
