@@ -60,14 +60,3 @@ sections:
         <div class="interactive-figure interactive-small">
           <iframe src="/interactive/interactive_region_stage_bar.html" width="100%" height="430"></iframe>
         </div>
-
-  - block: markdown
-    content:
-      title: "Interactive Plot: Deposition by Stage"
-      text: |
-        This interactive figure shows deposition through geologic stages.
-
-        <div class="interactive-figure interactive-small">
-          <iframe src="/interactive/Deposition_V_Stage.html" width="100%" height="430"></iframe>
-        </div>
----
