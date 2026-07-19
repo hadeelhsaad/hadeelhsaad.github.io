@@ -9,6 +9,8 @@ sections:
     content:
       title: "Curriculum Vitae"
       text: |
+        <div id="top"></div>
+
         <div class="cv-download-wrap">
         <a href="/uploads/CV.pdf" class="cv-download-button">Download CV · Last updated 6/26</a>
         </div>
@@ -256,6 +258,11 @@ sections:
         **Anna Zhao**  
         B.S. Ecology and Evolutionary Biology, Minor: Paleontology  
         Recommendation for Stocker-Nesbitt Fund, received
+
+        <a href="#top" class="back-to-top" aria-label="Return to the top of the page">
+          <span class="back-to-top-arrow" aria-hidden="true">↑</span>
+          <span class="back-to-top-label">Top</span>
+        </a>
 
         </div>
 ---
