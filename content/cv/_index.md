@@ -259,10 +259,11 @@ sections:
         B.S. Ecology and Evolutionary Biology, Minor: Paleontology  
         Recommendation for Stocker-Nesbitt Fund, received
 
+        </div>
+
         <a href="#top" class="back-to-top" aria-label="Return to the top of the page">
-          <span class="back-to-top-arrow" aria-hidden="true">↑</span>
-          <span class="back-to-top-label">Top</span>
+        <span aria-hidden="true">↑</span>
+        <span class="back-to-top-label">Top</span>
         </a>
 
-        </div>
 ---
