@@ -60,7 +60,7 @@ sections:
 
         <div class="cv-entry"><strong>2021</strong><br>Hughes LC, Ortí G, <strong>Saad H</strong>, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287">Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics</a>. <em>Molecular Ecology Resources</em>.</div>
 
-        <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br>Saad H, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
+        <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br> <strong>Saad H</strong>, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
 
         <a id="fellowships-grants"></a>
 
