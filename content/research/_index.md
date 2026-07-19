@@ -60,3 +60,4 @@ sections:
         <div class="interactive-figure interactive-small">
           <iframe src="/interactive/interactive_region_stage_bar.html" width="100%" height="430"></iframe>
         </div>
+    ---
