@@ -2,20 +2,19 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
+  # took about about me, to add it back in just do line 1 : - name: About Me, line 2  : url: /about/ line 3 :    weight: 10
+
 
 main:
-  - name: About Me
-    url: /about/
-    weight: 10
 
   - name: Research
     url: /research/
-    weight: 20
+    weight: 10
 
   - name: Engagement
     url: /outreach/
-    weight: 30
+    weight: 20
 
   - name: CV
     url: /cv/
-    weight: 40
+    weight: 30
