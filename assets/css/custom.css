@@ -334,31 +334,50 @@ header a {
    ENGAGEMENT HEADINGS
    ========================================================= */
 
-/* Large group headings */
+/*
+Main category headings:
+Teaching and Mentorship
+Public Engagement and Museum Exhibits
+*/
+
 .engagement-section-heading {
+  display: block;
   width: 95vw;
   max-width: 1400px;
 
-  margin: 6rem auto 1rem;
-  padding: 0;
+  margin: 5rem auto 1.5rem !important;
+  padding: 0 !important;
 
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
-  line-height: 1.1;
-  text-align: center;
+  font-size: clamp(2rem, 3vw, 3rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  text-align: center !important;
 }
 
-/* Smaller individual headings */
-.outreach-text h3 {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+/*
+Individual headings:
+Classroom Teaching
+Mentorship
+Field-Based Teaching
+Public Outreach
+Museum Exhibit Development
+*/
 
-  font-size: clamp(2.2rem, 3.5vw, 3.8rem);
-  line-height: 1.1;
+.outreach-text h4 {
+  display: block;
+
+  margin: 0 0 1.25rem !important;
+  padding: 0 !important;
+
+  font-size: clamp(1.6rem, 2.3vw, 2.25rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  text-align: left !important;
 }
 
-/* Reduce space below each large group heading */
+/* Reduce space between a category heading and its first row */
 .engagement-section-heading + .outreach-split {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 
 
@@ -381,7 +400,7 @@ header a {
   outline: none;
 }
 
-/* Each image and its caption are treated as one slide */
+/* Each image and caption are treated as one slide */
 .carousel-slide {
   display: none;
   position: relative;
@@ -425,7 +444,7 @@ header a {
   opacity: 0.8;
 }
 
-/* Large pink navigation arrows */
+/* Large tertiary-pink navigation arrows */
 .carousel-arrow {
   position: absolute;
   top: 45%;
@@ -484,7 +503,7 @@ header a {
   outline-offset: 3px;
 }
 
-/* Number below the photograph */
+/* Image number below photograph */
 .carousel-counter {
   margin-top: 0.4rem;
 
@@ -749,10 +768,6 @@ header a {
     font-size: 2.3rem;
   }
 
-  .outreach-text h3 {
-    font-size: 2.2rem;
-  }
-
   .research-text p,
   .outreach-text p,
   .research-full p {
@@ -766,8 +781,19 @@ header a {
 
   .engagement-section-heading {
     width: 92vw;
-    margin-top: 4rem;
-    font-size: 2.5rem;
+    margin-top: 4rem !important;
+    margin-bottom: 1.5rem !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+  }
+
+  .outreach-text h4 {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.7rem !important;
+    font-weight: 700 !important;
+    text-align: left !important;
   }
 
   .outreach-carousel {
