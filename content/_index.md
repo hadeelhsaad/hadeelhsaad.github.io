@@ -33,7 +33,7 @@ sections:
 
               <a
                 class="home-profile-button"
-                href="YOUR_GOOGLE_SCHOLAR_URL"
+                href="https://scholar.google.com/citations?user=Wz1XoUgAAAAJ&hl=en&oi=ao"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Google Scholar profile"
@@ -43,7 +43,7 @@ sections:
 
               <a
                 class="home-profile-button"
-                href="YOUR_ORCID_URL"
+                href="https://orcid.org/0000-0002-7480-3485"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ORCID profile"
