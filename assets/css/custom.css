@@ -941,3 +941,162 @@ a.back-to-top > span:first-child {
     display: none !important;
   }
 }
+
+
+/* =========================================================
+   HOMEPAGE PROFILE COLUMN
+   Smaller left side with compact academic-profile buttons
+   ========================================================= */
+
+@media (min-width: 992px) {
+
+  /* Make the left profile column narrower */
+  .resume-biography .row {
+    grid-template-columns: minmax(280px, 0.72fr) minmax(0, 2.28fr) !important;
+    column-gap: 4.5rem !important;
+  }
+
+  .resume-biography .portrait-title,
+  .resume-biography .profile {
+    width: 100%;
+    max-width: 390px;
+  }
+
+  /* Slightly reduce the portrait */
+  .resume-biography .avatar,
+  .resume-biography .avatar-wrapper,
+  .resume-biography img.avatar {
+    width: 360px !important;
+    height: 360px !important;
+    max-width: 100% !important;
+  }
+
+  /* Keep the name on one line */
+  .resume-biography .portrait-title h2,
+  .resume-biography .portrait-title .text-3xl,
+  .resume-biography h1 {
+    font-size: clamp(2.7rem, 3.5vw, 4.4rem) !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  /* Slightly smaller role and affiliation text */
+  .resume-biography .portrait-title h3 {
+    font-size: 1.65rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .resume-biography .portrait-title .text-muted,
+  .resume-biography .portrait-title p {
+    font-size: 1.05rem !important;
+  }
+}
+
+
+/* =========================================================
+   GOOGLE SCHOLAR AND ORCID BUTTONS
+   ========================================================= */
+
+/* Links appear after the email/profile information */
+.resume-biography .network-icon {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0.55rem !important;
+  width: 100% !important;
+  max-width: 330px !important;
+  margin: 0.9rem auto 0 !important;
+  padding: 0 !important;
+}
+
+.resume-biography .network-icon li {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.resume-biography .network-icon li a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.55rem !important;
+
+  width: 100% !important;
+  min-height: 38px !important;
+  padding: 0.4rem 1rem !important;
+
+  border: 2px solid #ffffff !important;
+  border-radius: 6px !important;
+
+  background: rgba(20, 20, 20, 0.38) !important;
+  color: #ffffff !important;
+
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  line-height: 1.1 !important;
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease !important;
+}
+
+.resume-biography .network-icon li a:hover {
+  background: #ffffff !important;
+  color: #222222 !important;
+  transform: translateY(-1px);
+}
+
+.resume-biography .network-icon li a svg,
+.resume-biography .network-icon li a i {
+  width: 1.05rem !important;
+  height: 1.05rem !important;
+  font-size: 1.05rem !important;
+  margin: 0 !important;
+}
+
+/* Display the link names beside the icons */
+.resume-biography .network-icon li a::after {
+  font-size: 0.95rem;
+}
+
+.resume-biography .network-icon li:nth-child(1) a::after {
+  content: "Google Scholar";
+}
+
+.resume-biography .network-icon li:nth-child(2) a::after {
+  content: "ORCID";
+}
+
+
+/* =========================================================
+   MOBILE AND TABLET
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+  .resume-biography .portrait-title h2,
+  .resume-biography .portrait-title .text-3xl,
+  .resume-biography h1 {
+    font-size: clamp(2.4rem, 11vw, 3.8rem) !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  .resume-biography .network-icon {
+    max-width: 300px !important;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .resume-biography .portrait-title h2,
+  .resume-biography .portrait-title .text-3xl,
+  .resume-biography h1 {
+    font-size: clamp(2.1rem, 10vw, 2.8rem) !important;
+  }
+}
