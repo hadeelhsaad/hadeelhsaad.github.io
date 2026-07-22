@@ -73,25 +73,45 @@ sections:
         </div>
 
         <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const carousels = document.querySelectorAll(".outreach-carousel");
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".outreach-carousel").forEach(function (carousel) {
+    const slides = carousel.querySelectorAll(".carousel-slide");
+    const previousButton = carousel.querySelector(".carousel-arrow-prev");
+    const nextButton = carousel.querySelector(".carousel-arrow-next");
+    const counter = carousel.querySelector(".carousel-counter");
 
-          carousels.forEach(function (carousel) {
-            const slides = carousel.querySelectorAll(".carousel-slide");
-            let index = 0;
+    if (slides.length <= 1 || !previousButton || !nextButton) return;
 
-            if (slides.length === 0) return;
+    let index = 0;
 
-            slides[0].classList.add("active");
+    function showSlide(newIndex) {
+      slides[index].classList.remove("active");
+      index = (newIndex + slides.length) % slides.length;
+      slides[index].classList.add("active");
 
-            if (slides.length === 1) return;
+      if (counter) {
+        counter.textContent = `${index + 1} / ${slides.length}`;
+      }
+    }
 
-            setInterval(function () {
-              slides[index].classList.remove("active");
-              index = (index + 1) % slides.length;
-              slides[index].classList.add("active");
-            }, 4000);
-          });
-        });
-        </script>
+    previousButton.addEventListener("click", function () {
+      showSlide(index - 1);
+    });
+
+    nextButton.addEventListener("click", function () {
+      showSlide(index + 1);
+    });
+
+    carousel.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowLeft") {
+        showSlide(index - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        showSlide(index + 1);
+      }
+    });
+  });
+});
+      </script>
 ---
