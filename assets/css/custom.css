@@ -275,8 +275,7 @@ header a {
   margin-bottom: 5rem;
 }
 
-.research-text h2,
-.outreach-text h2 {
+.research-text h2 {
   font-size: clamp(2.4rem, 4vw, 4.5rem);
   line-height: 1.05;
   margin-bottom: 1.5rem;
@@ -332,7 +331,39 @@ header a {
 
 
 /* =========================================================
-   ENGAGEMENT / OUTREACH CAROUSEL
+   ENGAGEMENT HEADINGS
+   ========================================================= */
+
+/* Large group headings */
+.engagement-section-heading {
+  width: 95vw;
+  max-width: 1400px;
+
+  margin: 6rem auto 1rem;
+  padding: 0;
+
+  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  line-height: 1.1;
+  text-align: center;
+}
+
+/* Smaller individual headings */
+.outreach-text h3 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+
+  font-size: clamp(2.2rem, 3.5vw, 3.8rem);
+  line-height: 1.1;
+}
+
+/* Reduce space below each large group heading */
+.engagement-section-heading + .outreach-split {
+  margin-top: 3rem;
+}
+
+
+/* =========================================================
+   ENGAGEMENT / CLICKABLE OUTREACH CAROUSEL
    ========================================================= */
 
 .outreach-carousel-wrap {
@@ -342,44 +373,125 @@ header a {
 
 .outreach-carousel {
   position: relative;
+
   width: 100%;
   max-width: 100%;
   min-height: 560px;
+
+  outline: none;
 }
 
+/* Each image and its caption are treated as one slide */
 .carousel-slide {
-  position: absolute;
-  inset: 0;
+  display: none;
+  position: relative;
+
   width: 100%;
   margin: 0;
+
   opacity: 0;
   visibility: hidden;
-  transition:
-    opacity 0.8s ease-in-out,
-    visibility 0.8s ease-in-out;
 }
 
+/* Only the selected slide is shown */
 .carousel-slide.active {
+  display: block;
   opacity: 1;
   visibility: visible;
-  position: relative;
 }
 
+/* Carousel photographs */
 .carousel-slide img {
+  display: block;
+
   width: 100%;
   height: auto;
   max-height: 520px;
   object-fit: cover;
+
   border-radius: 18px;
   box-shadow: none !important;
-  display: block;
 }
 
+/* Photograph captions */
 .carousel-slide figcaption {
-  font-size: 0.85rem;
-  line-height: 1.4;
-  opacity: 0.75;
-  margin-top: 0.55rem;
+  min-height: 2.8rem;
+  margin-top: 0.65rem;
+  padding: 0 4.5rem;
+
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Large pink navigation arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 64px;
+  height: 64px;
+  padding: 0;
+
+  background: #da77ac !important;
+  color: #ffffff !important;
+
+  border: 4px solid #ffffff !important;
+  border-radius: 999px;
+
+  font-family: Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  line-height: 1;
+
+  cursor: pointer;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.32) !important;
+
+  transform: translateY(-50%);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Left arrow */
+.carousel-arrow-prev {
+  left: 16px;
+}
+
+/* Right arrow */
+.carousel-arrow-next {
+  right: 16px;
+}
+
+/* Hover and keyboard focus */
+.carousel-arrow:hover,
+.carousel-arrow:focus-visible {
+  background: #b94f89 !important;
+  color: #ffffff !important;
+
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.42) !important;
+
+  transform: translateY(-50%) scale(1.1);
+  outline: 4px solid rgba(218, 119, 172, 0.35);
+  outline-offset: 3px;
+}
+
+/* Number below the photograph */
+.carousel-counter {
+  margin-top: 0.4rem;
+
+  color: #da77ac;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
   text-align: center;
 }
 
@@ -518,31 +630,6 @@ header a {
   margin-bottom: 0.75rem;
 }
 
-/* =========================================================
-   CV MOBILE
-   ========================================================= */
-
-@media (max-width: 800px) {
-  .cv-jump-menu,
-  .cv-page {
-    width: 92vw;
-  }
-
-  .cv-jump-menu {
-    gap: 0.5rem;
-  }
-
-  .cv-jump-menu a {
-    font-size: 0.78rem;
-    padding: 0.4rem 0.6rem;
-  }
-
-  .cv-page p,
-  .cv-page li {
-    font-size: 1.05rem;
-  }
-}
-
 
 /* =========================================================
    TABLET
@@ -658,9 +745,12 @@ header a {
   }
 
   .research-text h2,
-  .outreach-text h2,
   .research-full h2 {
     font-size: 2.3rem;
+  }
+
+  .outreach-text h3 {
+    font-size: 2.2rem;
   }
 
   .research-text p,
@@ -672,6 +762,42 @@ header a {
   .research-full {
     width: 92vw;
     margin-top: 3rem;
+  }
+
+  .engagement-section-heading {
+    width: 92vw;
+    margin-top: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .outreach-carousel {
+    min-height: 0;
+  }
+
+  .carousel-slide img {
+    max-height: none;
+  }
+
+  .carousel-slide figcaption {
+    min-height: 0;
+    padding: 0 3rem;
+    font-size: 0.85rem;
+  }
+
+  .carousel-arrow {
+    top: 42%;
+    width: 52px;
+    height: 52px;
+    border-width: 3px !important;
+    font-size: 2.1rem;
+  }
+
+  .carousel-arrow-prev {
+    left: 8px;
+  }
+
+  .carousel-arrow-next {
+    right: 8px;
   }
 
   .interactive-figure {
@@ -686,8 +812,18 @@ header a {
     height: 360px;
   }
 
+  .cv-jump-menu,
   .cv-page {
     width: 92vw;
+  }
+
+  .cv-jump-menu {
+    gap: 0.5rem;
+  }
+
+  .cv-jump-menu a {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.6rem;
   }
 
   .cv-page p,
@@ -695,6 +831,7 @@ header a {
     font-size: 1.05rem;
   }
 }
+
 
 /* =========================================================
    BACK-TO-TOP BUTTON
