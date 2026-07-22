@@ -9,14 +9,15 @@ sections:
     content:
       title: "Research"
       text: |
-        My primary focus is on how marine biodiversity hotspots changed throughout the Cenozoic, specifically how fishes entered and diversified in the Indo–West Pacific (IWP). The current hypothesis is that biodiversity hotspots are not fixed but have shifted geographically—known as “hotspot hopping”—from the Tethys region and proto-Mediterranean to the modern IWP in response to tectonic and environmental change. I study “forgotten” fossils from the IWP and surrounding regions to investigate species richness and endemism (“hotspot hopping”) and lineage distributions (“lineage sliding”), helping us better understand how tropical marine biodiversity has changed across space and time.
+        My research focuses on biodiversity and biogeography of tropical marine fishes during the Cenozoic (past 66 million years), mostly from the Indo–West Pacific (IWP). I use extinct and extant specimens and spatial data to investigate how biodiversity hotspots have moved over time (“hotspot hopping”) and how individual lineages have changed (“lineage sliding”), in hopes to better understand how tropical marine biodiversity has changed across space and time.
 
-        I am not a fish loyalist and often collaborate with people outside my typical scope, including those studying bats, plants, molecular data, education, and other biodiversity-related topics. Feel free to send me an email as long as it is biodiversity related :)
+        I am not a fish loyalist and often collaborate with people outside my typical scope, including those studying bats, plants, molecular data, education, and other biodiversity-related topics. Feel free to send me an email if you want to work together :)
+
 
         <div class="research-split">
           <div class="research-text">
             <h2>Describing fossil lineages</h2>
-            <p>Although much of my work uses analytical approaches to study large-scale patterns in the fossil record, I also value descriptive research as the foundation for those analyses. Fossils must be carefully documented, identified, and sometimes reclassified before they can be used to answer broader evolutionary or biogeographic questions. I have contributed to descriptive and taxonomic projects, especially on fossils from regions that are underrepresented in existing datasets. These specimens provide important baseline information and help reveal when and where ecological and trophic innovations appeared through time.</p>
+            <p>AI have contributed to descriptive and taxonomic projects, especially on fossils from regions that are underrepresented in existing datasets. These specimens can add important new baseline information and help reveal when and where ecological and trophic innovations appeared through time.</p>
           </div>
 
           <div class="research-image">
@@ -31,21 +32,21 @@ sections:
 
           <div class="research-text">
             <h2>Documenting past ecosystems</h2>
-            <p>A major limitation in understanding biodiversity today is that we still know relatively little about how fish communities have changed since the last major extinction event. As a result, researchers studying living tropical fishes rely disproportionately on Eocene localities in Europe, largely because these remain among the only well-documented Cenozoic tropical fish assemblages. I have worked on numerous projects that quantitatively compare fossil faunas to examine the relative paleoenvironmental, paleogeographic, and stratigraphic controls on ancient fish communities in and around the IWP.</p>
+            <p>AA major limitation in understanding biodiversity today is the lack of understanding how fish communities have looked since the last major extinction event. I have worked on numerous projects trying to quantitatively compare faunas to examine the relative paleoenvironmental, paleogeographic, and stratigraphic controls on ancient fish communities in and around the IWP.</p>
           </div>
         </div>
 
         <div class="research-full">
           <h2>Measuring biodiversity</h2>
-          <p>Understanding how fish diversity responded to environmental change is central to studying how biodiversity hotspots form, shift, and collapse through time. To examine biodiversity over deep time, I use the fish otolith, also known as the ear stone, record to measure diversity at multiple scales, including alpha, beta, and gamma diversity.</p>
-          <p>Although this dataset is still in progress, it currently includes 80 localities spanning the Paleocene to Miocene and represents nearly 100,000 individual otolith fossils. The examples shown here provide a short preview of the data I am using to explore changes in fish diversity through time.</p>
+          <p>UI am currently investigating the collapse of ancient biodiversity hotspots. To measure changes in fish diversity over deep time, I use otoliths—small structures commonly known as ear stones. Although the dataset is still in progress, it currently includes nearly 100,000 fossil otoliths from 80 localities spanning the Paleocene to the Miocene.</p>
+          <p>The interactive map presented here, originally created for my 2024 North American Paleontological Convention poster, provides a brief preview of the data I use to explore changes in fish diversity through time..</p>
         </div>
 
   - block: markdown
     content:
-      title: "Interactive Map: Otolith Localities by Region"
+      title: "Otolith Localities by Region"
       text: |
-        This interactive map shows otolith-bearing localities grouped by region.
+        This interactive map shows otolith-bearing localities grouped by marine ecoregions of the world (Spalding et al. 2008) with slight modifications for paleontological regions.
 
         <div class="interactive-figure interactive-large">
           <iframe
@@ -57,19 +58,5 @@ sections:
           </iframe>
         </div>
 
-  - block: markdown
-    content:
-      title: "Interactive Map: Region by Stage"
-      text: |
-        This interactive map shows regional patterns through geologic stages.
 
-        <div class="interactive-figure interactive-small">
-          <iframe
-            src="/interactive/interactive_region_stage_bar.html"
-            title="Interactive map of regional patterns by geologic stage"
-            width="100%"
-            height="430"
-            loading="lazy">
-          </iframe>
-        </div>
 ---
