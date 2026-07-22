@@ -72,46 +72,49 @@ sections:
         </div>
         </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll(".outreach-carousel").forEach(function (carousel) {
-    const slides = carousel.querySelectorAll(".carousel-slide");
-    const previousButton = carousel.querySelector(".carousel-arrow-prev");
-    const nextButton = carousel.querySelector(".carousel-arrow-next");
-    const counter = carousel.querySelector(".carousel-counter");
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll(".outreach-carousel").forEach(function (carousel) {
+            const slides = carousel.querySelectorAll(".carousel-slide");
+            const previousButton = carousel.querySelector(".carousel-arrow-prev");
+            const nextButton = carousel.querySelector(".carousel-arrow-next");
+            const counter = carousel.querySelector(".carousel-counter");
 
-    if (slides.length <= 1 || !previousButton || !nextButton) return;
+            if (slides.length <= 1 || !previousButton || !nextButton) {
+              return;
+            }
 
-    let index = 0;
+            let index = 0;
 
-    function showSlide(newIndex) {
-      slides[index].classList.remove("active");
-      index = (newIndex + slides.length) % slides.length;
-      slides[index].classList.add("active");
+            function showSlide(newIndex) {
+              slides[index].classList.remove("active");
+              index = (newIndex + slides.length) % slides.length;
+              slides[index].classList.add("active");
 
-      if (counter) {
-        counter.textContent = `${index + 1} / ${slides.length}`;
-      }
-    }
+              if (counter) {
+                counter.textContent =
+                  String(index + 1) + " / " + String(slides.length);
+              }
+            }
 
-    previousButton.addEventListener("click", function () {
-      showSlide(index - 1);
-    });
+            previousButton.addEventListener("click", function () {
+              showSlide(index - 1);
+            });
 
-    nextButton.addEventListener("click", function () {
-      showSlide(index + 1);
-    });
+            nextButton.addEventListener("click", function () {
+              showSlide(index + 1);
+            });
 
-    carousel.addEventListener("keydown", function (event) {
-      if (event.key === "ArrowLeft") {
-        showSlide(index - 1);
-      }
+            carousel.addEventListener("keydown", function (event) {
+              if (event.key === "ArrowLeft") {
+                showSlide(index - 1);
+              }
 
-      if (event.key === "ArrowRight") {
-        showSlide(index + 1);
-      }
-    });
-  });
-});
-</script>
+              if (event.key === "ArrowRight") {
+                showSlide(index + 1);
+              }
+            });
+          });
+        });
+        </script>
 ---
