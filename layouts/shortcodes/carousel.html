@@ -6,9 +6,9 @@
   {{ $captions = . | transform.Unmarshal }}
 {{ end }}
 
-<div class="outreach-carousel" tabindex="0">
-  {{ $images := .Page.Resources.Match $pattern }}
+{{ $images := .Page.Resources.Match $pattern }}
 
+<div class="outreach-carousel" tabindex="0">
   {{ range $index, $image := $images }}
     {{ $fallback := replaceRE "\\.[^.]+$" "" $image.Name }}
     {{ $fallback = replace $fallback "-" " " }}
@@ -16,7 +16,11 @@
     {{ $caption := index $captions $image.Name | default $fallback }}
 
     <figure class="carousel-slide{{ if eq $index 0 }} active{{ end }}">
-      <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+      <img
+        src="{{ $image.Permalink }}"
+        alt="{{ $alt }}"
+        loading="lazy"
+      >
       <figcaption>{{ $caption }}</figcaption>
     </figure>
   {{ end }}
