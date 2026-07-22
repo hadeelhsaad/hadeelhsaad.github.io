@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Engagement"
+      title: ""
       text: |
         My path into science was shaped by museums and mentorship. I believe science should not be restricted to traditional academic settings, so you can often find me working with students in the classroom, sharing fossils with museum visitors, or conducting fieldwork.
 
