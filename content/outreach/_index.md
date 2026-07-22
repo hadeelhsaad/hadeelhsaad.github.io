@@ -22,7 +22,7 @@ sections:
         <p>My courses often include project-based assignments that use publicly available resources, such as ArcGIS, NCBI, iNaturalist, the IUCN Red List, and the Paleobiology Database, to help students engage directly with the natural world. These experiences have allowed me to work with students from diverse backgrounds and help them explore how geology and biology have shaped their lives and experiences.</p>
         </div>
         <div class="outreach-carousel-wrap">
-        {{< carousel pattern="classroom-*" alt="Classroom teaching photo" >}}
+        {{< carousel pattern="teaching-*" alt="Classroom teaching photo" >}}
         </div>
         </div>
 
