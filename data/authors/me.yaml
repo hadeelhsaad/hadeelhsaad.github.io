@@ -28,7 +28,16 @@ affiliations:
   - name: University of Michigan, Ann Arbor
   - name: hhsaad@umich.edu
 
-links: []
+links:
+  - icon: academicons/google-scholar
+    icon_pack: ai
+    name: Google Scholar
+    url: "https://scholar.google.com/citations?user=Wz1XoUgAAAAJ&hl=en&oi=ao"
+
+  - icon: academicons/orcid
+    icon_pack: ai
+    name: ORCID
+    url: "https://orcid.org/0000-0002-7480-3485"
 
 interests: []
 
