@@ -2,12 +2,7 @@
    HOME PAGE / PROFILE
    ========================================================= */
 
-/*
-Hide the title automatically generated above the custom homepage
-content. This removes "Professional Summary" without hiding the
-"Ph.D. Candidate" heading inside .home-profile.
-*/
-
+/* Hide the automatically generated markdown section heading */
 .home-custom-section .section-heading,
 .home-custom-section .section-subheading,
 .home-custom-section header.mb-6,
@@ -26,7 +21,7 @@ content. This removes "Professional Summary" without hiding the
   overflow: hidden !important;
 }
 
-/* Remove extra spacing around the markdown block */
+/* Main homepage section */
 .home-custom-section {
   min-height: calc(100vh - 72px) !important;
   display: flex !important;
@@ -34,128 +29,17 @@ content. This removes "Professional Summary" without hiding the
   overflow: hidden !important;
 }
 
-/* Allow the homepage content to use most of the screen width */
+/* Remove Hugo's narrow markdown width */
 .home-custom-section > .container,
 .home-custom-section .container,
 .home-custom-section .max-w-prose,
-.home-custom-section .prose {
+.home-custom-section .prose,
+.home-custom-section article {
   width: 100% !important;
   max-width: none !important;
 }
 
-/* Main two-column homepage layout */
-.home-custom {
-  display: grid;
-  grid-template-columns: 340px minmax(600px, 1fr);
-  gap: clamp(3rem, 5vw, 5rem);
-  align-items: start;
-
-  width: 94vw;
-  max-width: 1450px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Left profile column */
-.home-profile {
-  width: 100%;
-  max-width: 340px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* Homepage photograph */
-.home-headshot {
-  display: block;
-  width: 100% !important;
-  max-width: 300px !important;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-
-  margin: 0 auto 1rem;
-  border: 5px solid white;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-/* Homepage name */
-.home-profile h1 {
-  font-size: clamp(2.8rem, 4vw, 4.2rem) !important;
-  line-height: 0.95 !important;
-  margin: 0 0 1rem !important;
-  color: white !important;
-  text-align: center;
-}
-
-/* Ph.D. Candidate */
-.home-profile h2 {
-  display: block !important;
-  visibility: visible !important;
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
-
-  font-size: clamp(1.2rem, 1.7vw, 1.7rem) !important;
-  line-height: 1.1 !important;
-  margin: 0 0 0.9rem !important;
-  padding: 0 !important;
-
-  color: #efb4d2 !important;
-  text-align: center;
-}
-
-/* Institution and email */
-.home-profile p,
-.home-profile a {
-  font-size: clamp(0.95rem, 1.1vw, 1.15rem) !important;
-  line-height: 1.35 !important;
-  color: white !important;
-  text-align: center;
-}
-
-.home-institution {
-  margin: 0 0 0.7rem !important;
-}
-
-.home-email {
-  margin: 0 !important;
-}
-
-.home-email a {
-  display: inline-block;
-  padding: 0 !important;
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  text-decoration: none !important;
-}
-
-.home-email a:hover {
-  text-decoration: underline !important;
-}
-
-/* Hide an email icon if Hugo inserts one */
-a[href="mailto:hhsaad@umich.edu"] svg,
-a[href="mailto:hhsaad@umich.edu"] .icon,
-a[href="mailto:hhsaad@umich.edu"] span:first-child {
-  display: none !important;
-}
-
-/* Right biography column */
-.home-bio {
-  padding-top: clamp(2rem, 4vw, 5rem);
-  width: 100%;
-}
-
-.home-bio p {
-  font-size: clamp(1.35rem, 1.65vw, 1.8rem) !important;
-  line-height: 1.6 !important;
-  color: white !important;
-  margin: 0 0 2.2rem !important;
-}
-
-/* Remove prose restrictions added by the markdown block */
+/* Remove default prose restrictions */
 .home-custom-section .prose,
 .home-custom-section .prose p,
 .home-custom-section article,
@@ -163,7 +47,208 @@ a[href="mailto:hhsaad@umich.edu"] span:first-child {
   max-width: none !important;
 }
 
-/* Stop the homepage background from moving or parallaxing */
+/* Prevent homepage HTML from inheriting code-block styling */
+.home-custom-section pre,
+.home-custom-section code {
+  font-family: inherit !important;
+}
+
+/* Main two-column homepage layout */
+.home-custom {
+  display: grid;
+  grid-template-columns: 285px minmax(600px, 1fr);
+  gap: clamp(3rem, 5vw, 5rem);
+  align-items: start;
+
+  width: 94vw;
+  max-width: 1450px;
+
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Left profile column */
+.home-profile {
+  width: 100%;
+  max-width: 285px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Homepage photograph */
+.home-headshot {
+  display: block;
+
+  width: 100% !important;
+  max-width: 270px !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  margin: 0 auto 1rem;
+
+  border: 5px solid #ffffff;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Name */
+.home-profile h1 {
+  width: 100%;
+
+  margin: 0 0 0.8rem !important;
+
+  color: #ffffff !important;
+
+  font-size: clamp(2.15rem, 2.8vw, 3.15rem) !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+
+  text-align: center;
+  white-space: nowrap !important;
+}
+
+/* Role */
+.home-profile h2 {
+  display: block !important;
+  visibility: visible !important;
+
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+
+  margin: 0 0 0.75rem !important;
+  padding: 0 !important;
+
+  color: #efb4d2 !important;
+
+  font-size: clamp(1.1rem, 1.45vw, 1.45rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+
+  text-align: center;
+}
+
+/* Institution */
+.home-institution {
+  margin: 0 0 0.55rem !important;
+
+  color: #ffffff !important;
+
+  font-size: clamp(0.82rem, 0.95vw, 0.98rem) !important;
+  line-height: 1.35 !important;
+  text-align: center;
+}
+
+/* Email */
+.home-email {
+  margin: 0 !important;
+
+  color: #ffffff !important;
+
+  font-size: clamp(0.82rem, 0.95vw, 0.98rem) !important;
+  line-height: 1.35 !important;
+  text-align: center;
+}
+
+.home-email a {
+  display: inline-block;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: #ffffff !important;
+  background: transparent !important;
+
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+  font-size: inherit !important;
+  line-height: inherit !important;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.home-email a:hover {
+  text-decoration: underline !important;
+}
+
+/* Hide an automatically inserted email icon */
+a[href="mailto:hhsaad@umich.edu"] svg,
+a[href="mailto:hhsaad@umich.edu"] .icon,
+a[href="mailto:hhsaad@umich.edu"] span:first-child {
+  display: none !important;
+}
+
+/* Academic profile buttons */
+.home-profile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+
+  width: 100%;
+  max-width: 220px;
+
+  margin: 1rem auto 0;
+  padding: 0;
+}
+
+/* Google Scholar and ORCID buttons */
+.home-profile a.home-profile-button {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 34px;
+
+  margin: 0 !important;
+  padding: 0.35rem 0.8rem !important;
+
+  color: #ffffff !important;
+  background: rgba(20, 20, 20, 0.48) !important;
+
+  border: 2px solid #ffffff !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+
+  text-align: center;
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.home-profile a.home-profile-button:hover,
+.home-profile a.home-profile-button:focus-visible {
+  color: #222222 !important;
+  background: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+/* Right biography column */
+.home-bio {
+  width: 100%;
+  padding-top: clamp(2rem, 4vw, 5rem);
+}
+
+.home-bio p {
+  margin: 0 0 2.2rem !important;
+
+  color: #ffffff !important;
+
+  font-size: clamp(1.35rem, 1.65vw, 1.8rem) !important;
+  line-height: 1.6 !important;
+}
+
+/* Keep homepage background stationary */
 .home-custom-section,
 .home-custom-section::before,
 .home-custom-section::after,
@@ -205,7 +290,7 @@ header a {
   font-weight: 700 !important;
 }
 
-/* Keep name/logo left and push menu items right */
+/* Keep name on left and menu on right */
 .navbar,
 nav > div,
 header > div {
@@ -220,14 +305,14 @@ header ul {
   justify-content: flex-end !important;
 }
 
-/* Space between menu items */
+/* Space between navigation items */
 .navbar-nav li,
 nav ul li,
 header ul li {
   margin-left: 1.25rem !important;
 }
 
-/* Taller menu links */
+/* Navbar vertical spacing */
 .navbar a,
 nav a,
 header a {
@@ -243,16 +328,19 @@ header a {
 .about-page {
   width: 90vw;
   max-width: 950px;
+
   margin-left: 50%;
-  transform: translateX(-50%);
   margin-top: 2rem;
   margin-bottom: 5rem;
+
+  transform: translateX(-50%);
 }
 
 .about-page p {
+  margin-bottom: 1.5rem;
+
   font-size: 1.25rem;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
 }
 
 
@@ -269,16 +357,19 @@ header a {
 
   width: 95vw;
   max-width: 1400px;
+
   margin-left: 50%;
-  transform: translateX(-50%);
   margin-top: 5rem;
   margin-bottom: 5rem;
+
+  transform: translateX(-50%);
 }
 
 .research-text h2 {
+  margin-bottom: 1.5rem;
+
   font-size: clamp(2.4rem, 4vw, 4.5rem);
   line-height: 1.05;
-  margin-bottom: 1.5rem;
 }
 
 .research-text p,
@@ -288,20 +379,22 @@ header a {
 }
 
 .research-image img {
+  display: block;
+
   width: 100%;
   height: auto;
+
   border-radius: 18px;
   box-shadow: none !important;
-  display: block;
 }
 
-/* Research image credit / acknowledgement */
 .image-credit {
+  margin-top: 0.6rem;
+
   font-size: 0.85rem;
   line-height: 1.4;
-  opacity: 0.75;
-  margin-top: 0.6rem;
   text-align: center;
+  opacity: 0.75;
 }
 
 
@@ -312,16 +405,19 @@ header a {
 .research-full {
   width: 95vw;
   max-width: 1100px;
+
   margin-left: 50%;
-  transform: translateX(-50%);
   margin-top: 5rem;
   margin-bottom: 3rem;
+
+  transform: translateX(-50%);
 }
 
 .research-full h2 {
+  margin-bottom: 1.5rem;
+
   font-size: clamp(2.4rem, 4vw, 4.5rem);
   line-height: 1.05;
-  margin-bottom: 1.5rem;
 }
 
 .research-full p {
@@ -333,15 +429,6 @@ header a {
 /* =========================================================
    ENGAGEMENT HEADINGS
    ========================================================= */
-
-/*
-Main category headings:
-Teaching and Mentorship
-Public Engagement and Museum Exhibits
-
-These are styled to match the visual size and weight
-of the main Engagement page heading.
-*/
 
 h3.engagement-section-heading {
   display: block !important;
@@ -359,15 +446,6 @@ h3.engagement-section-heading {
   text-align: center !important;
 }
 
-/*
-Individual headings:
-Classroom Teaching
-Mentorship
-Field-Based Teaching
-Public Outreach
-Museum Exhibit Development
-*/
-
 .outreach-text h4 {
   display: block !important;
 
@@ -381,14 +459,13 @@ Museum Exhibit Development
   text-align: left !important;
 }
 
-/* Keep the first split row close to its category heading */
 h3.engagement-section-heading + .outreach-split {
   margin-top: 2.5rem !important;
 }
 
 
 /* =========================================================
-   ENGAGEMENT / CLICKABLE OUTREACH CAROUSEL
+   ENGAGEMENT CAROUSEL
    ========================================================= */
 
 .outreach-carousel-wrap {
@@ -406,7 +483,6 @@ h3.engagement-section-heading + .outreach-split {
   outline: none;
 }
 
-/* Each image and caption are treated as one slide */
 .carousel-slide {
   display: none;
   position: relative;
@@ -418,14 +494,12 @@ h3.engagement-section-heading + .outreach-split {
   visibility: hidden;
 }
 
-/* Only the selected slide is shown */
 .carousel-slide.active {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
-/* Carousel photographs */
 .carousel-slide img {
   display: block;
 
@@ -438,9 +512,9 @@ h3.engagement-section-heading + .outreach-split {
   box-shadow: none !important;
 }
 
-/* Photograph captions */
 .carousel-slide figcaption {
   min-height: 2.8rem;
+
   margin-top: 0.65rem;
   padding: 0 4.5rem;
 
@@ -450,7 +524,6 @@ h3.engagement-section-heading + .outreach-split {
   opacity: 0.8;
 }
 
-/* Large tertiary-pink navigation arrows */
 .carousel-arrow {
   position: absolute;
   top: 45%;
@@ -464,8 +537,8 @@ h3.engagement-section-heading + .outreach-split {
   height: 64px;
   padding: 0;
 
-  background: #da77ac !important;
   color: #ffffff !important;
+  background: #da77ac !important;
 
   border: 4px solid #ffffff !important;
   border-radius: 999px;
@@ -480,40 +553,39 @@ h3.engagement-section-heading + .outreach-split {
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.32) !important;
 
   transform: translateY(-50%);
+
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
     box-shadow 0.2s ease;
 }
 
-/* Left arrow */
 .carousel-arrow-prev {
   left: 16px;
 }
 
-/* Right arrow */
 .carousel-arrow-next {
   right: 16px;
 }
 
-/* Hover and keyboard focus */
 .carousel-arrow:hover,
 .carousel-arrow:focus-visible {
-  background: #b94f89 !important;
   color: #ffffff !important;
+  background: #b94f89 !important;
 
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.42) !important;
 
   transform: translateY(-50%) scale(1.1);
+
   outline: 4px solid rgba(218, 119, 172, 0.35);
   outline-offset: 3px;
 }
 
-/* Image number below photograph */
 .carousel-counter {
   margin-top: 0.4rem;
 
   color: #da77ac;
+
   font-size: 1rem;
   font-weight: 800;
   line-height: 1;
@@ -528,18 +600,23 @@ h3.engagement-section-heading + .outreach-split {
 .interactive-figure {
   width: 95vw;
   max-width: 1400px;
+
   margin-left: 50%;
-  transform: translateX(-50%);
   margin-top: 1.5rem;
   margin-bottom: 3rem;
+
+  transform: translateX(-50%);
 }
 
 .interactive-figure iframe {
-  width: 100%;
-  border: none;
-  background: white;
-  border-radius: 12px;
   display: block;
+
+  width: 100%;
+
+  background: #ffffff;
+
+  border: none;
+  border-radius: 12px;
 }
 
 .interactive-large iframe {
@@ -555,87 +632,95 @@ h3.engagement-section-heading + .outreach-split {
    CV PAGE
    ========================================================= */
 
-/* Center the download button */
 .cv-download-wrap {
-  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+
+  width: 100%;
+
   margin: 2rem 0 3rem;
+
+  text-align: center;
 }
 
-/* CV download button */
 .cv-download-button {
   display: inline-block;
+
   padding: 0.9rem 1.4rem;
+
+  color: #ffffff !important;
   background: linear-gradient(90deg, #da77ac, #f9b665);
-  color: white !important;
+
   border-radius: 999px;
-  text-decoration: none !important;
+
   font-weight: 700;
   text-align: center;
+  text-decoration: none !important;
 }
 
-/* Center the navigation buttons across the full page */
 .cv-jump-menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.75rem;
-
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
 
   width: 95vw;
   max-width: 1400px;
 
   margin-top: 1rem;
   margin-bottom: 3rem;
+
+  transform: translateX(-50%);
 }
 
-/* Individual navigation buttons */
 .cv-jump-menu a {
   display: inline-block;
-  font-size: 0.85rem;
-  line-height: 1;
+
   padding: 0.45rem 0.7rem;
+
+  color: #da77ac;
+
   border: 1px solid #da77ac;
   border-radius: 999px;
-  text-decoration: none !important;
-  color: #da77ac;
+
+  font-size: 0.85rem;
   font-weight: 600;
+  line-height: 1;
+
+  text-decoration: none !important;
   white-space: nowrap;
 }
 
 .cv-jump-menu a:hover {
+  color: #ffffff !important;
   background: #da77ac;
-  color: white !important;
 }
 
-/* Main CV content */
 .cv-page {
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
 
   width: 95vw;
   max-width: 1400px;
 
   margin-top: 2rem;
   margin-bottom: 5rem;
+
+  transform: translateX(-50%);
 }
 
-/* CV headings */
 .cv-page h2 {
-  font-size: clamp(2rem, 3vw, 3rem);
   margin-top: 3rem;
   margin-bottom: 1rem;
+
+  font-size: clamp(2rem, 3vw, 3rem);
 }
 
-/* CV body text */
 .cv-page p,
 .cv-page li {
   font-size: 1.15rem;
@@ -643,16 +728,18 @@ h3.engagement-section-heading + .outreach-split {
 }
 
 .cv-total {
-  font-size: 1.2rem;
-  line-height: 1.6;
   margin-bottom: 1.5rem;
+
+  font-size: 1.2rem;
   font-weight: 600;
+  line-height: 1.6;
 }
 
 .cv-entry {
+  margin-bottom: 0.75rem;
+
   font-size: 1.15rem;
   line-height: 1.65;
-  margin-bottom: 0.75rem;
 }
 
 
@@ -660,32 +747,37 @@ h3.engagement-section-heading + .outreach-split {
    TABLET
    ========================================================= */
 
-@media (max-width: 1100px) {
+@media (max-width: 1100px) and (min-width: 801px) {
   .home-custom {
-    grid-template-columns: 300px minmax(400px, 1fr);
+    grid-template-columns: 250px minmax(400px, 1fr);
     gap: 3rem;
+
     width: 92vw;
   }
 
   .home-profile {
-    max-width: 300px;
+    max-width: 250px;
   }
 
   .home-headshot {
-    max-width: 270px !important;
+    max-width: 240px !important;
   }
 
   .home-profile h1 {
-    font-size: clamp(2.6rem, 5vw, 3.7rem) !important;
+    font-size: 2.3rem !important;
   }
 
   .home-profile h2 {
-    font-size: clamp(1.15rem, 2vw, 1.5rem) !important;
+    font-size: 1.2rem !important;
   }
 
-  .home-profile p,
-  .home-profile a {
-    font-size: 0.95rem !important;
+  .home-institution,
+  .home-email {
+    font-size: 0.84rem !important;
+  }
+
+  .home-profile-links {
+    max-width: 205px;
   }
 
   .home-bio {
@@ -700,10 +792,12 @@ h3.engagement-section-heading + .outreach-split {
 
 @media (max-width: 800px) {
   .home-custom-section {
+    display: block !important;
+
     height: auto !important;
     min-height: auto !important;
+
     overflow: visible !important;
-    display: block !important;
   }
 
   .home-custom {
@@ -713,7 +807,9 @@ h3.engagement-section-heading + .outreach-split {
 
     width: 90vw;
     max-width: 600px;
+
     margin-left: 50%;
+
     transform: translateX(-50%);
   }
 
@@ -723,23 +819,35 @@ h3.engagement-section-heading + .outreach-split {
   }
 
   .home-headshot {
-    width: min(100%, 340px) !important;
-    max-width: 340px !important;
-    margin-left: auto;
+    width: min(100%, 320px) !important;
+    max-width: 320px !important;
+
     margin-right: auto;
+    margin-left: auto;
   }
 
   .home-profile h1 {
-    font-size: clamp(3rem, 13vw, 4.5rem) !important;
+    font-size: clamp(2.5rem, 11vw, 3.75rem) !important;
+    white-space: nowrap !important;
   }
 
   .home-profile h2 {
-    font-size: 2rem !important;
+    font-size: 1.65rem !important;
   }
 
-  .home-profile p,
-  .home-profile a {
-    font-size: 1.15rem !important;
+  .home-institution,
+  .home-email {
+    font-size: 1.05rem !important;
+  }
+
+  .home-profile-links {
+    max-width: 235px;
+  }
+
+  .home-profile a.home-profile-button {
+    min-height: 38px;
+
+    font-size: 0.9rem !important;
   }
 
   .home-bio {
@@ -747,9 +855,10 @@ h3.engagement-section-heading + .outreach-split {
   }
 
   .home-bio p {
+    margin-bottom: 1.7rem !important;
+
     font-size: 1.2rem !important;
     line-height: 1.65 !important;
-    margin-bottom: 1.7rem !important;
   }
 
   .about-page {
@@ -764,7 +873,9 @@ h3.engagement-section-heading + .outreach-split {
   .outreach-split {
     grid-template-columns: 1fr;
     gap: 2rem;
+
     width: 92vw;
+
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
@@ -820,15 +931,20 @@ h3.engagement-section-heading + .outreach-split {
 
   .carousel-slide figcaption {
     min-height: 0;
+
     padding: 0 3rem;
+
     font-size: 0.85rem;
   }
 
   .carousel-arrow {
     top: 42%;
+
     width: 52px;
     height: 52px;
+
     border-width: 3px !important;
+
     font-size: 2.1rem;
   }
 
@@ -862,13 +978,26 @@ h3.engagement-section-heading + .outreach-split {
   }
 
   .cv-jump-menu a {
-    font-size: 0.78rem;
     padding: 0.4rem 0.6rem;
+
+    font-size: 0.78rem;
   }
 
   .cv-page p,
   .cv-page li {
     font-size: 1.05rem;
+  }
+}
+
+
+/* Very small mobile screens */
+@media (max-width: 390px) {
+  .home-profile h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .home-profile-links {
+    max-width: 215px;
   }
 }
 
@@ -891,33 +1020,38 @@ a.back-to-top {
 
   display: flex !important;
   visibility: visible !important;
-  opacity: 1 !important;
-
   align-items: center !important;
   justify-content: center !important;
   gap: 0.35rem;
 
   min-width: 52px;
   min-height: 52px;
+
   padding: 0.7rem 1rem !important;
 
-  background: #da77ac !important;
   color: #ffffff !important;
+  background: #da77ac !important;
+
   border: 2px solid #ffffff !important;
   border-radius: 999px !important;
 
   font-size: 0.95rem !important;
   font-weight: 800 !important;
   line-height: 1 !important;
+
   text-decoration: none !important;
 
+  opacity: 1 !important;
+
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3) !important;
+
   transform: none !important;
 }
 
 a.back-to-top:hover {
-  background: #b94f89 !important;
   color: #ffffff !important;
+  background: #b94f89 !important;
+
   transform: translateY(-3px) !important;
 }
 
@@ -930,173 +1064,16 @@ a.back-to-top > span:first-child {
   a.back-to-top {
     right: 12px !important;
     bottom: 12px !important;
+
     width: 50px;
     height: 50px;
     min-width: 50px;
     min-height: 50px;
+
     padding: 0 !important;
   }
 
   .back-to-top-label {
     display: none !important;
-  }
-}
-
-
-/* =========================================================
-   HOMEPAGE PROFILE COLUMN
-   Smaller left side with compact academic-profile buttons
-   ========================================================= */
-
-@media (min-width: 992px) {
-
-  /* Make the left profile column narrower */
-  .resume-biography .row {
-    grid-template-columns: minmax(280px, 0.72fr) minmax(0, 2.28fr) !important;
-    column-gap: 4.5rem !important;
-  }
-
-  .resume-biography .portrait-title,
-  .resume-biography .profile {
-    width: 100%;
-    max-width: 390px;
-  }
-
-  /* Slightly reduce the portrait */
-  .resume-biography .avatar,
-  .resume-biography .avatar-wrapper,
-  .resume-biography img.avatar {
-    width: 360px !important;
-    height: 360px !important;
-    max-width: 100% !important;
-  }
-
-  /* Keep the name on one line */
-  .resume-biography .portrait-title h2,
-  .resume-biography .portrait-title .text-3xl,
-  .resume-biography h1 {
-    font-size: clamp(2.7rem, 3.5vw, 4.4rem) !important;
-    line-height: 1 !important;
-    white-space: nowrap !important;
-    margin-top: 1rem !important;
-    margin-bottom: 0.75rem !important;
-  }
-
-  /* Slightly smaller role and affiliation text */
-  .resume-biography .portrait-title h3 {
-    font-size: 1.65rem !important;
-    line-height: 1.2 !important;
-    margin-bottom: 0.75rem !important;
-  }
-
-  .resume-biography .portrait-title .text-muted,
-  .resume-biography .portrait-title p {
-    font-size: 1.05rem !important;
-  }
-}
-
-
-/* =========================================================
-   GOOGLE SCHOLAR AND ORCID BUTTONS
-   ========================================================= */
-
-/* Links appear after the email/profile information */
-.resume-biography .network-icon {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  gap: 0.55rem !important;
-  width: 100% !important;
-  max-width: 330px !important;
-  margin: 0.9rem auto 0 !important;
-  padding: 0 !important;
-}
-
-.resume-biography .network-icon li {
-  display: block !important;
-  width: 100% !important;
-  margin: 0 !important;
-}
-
-.resume-biography .network-icon li a {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 0.55rem !important;
-
-  width: 100% !important;
-  min-height: 38px !important;
-  padding: 0.4rem 1rem !important;
-
-  border: 2px solid #ffffff !important;
-  border-radius: 6px !important;
-
-  background: rgba(20, 20, 20, 0.38) !important;
-  color: #ffffff !important;
-
-  font-size: 0.95rem !important;
-  font-weight: 600 !important;
-  line-height: 1.1 !important;
-  text-decoration: none !important;
-
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease !important;
-}
-
-.resume-biography .network-icon li a:hover {
-  background: #ffffff !important;
-  color: #222222 !important;
-  transform: translateY(-1px);
-}
-
-.resume-biography .network-icon li a svg,
-.resume-biography .network-icon li a i {
-  width: 1.05rem !important;
-  height: 1.05rem !important;
-  font-size: 1.05rem !important;
-  margin: 0 !important;
-}
-
-/* Display the link names beside the icons */
-.resume-biography .network-icon li a::after {
-  font-size: 0.95rem;
-}
-
-.resume-biography .network-icon li:nth-child(1) a::after {
-  content: "Google Scholar";
-}
-
-.resume-biography .network-icon li:nth-child(2) a::after {
-  content: "ORCID";
-}
-
-
-/* =========================================================
-   MOBILE AND TABLET
-   ========================================================= */
-
-@media (max-width: 991px) {
-
-  .resume-biography .portrait-title h2,
-  .resume-biography .portrait-title .text-3xl,
-  .resume-biography h1 {
-    font-size: clamp(2.4rem, 11vw, 3.8rem) !important;
-    line-height: 1 !important;
-    white-space: nowrap !important;
-  }
-
-  .resume-biography .network-icon {
-    max-width: 300px !important;
-  }
-}
-
-@media (max-width: 430px) {
-
-  .resume-biography .portrait-title h2,
-  .resume-biography .portrait-title .text-3xl,
-  .resume-biography h1 {
-    font-size: clamp(2.1rem, 10vw, 2.8rem) !important;
   }
 }
