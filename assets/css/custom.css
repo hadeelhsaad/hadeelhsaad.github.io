@@ -338,19 +338,24 @@ header a {
 Main category headings:
 Teaching and Mentorship
 Public Engagement and Museum Exhibits
+
+These are styled to match the visual size and weight
+of the main Engagement page heading.
 */
 
-.engagement-section-heading {
-  display: block;
-  width: 95vw;
-  max-width: 1400px;
+h3.engagement-section-heading {
+  display: block !important;
 
-  margin: 5rem auto 1.5rem !important;
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 5rem 0 2.5rem !important;
   padding: 0 !important;
 
-  font-size: clamp(2rem, 3vw, 3rem) !important;
+  font-size: 2.25rem !important;
   font-weight: 700 !important;
-  line-height: 1.15 !important;
+  line-height: 1.2 !important;
+
   text-align: center !important;
 }
 
@@ -364,20 +369,21 @@ Museum Exhibit Development
 */
 
 .outreach-text h4 {
-  display: block;
+  display: block !important;
 
   margin: 0 0 1.25rem !important;
   padding: 0 !important;
 
-  font-size: clamp(1.6rem, 2.3vw, 2.25rem) !important;
+  font-size: 2.25rem !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
+
   text-align: left !important;
 }
 
-/* Reduce space between a category heading and its first row */
-.engagement-section-heading + .outreach-split {
-  margin-top: 2.5rem;
+/* Keep the first split row close to its category heading */
+h3.engagement-section-heading + .outreach-split {
+  margin-top: 2.5rem !important;
 }
 
 
@@ -779,20 +785,28 @@ Museum Exhibit Development
     margin-top: 3rem;
   }
 
-  .engagement-section-heading {
-    width: 92vw;
-    margin-top: 4rem !important;
-    margin-bottom: 1.5rem !important;
-    font-size: 2rem !important;
+  h3.engagement-section-heading {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 4rem 0 2rem !important;
+    padding: 0 !important;
+
+    font-size: 2.25rem !important;
     font-weight: 700 !important;
+    line-height: 1.2 !important;
+
     text-align: center !important;
   }
 
   .outreach-text h4 {
     margin-top: 0 !important;
     margin-bottom: 1rem !important;
-    font-size: 1.7rem !important;
+
+    font-size: 2rem !important;
     font-weight: 700 !important;
+    line-height: 1.2 !important;
+
     text-align: left !important;
   }
 
