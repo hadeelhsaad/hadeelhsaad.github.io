@@ -72,7 +72,7 @@ sections:
         </div>
         </div>
 
-        <script>
+<script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".outreach-carousel").forEach(function (carousel) {
     const slides = carousel.querySelectorAll(".carousel-slide");
@@ -113,5 +113,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-      </script>
+</script>
 ---
