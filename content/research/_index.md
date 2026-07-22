@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Research"
+      title: ""
       text: |
         My research focuses on biodiversity and biogeography of tropical marine fishes during the Cenozoic (past 66 million years), mostly from the Indo–West Pacific (IWP). I use extinct and extant specimens and spatial data to investigate how biodiversity hotspots have moved over time (“hotspot hopping”) and how individual lineages have changed (“lineage sliding”), in hopes to better understand how tropical marine biodiversity has changed across space and time.
 
