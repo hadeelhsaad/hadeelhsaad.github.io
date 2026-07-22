@@ -6,7 +6,7 @@
   {{ $captions = . | transform.Unmarshal }}
 {{ end }}
 
-<div class="outreach-carousel">
+<div class="outreach-carousel" tabindex="0">
   {{ $images := .Page.Resources.Match $pattern }}
 
   {{ range $index, $image := $images }}
@@ -19,5 +19,25 @@
       <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
       <figcaption>{{ $caption }}</figcaption>
     </figure>
+  {{ end }}
+
+  {{ if gt (len $images) 1 }}
+    <button
+      class="carousel-arrow carousel-arrow-prev"
+      type="button"
+      aria-label="Previous photo">
+      &#10094;
+    </button>
+
+    <button
+      class="carousel-arrow carousel-arrow-next"
+      type="button"
+      aria-label="Next photo">
+      &#10095;
+    </button>
+
+    <div class="carousel-counter" aria-live="polite">
+      1 / {{ len $images }}
+    </div>
   {{ end }}
 </div>
