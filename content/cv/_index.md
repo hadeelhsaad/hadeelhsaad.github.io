@@ -42,7 +42,8 @@ sections:
         **2021–present**  
         **Ph.D. Candidate, University of Michigan**  
         Department of Earth and Environmental Sciences  
-        Advisor: Matt Friedman  
+        Advisor: Matt Friedman
+        Thesis:"Cenozoic biogeography and biodiversity of tropical marine fishes of the Indo-West Pacific"
         Expected graduation: 2027
 
         **2016–2020**  
@@ -54,16 +55,18 @@ sections:
 
         ## Publications
 
-        <div class="cv-entry"><strong>2026</strong><br>El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, <strong>Saad H</strong>, Speijer R, Sallam H. <a href="https://www.science.org/doi/10.1126/sciadv.aec8978">Rise of Modern Marine Fishes Captured in an Early Paleocene Lagerstätte</a>. <em>Science Advances</em>.</div>
+        <div class="cv-entry"><strong>2026</strong><br>El-Sayed S, Friedman M, Salem B, Gohar A, Al-Ashqar S, Amin M, El-Saka H, <strong>Saad H</strong>, Speijer R, Sallam H. <a href="https://www.science.org/doi/10.1126/sciadv.aec8978">Rise of modern marine fishes captured in an early Paleocene Lagerstätte</a>. <em>Science Advances</em> 12, eaec8978. DOI: <a href="https://doi.org/10.1126/sciadv.aec8978">10.1126/sciadv.aec8978</a>.</div>
 
-        <div class="cv-entry"><strong>2025</strong><br>Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, <strong>Saad H</strong>, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. <a href="https://www.sciencedirect.com/science/article/pii/S0960982225010395">Macroevolutionary role reversals in the earliest radiation of bony fishes</a>. <em>Current Biology</em>.</div>
+        <div class="cv-entry"><strong>2025</strong><br>Troyer EM, Rivero-Vega R, Cui X, Zhu M, Qiao T, <strong>Saad H</strong>, Figueroa RT, Andrews JV, Clement A, Lebedev O, Higgins R, Igielman B, Pierce S, Giles S, Friedman M. <a href="https://www.sciencedirect.com/science/article/pii/S0960982225010395">Macroevolutionary role reversals in the earliest radiation of bony fishes</a>. <em>Current Biology</em> 35, 4631–4641.e3. DOI: <a href="https://doi.org/10.1016/j.cub.2025.08.008">10.1016/j.cub.2025.08.008</a>.</div>
 
-        <div class="cv-entry"><strong>2023</strong><br>Friedman M, Andrews JV, <strong>Saad H</strong>, El Sayed S. <a href="https://popups.uliege.be/1374-8505/index.php?id=7048">The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record</a>. <em>Geologica Belgica</em> 26(1–2), 1–23.</div>
+        <div class="cv-entry"><strong>2023</strong><br>Friedman M, Andrews JV, <strong>Saad H</strong>, El-Sayed S. <a href="https://popups.uliege.be/1374-8505/index.php?id=7048">The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record</a>. <em>Geologica Belgica</em> 26(1–2), 1–23. DOI: <a href="https://doi.org/10.20341/gb.2023.002">10.20341/gb.2023.002</a>.</div>
 
-        <div class="cv-entry"><strong>2021</strong><br>Hughes LC, Ortí G, <strong>Saad H</strong>, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287">Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics</a>. <em>Molecular Ecology Resources</em>.</div>
+        <div class="cv-entry"><strong>2021</strong><br>Hughes LC, Ortí G, <strong>Saad H</strong>, Li C, White WT, Baldwin CC, Crandall KA, Arcila D, Betancur R. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13287">Exon probe sets and bioinformatics pipelines for all levels of fish phylogenomics</a>. <em>Molecular Ecology Resources</em> 21, 816–833. DOI: <a href="https://doi.org/10.1111/1755-0998.13287">10.1111/1755-0998.13287</a>.</div>
 
-        <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br> <strong>Saad H</strong>, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
+        <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br><strong>Saad H</strong>, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
 
+        <div class="cv-entry"><strong>Saad H</strong>, El-Sayed S, Friedman M. The paleontological perspective of tropical marine fishes throughout the early Cenozoic of the Indo–West Pacific. <em>In preparation.</em></div>
+    
         <a id="fellowships-grants"></a>
 
         ## Fellowships & Grants
