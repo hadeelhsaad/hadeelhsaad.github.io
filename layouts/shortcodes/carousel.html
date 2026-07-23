@@ -17,9 +17,10 @@
 
     <figure class="carousel-slide{{ if eq $index 0 }} active{{ end }}">
       <img
-        src="{{ $image.Permalink }}"
+        src="{{ $image.RelPermalink }}"
         alt="{{ $alt }}"
         loading="lazy"
+        decoding="async"
       >
       <figcaption>{{ $caption }}</figcaption>
     </figure>
