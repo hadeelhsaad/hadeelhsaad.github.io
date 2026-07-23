@@ -12,7 +12,7 @@ sections:
         <div id="top"></div>
 
         <div class="cv-download-wrap">
-        <a href="/uploads/CV.pdf" class="cv-download-button">Download CV · Last updated 7/26</a>
+        <a href="/upload/CV.pdf" class="cv-download-button">Download CV · Last updated 7/26</a>
         </div>
 
         <div class="cv-jump-menu">
