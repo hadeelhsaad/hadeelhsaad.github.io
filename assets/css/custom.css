@@ -1077,3 +1077,125 @@ a.back-to-top > span:first-child {
     display: none !important;
   }
 }
+
+
+/* =========================================================
+   GLOBAL HEADING HIERARCHY
+   Engagement sets the maximum heading size on interior pages.
+   ========================================================= */
+
+:root {
+  --page-title-size: 2.25rem;
+  --section-heading-size: 2rem;
+  --subsection-heading-size: 1.7rem;
+}
+
+/* Main page titles */
+body:not(:has(.home-custom-section)) main h1,
+body:not(:has(.home-custom-section)) article h1,
+body:not(:has(.home-custom-section)) .section-heading h1,
+body:not(:has(.home-custom-section)) .page-header h1 {
+  font-size: var(--page-title-size) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+/* Engagement category headings match page titles */
+body:not(:has(.home-custom-section)) h3.engagement-section-heading {
+  display: block !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 5rem 0 2.5rem !important;
+  padding: 0 !important;
+
+  font-size: var(--page-title-size) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+
+  text-align: center !important;
+}
+
+/* Regular h2 section headings */
+body:not(:has(.home-custom-section)) .research-text h2,
+body:not(:has(.home-custom-section)) .research-full h2,
+body:not(:has(.home-custom-section)) .cv-page h2,
+body:not(:has(.home-custom-section)) main h2,
+body:not(:has(.home-custom-section)) article h2 {
+  font-size: var(--section-heading-size) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+/* Ordinary h3 headings */
+body:not(:has(.home-custom-section))
+  main
+  h3:not(.engagement-section-heading),
+body:not(:has(.home-custom-section))
+  article
+  h3:not(.engagement-section-heading) {
+  font-size: var(--subsection-heading-size) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+/* Engagement subsection headings */
+body:not(:has(.home-custom-section)) .outreach-text h4 {
+  display: block !important;
+
+  margin: 0 0 1.25rem !important;
+  padding: 0 !important;
+
+  font-size: var(--subsection-heading-size) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+
+  text-align: left !important;
+}
+
+/* Keep first Engagement row close to category heading */
+body:not(:has(.home-custom-section))
+  h3.engagement-section-heading
+  + .outreach-split {
+  margin-top: 2.5rem !important;
+}
+
+
+/* =========================================================
+   GLOBAL HEADING HIERARCHY — MOBILE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  :root {
+    --page-title-size: 2.25rem;
+    --section-heading-size: 1.9rem;
+    --subsection-heading-size: 1.65rem;
+  }
+
+  body:not(:has(.home-custom-section))
+    h3.engagement-section-heading {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 4rem 0 2rem !important;
+    padding: 0 !important;
+
+    font-size: var(--page-title-size) !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+
+    text-align: center !important;
+  }
+
+  body:not(:has(.home-custom-section)) .outreach-text h4 {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+
+    font-size: var(--subsection-heading-size) !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+
+    text-align: left !important;
+  }
+}
