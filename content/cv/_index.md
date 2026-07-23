@@ -1,7 +1,7 @@
 ---
 title: "CV"
 summary: "Curriculum vitae for Hadeel Saad"
-date: 2026-06-28
+date: 2026-07-23
 type: landing
 
 sections:
@@ -12,29 +12,44 @@ sections:
         <div id="top"></div>
 
         <div class="cv-download-wrap">
-        <a href="/uploads/CV.pdf" class="cv-download-button">Download CV · Last updated 6/26</a>
+        <a href="/uploads/CV.pdf" class="cv-download-button">Download CV · Last updated 7/26</a>
         </div>
 
         <div class="cv-jump-menu">
+        <a href="#profile">Profile</a>
         <a href="#education">Education</a>
         <a href="#publications">Publications</a>
         <a href="#fellowships-grants">Fellowships & Grants</a>
-        <a href="#conference-presentations">Presentations</a>
-        <a href="#conference-posters">Posters</a>
         <a href="#awards">Awards</a>
         <a href="#professional-development">Professional Development</a>
+        <a href="#conference-presentations">Presentations</a>
+        <a href="#conference-posters">Posters</a>
         <a href="#professional-experience">Experience</a>
         <a href="#teaching-experience">Teaching</a>
         <a href="#professional-service">Service</a>
+        <a href="#invited-speaking">Invited Speaking</a>
         <a href="#online-talks">Online Talks</a>
         <a href="#outreach">Outreach</a>
         <a href="#multimedia-projects">Multimedia</a>
+        <a href="#educational-material">Educational Material</a>
         <a href="#workshops">Workshops</a>
         <a href="#collections-field-work">Field Work</a>
         <a href="#mentorship">Mentorship</a>
         </div>
 
         <div class="cv-page">
+
+        <a id="profile"></a>
+
+        ## Profile
+
+        <div class="cv-entry"><strong>Hadeel Saad</strong><br>
+        University of Michigan<br>
+        1105 N University Avenue, Ann Arbor, MI 48109<br>
+        <a href="mailto:hhsaad@umich.edu">hhsaad@umich.edu</a></div>
+
+        <div class="cv-entry">I use museum data from living and fossil species, together with spatial analyses, to investigate how marine fish diversity and distributions have shifted through the Cenozoic. By combining quantitative paleobiology and biogeography, I explore how ancient ecosystems inform the origins of modern tropical diversity.</div>
+
         <a id="education"></a>
 
         ## Education
@@ -42,12 +57,12 @@ sections:
         **2021–present**  
         **Ph.D. Candidate, University of Michigan**  
         Department of Earth and Environmental Sciences  
-        Advisor: Matt Friedman
-        Thesis:"Cenozoic biogeography and biodiversity of tropical marine fishes of the Indo-West Pacific"
+        Advisor: Matt Friedman  
+        Thesis: “Cenozoic biogeography and biodiversity of tropical marine fishes of the Indo–West Pacific”  
         Expected graduation: 2027
 
         **2016–2020**  
-        **B.S. Biology, The George Washington University**  
+        **B.S. in Biology, The George Washington University**  
         Concentration: Ecology, Evolution & the Environment  
         Minor: Bioinformatics
 
@@ -66,16 +81,16 @@ sections:
         <div class="cv-entry"><strong>Manuscripts in Preparation</strong><br><strong>Saad H</strong>, Friedman M. First record of the batfish †<em>Eoplatax</em> (Acanthomorpha: ?Ephippidae) from the Eocene (Lutetian) of Pakistan, with comments on the ephippid fossil record and the distribution of Paleogene marine fishes. <em>In review.</em></div>
 
         <div class="cv-entry"><strong>Saad H</strong>, El-Sayed S, Friedman M. The paleontological perspective of tropical marine fishes throughout the early Cenozoic of the Indo–West Pacific. <em>In preparation.</em></div>
-    
+
         <a id="fellowships-grants"></a>
 
         ## Fellowships & Grants
 
-        <div class="cv-total"><strong>Total funding received:</strong> $340,600</div>
+        <div class="cv-total"><strong>Total funding received:</strong> $338,600</div>
 
         <div class="cv-entry"><strong>2023</strong> Rackham Pre-Candidate Research Grant, University of Michigan — $1,500</div>
 
-        <div class="cv-entry"><strong>2023</strong> Cashner Travel Grant, ASIH — $1,000</div>
+        <div class="cv-entry"><strong>2023</strong> Cashner Travel Grant, American Society of Ichthyologists and Herpetologists — $1,000</div>
 
         <div class="cv-entry"><strong>2023</strong> Heidemarie Johnson Grant, Paleontological Society — $3,000</div>
 
@@ -83,96 +98,105 @@ sections:
 
         <div class="cv-entry"><strong>2023</strong> Museum Studies Fellow Program, University of Michigan — $10,000</div>
 
-        <div class="cv-entry"><strong>2022–2025</strong> Rackham Travel Grant, University of Michigan — $4,000</div>
+        <div class="cv-entry"><strong>2022, 2023, 2025</strong> Rackham Travel Grant, University of Michigan — $4,000</div>
 
-        <div class="cv-entry"><strong>2022–2026</strong> Turner Research Grant, University of Michigan — $6,100</div>
+        <div class="cv-entry"><strong>2022, 2024</strong> Turner Research Grant, University of Michigan — $4,100</div>
 
-        <div class="cv-entry"><strong>2021</strong> Rackham Merit Fellowship, University of Michigan — ~$60,000</div>
+        <div class="cv-entry"><strong>2021</strong> Rackham Merit Fellowship, University of Michigan — approximately $60,000</div>
 
-        <div class="cv-entry"><strong>2019</strong> Harlan Undergraduate Research Fellow, George Washington University — $5,000</div>
+        <div class="cv-entry"><strong>2019</strong> Harlan Undergraduate Research Fellow, The George Washington University — $5,000</div>
 
-        <div class="cv-entry"><strong>2018</strong> Summer Training Academy for Research Success, UC San Diego — $5,000</div>
+        <div class="cv-entry"><strong>2018</strong> Summer Training Academy for Research Success, University of California San Diego; advisor: Kaustuv Roy — $5,000</div>
 
-        <div class="cv-entry"><strong>2016</strong> Presidential Academic Scholarship, George Washington University — $120,000</div>
-
-        <a id="conference-presentations"></a>
-
-        ## Conference Presentations (selected)
-
-        **2025**  
-        Saad H, Friedman M. The paleontological perspective of marine tropical fishes throughout the Paleogene and Neogene of the Indo-West Pacific. Taipei, Taiwan.
-
-        **2023**  
-        Saad H, Friedman M. The Cenozoic collapse of the West Tethyan biodiversity hotspot: a test using the fish otolith fossil record. Indo-Pacific Fish Conference. Auckland, New Zealand.
-
-        **2023**  
-        Saad H, Friedman M. A putative spadefish (Acanthomorpha: Ephippidae) from the Indo-Pacific region and its implications for marine fish biogeography. Great Lakes Student Paleoconference. Ann Arbor, Michigan.
-
-        **2023**  
-        Saad H, Friedman M. The Cenozoic collapse of the West Tethyan biodiversity hotspot: a test using the fish otolith fossil record. International Otolith Symposium. Viña del Mar, Chile.
-
-        **2018**  
-        Saad H, Neu A, Roy K. Determining marine molluscan larval diversity at Scripps Pier using DNA barcoding. Summer Research Conference, University of California San Diego. San Diego, California.
-
-        <a id="conference-posters"></a>
-
-        ## Conference Posters (selected)
-
-        **2025**  
-        Killbrew R, Saad H, Friedman M. Re-evaluation of a fossil fish from the Miocene of Indonesia. Undergraduate Research Opportunity Program Spring Symposium. Ann Arbor, Michigan.
-
-        **2024**  
-        Saad H, Friedman M. Description of a spadefish (Acanthomorpha: Ephippidae) from Pakistan and its implications for marine fish biogeography in the Paleogene. Joint Meeting of Ichthyologists and Herpetologists. Pittsburgh, Pennsylvania.
-
-        **2024**  
-        Saad H, Friedman M. Inventory of Inner Ear Bones: Database of otoliths throughout the Cenozoic. North American Paleontological Convention. Ann Arbor, Michigan.
-
-        **2023**  
-        Flemming A, Bart H, Blackwell A, Buckner JC, Fuller N, Melbourne L, Mims B, Saad H, Ware J. Creating and building community in natural history museums to enhance the reach and care of natural history collections: BlackInNHM. Society for the Preservation of Natural History Collections. San Francisco, California.
-
-        **2022**  
-        Saad H, Friedman M. A putative spadefish (Acanthomorpha: Ephippidae) from the Indo-Pacific region and its implications for marine fish biogeography. Society of Vertebrate Paleontology. Toronto, Canada.
-
-        **2019**  
-        Saad H, Peterson R, Hughes L. Data Fishing: Curating a Library of Actinopterygii Transcriptomic Data. Harlan Presentation. Washington, DC.
+        <div class="cv-entry"><strong>2016–2020</strong> Presidential Academic Scholarship, The George Washington University — $120,000</div>
 
         <a id="awards"></a>
 
         ## Awards
 
-        **2026** Best Graduate Student Poster, Michigan Geophysical Union  
-        **2026** Best Student Presentation, the International Biogeography Society, Aarhus  
-        **2019** Undergraduate Student Employee of the Year, George Washington University
+        <div class="cv-entry"><strong>2026</strong> Best Graduate Student Poster, Michigan Geophysical Union</div>
+
+        <div class="cv-entry"><strong>2026</strong> Best Student Poster, International Biogeography Society, Aarhus</div>
+
+        <div class="cv-entry"><strong>2019</strong> Undergraduate Student Employee of the Year, The George Washington University</div>
 
         <a id="professional-development"></a>
 
         ## Professional Development
 
-        **2022** Science Communication Fellowship, University of Michigan  
-        **2017** NASA-BMSIS Young Scientist Program in Space Biosciences, San José State University
+        <div class="cv-entry"><strong>2023</strong> Museum Studies Fellowship, University of Michigan</div>
+
+        <div class="cv-entry"><strong>2022</strong> Science Communication Fellowship, University of Michigan</div>
+
+        <div class="cv-entry"><strong>2017</strong> NASA-BMSIS Young Scientist Program in Space Biosciences, San José State University; advisor: Andro Rios</div>
+
+        <a id="conference-presentations"></a>
+
+        ## Conference Presentations (selected)
+
+        <div class="cv-entry"><strong>2025</strong><br><strong>Saad H</strong>, Friedman M. The paleontological perspective of marine tropical fishes throughout the Paleogene and Neogene of the Indo–West Pacific. Taipei, Taiwan.</div>
+
+        <div class="cv-entry"><strong>2023</strong><br><strong>Saad H</strong>, Friedman M. The Cenozoic collapse of the West Tethyan biodiversity hotspot: a test using the fish otolith fossil record. Indo-Pacific Fish Conference. Auckland, New Zealand.</div>
+
+        <div class="cv-entry"><strong>2023</strong><br><strong>Saad H</strong>, Friedman M. A putative spadefish (Acanthomorpha: Ephippidae) from the Indo-Pacific region and its implications for marine fish biogeography. Great Lakes Student Paleoconference. Ann Arbor, Michigan.</div>
+
+        <div class="cv-entry"><strong>2023</strong><br><strong>Saad H</strong>, Friedman M. The Cenozoic collapse of the West Tethyan biodiversity hotspot: a test using the fish otolith fossil record. International Otolith Symposium. Viña del Mar, Chile.</div>
+
+        <div class="cv-entry"><strong>2018</strong><br><strong>Saad H</strong>, Neu A, Roy K. Determining marine molluscan larval diversity at Scripps Pier using DNA barcoding. Summer Research Conference, University of California San Diego. San Diego, California.</div>
+
+        <a id="conference-posters"></a>
+
+        ## Conference Posters (selected)
+
+        <div class="cv-entry"><strong>2025</strong><br>Killbrew R, <strong>Saad H</strong>, Friedman M. Re-evaluation of a fossil fish from the Miocene of Indonesia. Undergraduate Research Opportunity Program Spring Symposium. Ann Arbor, Michigan.</div>
+
+        <div class="cv-entry"><strong>2024</strong><br><strong>Saad H</strong>, Friedman M. Description of a spadefish (Acanthomorpha: Ephippidae) from Pakistan and its implications for marine fish biogeography in the Paleogene. Joint Meeting of Ichthyologists and Herpetologists. Pittsburgh, Pennsylvania.</div>
+
+        <div class="cv-entry"><strong>2024</strong><br><strong>Saad H</strong>, Friedman M. Inventory of Inner Ear Bones: Database of otoliths throughout the Cenozoic. North American Paleontological Convention. Ann Arbor, Michigan.</div>
+
+        <div class="cv-entry"><strong>2023</strong><br>Flemming A, Bart H, Blackwell A, Buckner JC, Fuller N, Melbourne L, Mims B, <strong>Saad H</strong>, Ware J. Creating and building community in natural history museums to enhance the reach and care of natural history collections: BlackInNHM. Society for the Preservation of Natural History Collections. San Francisco, California.</div>
+
+        <div class="cv-entry"><strong>2022</strong><br><strong>Saad H</strong>, Friedman M. A putative spadefish (Acanthomorpha: Ephippidae) from the Indo-Pacific region and its implications for marine fish biogeography. Society of Vertebrate Paleontology. Toronto, Canada.</div>
+
+        <div class="cv-entry"><strong>2019</strong><br><strong>Saad H</strong>, Peterson R, Hughes L. Data Fishing: Curating a Library of Actinopterygii Transcriptomic Data. Harlan Presentation. Washington, DC.</div>
 
         <a id="professional-experience"></a>
 
         ## Professional Experience
 
-        **2026** Museum Assistant, UMMP 100th Temporary Exhibit, University of Michigan Museum of Natural History  
-        **2024–2025** Assisted in creation of *Black in Natural History* traveling exhibit, University of Florida and American Museum of Natural History  
-        **2024** Museum Assistant, *Sea Change: Ancient Fossils, New Discoveries?*, University of Michigan Museum of Natural History  
-        **2022** Research Assistant, Matt Friedman Lab, University of Michigan  
-        **2019–2020** Lab Manager, BISC 1111 & 1112 Introduction to Biology, George Washington University  
-        **2018–2021** Research Assistant, Guillermo Ortí’s FishLife Lab, George Washington University
+        <div class="cv-entry"><strong>2026</strong> Museum Assistant, UMMP 100th Temporary Exhibit, University of Michigan Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2024–2025</strong> Assisted in the creation of the <em>Black in Natural History</em> traveling exhibit, University of Florida (2024) and American Museum of Natural History (2025)</div>
+
+        <div class="cv-entry"><strong>2017</strong> Editor and writer for “Shifting the Focus: Centering Indigenous and DEI Practices in UMMAA’s Collection Management Policy,” primarily focused on the “Global Collection”; capstone project for the Museum Studies Program</div>
+
+        <div class="cv-entry"><strong>2024</strong> Museum Assistant, <em>Sea Change: Ancient Fossils, New Discoveries?</em>, University of Michigan Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2022</strong> Research Assistant, Matt Friedman Lab, University of Michigan</div>
+
+        <div class="cv-entry"><strong>2019–2020</strong> Lab Manager, BISC 1111 and BISC 1112: Introduction to Biology, The George Washington University</div>
+
+        <div class="cv-entry"><strong>2018–2021</strong> Research Assistant, Guillermo Ortí’s FishLife Lab, The George Washington University</div>
 
         <a id="teaching-experience"></a>
 
         ## Teaching Experience
 
-        **2025** Earth Camp for rising 11th graders  
-        **2025** Paleontology Lab, EARTH 419, weekend trip to Paleozoic sites in the Midwest  
-        **2024** Co-instructor, *What Really Happens at Night in a Museum?: Multidisciplinary Approaches for Exploring Ecology and Evolution*  
-        **2022** Graduate Student Instructor, EARTH 201: Introduction to Geography Lecture & Labs  
-        **2021** Instructor Assistant, BISC 1112: Introduction to Biology Lab, George Washington University  
-        **2020** Instructor Assistant, BISC 1111: Introduction to Biology Lab, George Washington University  
-        **2019** Undergraduate Teaching Assistant, BISC 1112: Introduction to Biology Lab, George Washington University
+        <div class="cv-entry"><strong>2025</strong> Earth Camp for rising 11th graders, focused on Michigan geology and evidence of past lake-level changes</div>
+
+        <div class="cv-entry"><strong>2025</strong> Paleontology Lab, EARTH 419; weekend trip to Paleozoic sites in the Midwest</div>
+
+        <div class="cv-entry"><strong>2024</strong> Co-instructor, <em>What Really Happens at Night in a Museum?: Multidisciplinary Approaches for Exploring Ecology and Evolution</em></div>
+
+        <div class="cv-entry"><strong>2023, 2025</strong> Guest lecturer, University of Michigan Analytical Paleobiology: “Coverage-Based Rarefaction”</div>
+
+        <div class="cv-entry"><strong>2022</strong> Graduate Student Instructor, EARTH 201: Introduction to Geography Lecture and Labs, University of Michigan</div>
+
+        <div class="cv-entry"><strong>2021</strong> Instructor, BISC 1112: Introduction to Biology Lab—The Biology of Organisms, The George Washington University</div>
+
+        <div class="cv-entry"><strong>2020</strong> Instructor, BISC 1111: Introduction to Biology Lab—Cells and Molecules, The George Washington University</div>
+
+        <div class="cv-entry"><strong>2019</strong> Undergraduate Teaching Assistant, BISC 1112: Introduction to Biology Lab—The Biology of Organisms, The George Washington University</div>
 
         <a id="professional-service"></a>
 
@@ -182,87 +206,138 @@ sections:
 
         <div class="cv-entry"><strong>2026</strong> Michigan Geophysical Union Judge, undergraduate posters</div>
 
-        <div class="cv-entry"><strong>2025</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Outreach Chair</div>
+        <div class="cv-entry"><strong>2025</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary and Outreach Chair; Minneapolis, Minnesota</div>
 
-        <div class="cv-entry"><strong>2024</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary & Social Committee</div>
+        <div class="cv-entry"><strong>2024</strong> Joint Meeting of Ichthyologists and Herpetologists, Graduate Secretary and Social Committee; Pittsburgh, Pennsylvania</div>
 
-        <div class="cv-entry"><strong>2024</strong> North American Paleontology Convention, Student Chair and DEI Committee</div>
+        <div class="cv-entry"><strong>2024</strong> North American Paleontology Convention, Student Chair and DEI Committee; Ann Arbor, Michigan</div>
 
-        <div class="cv-entry"><strong>2023</strong> Great Lakes Student Paleo Conference, Organizing Committee</div>
+        <div class="cv-entry"><strong>2023</strong> Great Lakes Student Paleo Conference, Organizing Committee for the fifth conference; Ann Arbor, Michigan</div>
 
-        <div class="cv-entry"><strong>2021–present</strong> Black in Natural History Museums, Founding Member & Website Manager</div>
+        <div class="cv-entry"><strong>2021–present</strong> Black in Natural History Museums, Founding Member and Website Manager</div>
+
+        <a id="invited-speaking"></a>
+
+        ## Invited Speaking
+
+        <div class="cv-entry"><strong>2025</strong> “Hopping Hotspots: Comparing the Marine Cenozoic Records of Invertebrates and Fishes,” No Bones Seminar, Smithsonian National Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2025</strong> “Overview of the Fossil Record of Marine Fishes in the Cenozoic,” Academia Sinica, Taiwan</div>
+
+        <div class="cv-entry"><strong>2024</strong> “Measuring Diversity Patterns Through Time,” with coding workshop, Interdisciplinary Global Change Biology Meeting</div>
+
+        <div class="cv-entry"><strong>2024</strong> Panelist for the opening of the <em>Black in Natural History</em> exhibit, University of Florida</div>
+
+        <div class="cv-entry"><strong>2024</strong> “Origin of the (W)Indo-Pacific Biodiversity Hotspot,” Friends of the University of Michigan Museum of Paleontology</div>
+
+        <div class="cv-entry"><strong>2023</strong> “A Paleontological Perspective on the Origin of the Indo–West Pacific Biodiversity Hotspot,” Queensland Museum</div>
 
         <a id="online-talks"></a>
 
         ## Online Talks and Videos
 
-        **2022** Evolutionary Biologist Video, Black in Natural History Museums  
-        **2022** Importance of Museums for exhibit at the University of Michigan Museum of Natural History  
-        **2021** Moderator, Black in Natural History Role Models, Black in Natural History Museums Week
+        <div class="cv-entry"><strong>2022</strong> Evolutionary Biologist Video, Black in Natural History Museums</div>
+
+        <div class="cv-entry"><strong>2022</strong> Importance of Museums for an exhibit at the University of Michigan Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2021</strong> Moderator, Black in Natural History Role Models, Black in Natural History Museums Week</div>
 
         <a id="outreach"></a>
 
-        ## Invited Speaking and Outreach
+        ## Outreach
 
-        **2025** Academia Sinica, Taiwan, “Overview of fossil record of Marine Fishes in the Cenozoic”  
-        **2024** Interdisciplinary Global Change Biology Meeting, “Measuring diversity patterns through time” with coding workshop  
-        **2024** Guest speaker for Scouts Earth Science Badge  
-        **2024** Panelist for opening exhibit, *Black in Natural History*, University of Florida  
-        **2024** Friends of the University of Michigan Museum of Paleontology, “Origin of the (W)indo-Pacific Biodiversity Hotspot”  
-        **2023, 2025** UM Course Analytical Paleobiology, “Coverage Based Rarefaction”  
-        **2023** Queensland Museum, “A paleontological perspective on the origin of the Indo-West Pacific biodiversity hotspot”  
-        **2023, 2025** Women in Science and Engineering Night at University of Michigan Museum of Natural History  
-        **2022, 2024** Scientist Spotlight at University of Michigan Museum of Natural History  
-        **2019** Insect Biodiversity at Adams Morgan Oyster Bilingual School  
-        **2017** Volunteer, USA Science & Engineering Festival, Washington, DC  
-        **2017–2019** Evolution and Biodiversity Ambassador, Smithsonian National Museum of Natural History
+        <div class="cv-entry"><strong>2024</strong> ID Day, University of Michigan Museum of Natural History; matching fossil and extant morphology</div>
+
+        <div class="cv-entry"><strong>2024</strong> ID Day, University of Michigan Museum of Natural History; paleogeographic puzzle activity</div>
+
+        <div class="cv-entry"><strong>2024</strong> Guest speaker for Scouts Earth Science Badge</div>
+
+        <div class="cv-entry"><strong>2023, 2025</strong> Women in Science and Engineering Night, University of Michigan Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2022–2025</strong> Scientist Spotlight, University of Michigan Museum of Natural History</div>
+
+        <div class="cv-entry"><strong>2019</strong> Insect Biodiversity, Adams Morgan Oyster Bilingual School</div>
+
+        <div class="cv-entry"><strong>2017</strong> Volunteer, USA Science & Engineering Festival, Washington, DC</div>
+
+        <div class="cv-entry"><strong>2017–2019</strong> Evolution and Biodiversity Ambassador, Smithsonian National Museum of Natural History; 120 total service hours</div>
 
         <a id="multimedia-projects"></a>
 
-        ## Multimedia Projects and Educational Material
+        ## Multimedia Projects
 
-        **2025** Lino prints of reef fishes for Joint Meeting of Ichthyologists and Herpetologists book raffle  
-        **2022** Endemism in the Red Sea, UM Ecology of Fishes Film Festival  
-        **2018** GWU Lab Textbook: Introduction to Biology Lab: Cells & Molecules  
-        **2017** Water We Learning  
-        **2017** The Amazing Hydrogen Bond
+        <div class="cv-entry"><strong>2025</strong> Linocut prints of reef fishes for the Joint Meeting of Ichthyologists and Herpetologists book raffle</div>
+
+        <div class="cv-entry"><strong>2022</strong> <em>Endemism in the Red Sea</em>, presented at the University of Michigan Ecology of Fishes Film Festival with Anderson</div>
+
+        <div class="cv-entry"><strong>2017</strong> <em>The Amazing Hydrogen Bond</em></div>
+
+        <a id="educational-material"></a>
+
+        ## Educational Material
+
+        <div class="cv-entry"><strong>2018</strong> The George Washington University Lab Textbook: <em>Introduction to Biology Lab: Cells & Molecules</em></div>
+
+        <div class="cv-entry"><strong>2017</strong> <em>Water We Learning</em></div>
 
         <a id="workshops"></a>
 
         ## Workshops and Online Courses
 
-        **2024** Physalia, Biogeography in R  
-        **2023** PaleoSynthesis, Analytical Paleobiology School  
-        **2023** Physalia, Mapping and Spatial Analysis in R: Using R as a GIS
+        <div class="cv-entry"><strong>2025</strong> Physalia, Introduction to R Shiny, January 27–28</div>
+
+        <div class="cv-entry"><strong>2024</strong> Physalia, Biogeography in R, September 5–11</div>
+
+        <div class="cv-entry"><strong>2023</strong> PaleoSynthesis, Analytical Paleobiology School, August 21–September 8</div>
+
+        <div class="cv-entry"><strong>2023</strong> Physalia, Mapping and Spatial Analysis in R: Using R as a GIS, October 23–27</div>
+
+        <div class="cv-entry"><strong>2023</strong> Physalia, Paleobiology in R, January 12–17</div>
 
         <a id="collections-field-work"></a>
 
         ## Collections and Field Work
 
-        **2026** Collection of Carboniferous fish material around Pittsburgh, Pennsylvania — 5 days  
-        **2026** Museum of Natural History, Copenhagen, Denmark — 2 days  
-        **2025** Collection of Carboniferous fish material around Pittsburgh, Pennsylvania — 8 days  
-        **2025** Collection of Carboniferous fish material from mines in Lansing, Michigan — 1 day  
-        **2025** National Museum of Natural History, Paris, France — 5 days  
-        **2024** Collection of Carboniferous fish material around Pittsburgh, Pennsylvania — 2 days  
-        **2023** Queensland Museum Tropics, Townsville, Queensland, Australia — 3 days  
-        **2023** Hessisches Landesmuseum Darmstadt, Darmstadt, Germany — 4 days  
-        **2023** Naturalis Biodiversity Center, Leiden, Netherlands — 5 days  
-        **2023** National Museum of Natural History, Paris, France — 5 days  
-        **2018** Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks
+        <div class="cv-entry"><strong>2026</strong> Fieldwork: Carboniferous fish material from Bear Gulch, Montana — 5 days</div>
+
+        <div class="cv-entry"><strong>2026</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 5 days</div>
+
+        <div class="cv-entry"><strong>2026</strong> Collection visit: Museum of Natural History, Copenhagen, Denmark — 2 days</div>
+
+        <div class="cv-entry"><strong>2025</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 8 days</div>
+
+        <div class="cv-entry"><strong>2025</strong> Fieldwork: Carboniferous fish material from mines in Lansing, Michigan — 1 day</div>
+
+        <div class="cv-entry"><strong>2025</strong> Collection visit: National Museum of Natural History, Paris, France — 5 days</div>
+
+        <div class="cv-entry"><strong>2024</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 2 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> Collection visit: Queensland Museum Tropics, Townsville, Queensland, Australia — 3 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> Collection visit: Hessisches Landesmuseum Darmstadt, Darmstadt, Germany — 4 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> Collection visit: Naturalis Biodiversity Center, Leiden, Netherlands — 5 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> Collection visit: National Museum of Natural History, Paris, France — 5 days</div>
+
+        <div class="cv-entry"><strong>2018</strong> Fieldwork: Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks</div>
 
         <a id="mentorship"></a>
 
-        ## Mentorship
+        ## Mentorship (selected)
 
-        **Raven Killbrew**  
-        B.S. Earth and Environmental Science, Concentration: Paleontology
+        <div class="cv-entry"><strong>Raven Killbrew</strong><br>B.S. Earth and Environmental Science<br>Concentration: Paleontology</div>
 
-        **Anna Zhao**  
-        B.S. Ecology and Evolutionary Biology, Minor: Paleontology  
-        Recommendation for Stocker-Nesbitt Fund, received
+        <div class="cv-entry"><strong>Anna Zhao</strong><br>B.S. Ecology and Evolutionary Biology<br>Minor: Paleontology<br>Recommendation for the Stocker-Nesbitt Fund; received</div>
 
         </div>
+
+         ## Secret Skills :)
+
+        <div class="cv-entry">barista & bartender</div>
+
+        <div class="cv-entry">Party Planner</div>
+
 
         <a href="#top" class="back-to-top" aria-label="Return to the top of the page">
         <span aria-hidden="true">↑</span>
