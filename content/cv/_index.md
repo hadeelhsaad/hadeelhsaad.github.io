@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Curriculum Vitae"
+      title: ""
       text: |
         <div id="top"></div>
 
