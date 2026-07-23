@@ -16,7 +16,6 @@ sections:
         </div>
 
         <div class="cv-jump-menu">
-        <a href="#profile">Profile</a>
         <a href="#education">Education</a>
         <a href="#publications">Publications</a>
         <a href="#fellowships-grants">Fellowships & Grants</a>
@@ -39,18 +38,6 @@ sections:
 
         <div class="cv-page">
 
-        <a id="profile"></a>
-
-        ## Profile
-
-        <div class="cv-entry"><strong>Hadeel Saad</strong><br>
-        University of Michigan<br>
-        1105 N University Avenue, Ann Arbor, MI 48109<br>
-        <a href="mailto:hhsaad@umich.edu">hhsaad@umich.edu</a></div>
-
-        <div class="cv-entry">I use museum data from living and fossil species, together with spatial analyses, to investigate how marine fish diversity and distributions have shifted through the Cenozoic. By combining quantitative paleobiology and biogeography, I explore how ancient ecosystems inform the origins of modern tropical diversity.</div>
-
-        <a id="education"></a>
 
         ## Education
 
@@ -331,13 +318,6 @@ sections:
         <div class="cv-entry"><strong>Anna Zhao</strong><br>B.S. Ecology and Evolutionary Biology<br>Minor: Paleontology<br>Recommendation for the Stocker-Nesbitt Fund; received</div>
 
         </div>
-
-         ## Secret Skills :)
-
-        <div class="cv-entry">Great barista & bartender</div>
-
-        <div class="cv-entry">Party Planner</div>
-
 
         <a href="#top" class="back-to-top" aria-label="Return to the top of the page">
         <span aria-hidden="true">↑</span>
