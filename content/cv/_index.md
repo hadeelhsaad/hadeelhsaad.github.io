@@ -334,7 +334,7 @@ sections:
 
          ## Secret Skills :)
 
-        <div class="cv-entry">barista & bartender</div>
+        <div class="cv-entry">Great barista & bartender</div>
 
         <div class="cv-entry">Party Planner</div>
 
