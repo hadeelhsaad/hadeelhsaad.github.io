@@ -1199,3 +1199,129 @@ body:not(:has(.home-custom-section))
     text-align: left !important;
   }
 }
+
+/* =========================================================
+   TABLET + MOBILE SPLIT-SECTION ORDER
+   Title → text → photo → caption
+   ========================================================= */
+
+@media (max-width: 1024px) {
+
+  /* Convert all split sections to one column */
+  .outreach-split,
+  .research-split {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    width: 92vw !important;
+    max-width: 760px !important;
+
+    gap: 2rem !important;
+
+    margin-top: 3rem !important;
+    margin-bottom: 4rem !important;
+    margin-left: 50% !important;
+
+    transform: translateX(-50%) !important;
+  }
+
+  /*
+  Always place the title and written content first,
+  even when the photograph appears first on desktop.
+  */
+  .outreach-split .outreach-text,
+  .research-split .research-text {
+    order: 1 !important;
+    width: 100% !important;
+  }
+
+  /* Always place the photograph and caption after the text */
+  .outreach-split .outreach-carousel-wrap,
+  .research-split .research-image {
+    order: 2 !important;
+    width: 100% !important;
+  }
+
+  /* Keep subsection headings above their matching text */
+  .outreach-text h4,
+  .research-text h2 {
+    display: block !important;
+
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+
+    text-align: left !important;
+  }
+
+  /* Carousel should only occupy the height of its active slide */
+  .outreach-carousel {
+    position: relative !important;
+
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+
+    overflow: visible !important;
+  }
+
+  /*
+  Prevent inactive photographs and captions from stacking.
+  This is intentionally stronger than the earlier carousel rules.
+  */
+  .outreach-carousel .carousel-slide {
+    display: none !important;
+    position: relative !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .outreach-carousel .carousel-slide.active {
+    display: block !important;
+
+    height: auto !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Photograph */
+  .outreach-carousel .carousel-slide img,
+  .research-image img {
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+
+    object-fit: contain !important;
+  }
+
+  /* Caption stays immediately below its photograph */
+  .outreach-carousel .carousel-slide figcaption,
+  .research-image .image-credit {
+    display: block !important;
+
+    width: 100% !important;
+    min-height: 0 !important;
+
+    margin: 0.75rem 0 0 !important;
+    padding: 0 1rem !important;
+
+    text-align: center !important;
+  }
+
+  /* Keep carousel counter below the photograph and caption */
+  .carousel-counter {
+    display: block !important;
+    margin-top: 0.5rem !important;
+  }
+}
