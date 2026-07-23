@@ -17,7 +17,7 @@ sections:
         <div class="research-split">
           <div class="research-text">
             <h2>Describing fossil lineages</h2>
-            <p>AI have contributed to descriptive and taxonomic projects, especially on fossils from regions that are underrepresented in existing datasets. These specimens can add important new baseline information and help reveal when and where ecological and trophic innovations appeared through time.</p>
+            <p>I have contributed to descriptive and taxonomic projects, especially on fossils from regions that are underrepresented in existing datasets. These specimens can add important new baseline information and help reveal when and where ecological and trophic innovations appeared through time.</p>
           </div>
 
           <div class="research-image">
@@ -32,13 +32,13 @@ sections:
 
           <div class="research-text">
             <h2>Documenting past ecosystems</h2>
-            <p>AA major limitation in understanding biodiversity today is the lack of understanding how fish communities have looked since the last major extinction event. I have worked on numerous projects trying to quantitatively compare faunas to examine the relative paleoenvironmental, paleogeographic, and stratigraphic controls on ancient fish communities in and around the IWP.</p>
+            <p>A major limitation in understanding biodiversity today is the lack of understanding how fish communities have looked since the last major extinction event. I have worked on numerous projects trying to quantitatively compare faunas to examine the relative paleoenvironmental, paleogeographic, and stratigraphic controls on ancient fish communities in and around the IWP.</p>
           </div>
         </div>
 
         <div class="research-full">
           <h2>Measuring biodiversity</h2>
-          <p>UI am currently investigating the collapse of ancient biodiversity hotspots. To measure changes in fish diversity over deep time, I use otoliths—small structures commonly known as ear stones. Although the dataset is still in progress, it currently includes nearly 100,000 fossil otoliths from 80 localities spanning the Paleocene to the Miocene.</p>
+          <p>I am currently investigating the collapse of ancient biodiversity hotspots. To measure changes in fish diversity over deep time, I use otoliths—small structures commonly known as ear stones. Although the dataset is still in progress, it currently includes nearly 100,000 fossil otoliths from 80 localities spanning the Paleocene to the Miocene.</p>
           <p>The interactive map presented here, originally created for my 2024 North American Paleontological Convention poster, provides a brief preview of the data I use to explore changes in fish diversity through time..</p>
         </div>
 
