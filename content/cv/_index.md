@@ -33,7 +33,7 @@ sections:
         <a href="#educational-material">Educational Material</a>
         <a href="#workshops">Workshops</a>
         <a href="#field-work">Field Work</a>
-        <a href="#collections">collections</a>
+        <a href="#Collections">Collections</a>
         <a href="#mentorship">Mentorship</a>
         </div>
 
@@ -142,7 +142,7 @@ sections:
 
         <div class="cv-entry"><strong>2024</strong><br><strong>Saad H</strong>, Friedman M. Inventory of Inner Ear Bones: Database of otoliths throughout the Cenozoic. North American Paleontological Convention. Ann Arbor, Michigan.</div>
 
-        <div class="cv-entry"><strong>2023</strong><br>Flemming A, Bart H, Blackwell A, Buckner JC, Fuller N, Melbourne L, Mims B, <strong>Saad H</strong>, Ware J. Creating and building community in natural history museums to enhance the reach and care of natural history collections: BlackInNHM. Society for the Preservation of Natural History Collections. San Francisco, California.</div>
+        <div class="cv-entry"><strong>2023</strong><br>Flemming A, Bart H, Blackwell A, Buckner JC, Fuller N, Melbourne L, Mims B, <strong>Saad H</strong>, Ware J. Creating and building community in natural history museums to enhance the reach and care of natural history collections: BlackInNHM. Society for the Preservation of Natural History collections. San Francisco, California.</div>
 
         <div class="cv-entry"><strong>2022</strong><br><strong>Saad H</strong>, Friedman M. A putative spadefish (Acanthomorpha: Ephippidae) from the Indo-Pacific region and its implications for marine fish biogeography. Society of Vertebrate Paleontology. Toronto, Canada.</div>
 
@@ -298,7 +298,7 @@ sections:
 
         <div class="cv-entry"><strong>2018</strong> Biological: Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks</div>
 
-        <a id="collections"></a>
+        <a id="Collections"></a>
 
         ## Collections
 
