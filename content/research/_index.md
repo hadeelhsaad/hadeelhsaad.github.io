@@ -5,7 +5,7 @@ date: 2026-06-27
 type: landing
 
 sections:
- - block: markdown
+  - block: markdown
     content:
       title: ""
       text: |
