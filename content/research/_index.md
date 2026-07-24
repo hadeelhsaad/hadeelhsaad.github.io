@@ -5,15 +5,19 @@ date: 2026-06-27
 type: landing
 
 sections:
-  - block: markdown
+ - block: markdown
     content:
       title: ""
       text: |
-        Why are species found where they are today? Why do some places contain more species than others? These may seem like simple questions, but the answers are not straightforward.
+        <div class="page-intro-wide">
 
-        My research examines the biogeography (where organisms occur) and biodiversity (how many organisms are present) of tropical marine fishes throughout the past 66 million years, the Cenozoic, with a particular focus on the Indo–West Pacific. I use extinct and extant specimens, spatial data, and paleoanalytic tools to investigate how organisms and their communities changed over time.
+        <p>Why are species found where they are today? Why do some places contain more species than others? These may seem like simple questions, but the answers are not straightforward.</p>
 
-        I am not a fish loyalist and often collaborate with people outside my typical scope, including those studying bats, plants, molecular data, education, and other biodiversity-related topics. Feel free to send me an email if you want to work together :)
+        <p>My research examines the biogeography (where organisms occur) and biodiversity (how many organisms are present) of tropical marine fishes throughout the past 66 million years, the Cenozoic, with a particular focus on the Indo–West Pacific. I use extinct and extant specimens, spatial data, and paleoanalytic tools to investigate how organisms and their communities changed over time.</p>
+
+        <p>I am not a fish loyalist and often collaborate with people outside my typical scope, including those studying bats, plants, molecular data, education, and other biodiversity-related topics. Feel free to send me an email if you want to work together :)</p>
+
+        </div>
 
         <div class="research-split">
         <div class="research-text">
