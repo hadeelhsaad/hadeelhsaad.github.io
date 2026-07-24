@@ -1329,7 +1329,7 @@ body:not(:has(.home-custom-section))
 
 /* Homepage biography links */
 .home-bio a.home-bio-link {
-  color: #da77ac !important;
+  color: inherit !important;
   text-decoration: underline !important;
   text-decoration-thickness: 2px !important;
   text-underline-offset: 0.18em !important;
@@ -1338,5 +1338,5 @@ body:not(:has(.home-custom-section))
 
 .home-bio a.home-bio-link:hover,
 .home-bio a.home-bio-link:focus-visible {
-  color: #efb4d2 !important;
+  color: #da77ac !important;
 }
