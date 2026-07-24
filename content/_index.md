@@ -24,7 +24,7 @@ sections:
         </div>
 
         <div class="home-bio">
-        <p>I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with Matt Friedman.</p>
+        <p>I am a Ph.D. candidate in the Department of Earth and Environmental Sciences at the University of Michigan, working with <a class="home-bio-link" href="https://lsa.umich.edu/paleontology/people/curators/mfriedm.html" target="_blank" rel="noopener noreferrer">Matt Friedman</a>.</p>
 
         <p>My research examines how marine biodiversity hotspots changed throughout the Cenozoic, with a focus on how fishes entered, diversified, and shifted across the Indo–West Pacific. I use museum specimens—both fossil and living—spatial analyses, and quantitative paleobiology to understand how ancient ecosystems shaped modern tropical marine diversity.</p>
 
