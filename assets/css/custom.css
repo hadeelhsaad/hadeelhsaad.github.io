@@ -538,7 +538,7 @@ h3.engagement-section-heading + .outreach-split {
   padding: 0;
 
   color: #ffffff !important;
-  background: #da77ac !important;
+  background: #ec9606 !important;
 
   border: 4px solid #ffffff !important;
   border-radius: 999px;
@@ -584,7 +584,7 @@ h3.engagement-section-heading + .outreach-split {
 .carousel-counter {
   margin-top: 0.4rem;
 
-  color: #da77ac;
+  color: #ec9606;
 
   font-size: 1rem;
   font-weight: 800;
@@ -650,7 +650,7 @@ h3.engagement-section-heading + .outreach-split {
   padding: 0.9rem 1.4rem;
 
   color: #ffffff !important;
-  background: linear-gradient(90deg, #da77ac, #f9b665);
+  background: linear-gradient(90deg, #ec9606, #f9b665);
 
   border-radius: 999px;
 
@@ -683,9 +683,9 @@ h3.engagement-section-heading + .outreach-split {
 
   padding: 0.45rem 0.7rem;
 
-  color: #da77ac;
+  color: #ec9606;
 
-  border: 1px solid #da77ac;
+  border: 1px solid #ec9606;
   border-radius: 999px;
 
   font-size: 0.85rem;
@@ -698,7 +698,7 @@ h3.engagement-section-heading + .outreach-split {
 
 .cv-jump-menu a:hover {
   color: #ffffff !important;
-  background: #da77ac;
+  background: #ec9606;
 }
 
 .cv-page {
@@ -1030,7 +1030,7 @@ a.back-to-top {
   padding: 0.7rem 1rem !important;
 
   color: #ffffff !important;
-  background: #da77ac !important;
+  background: #ec9606 !important;
 
   border: 2px solid #ffffff !important;
   border-radius: 999px !important;
@@ -1338,7 +1338,7 @@ body:not(:has(.home-custom-section))
 
 .home-bio a.home-bio-link:hover,
 .home-bio a.home-bio-link:focus-visible {
-  color: #da77ac !important;
+  color: #ec9606 !important;
 }
 
 
