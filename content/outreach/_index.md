@@ -9,9 +9,13 @@ sections:
     content:
       title: ""
       text: |
-       I would not be a scientist if it were not for museums and mentorship in my life. I believe science should not be restricted to traditional academic settings, so you can often find me teaching students or sharing fossils with museum visitors.
+        <div class="page-intro-wide">
 
-        Here, I provide a brief overview of the experiences that have shaped my commitment to making scientific knowledge accessible to the public. For a complete list of my activities, please see my CV.
+        <p>I would not be a scientist if it were not for museums and mentorship in my life. I believe science should not be restricted to traditional academic settings, so you can often find me teaching students or sharing fossils with museum visitors.</p>
+
+        <p>Here, I provide a brief overview of the experiences that have shaped my commitment to making scientific knowledge accessible to the public. For a complete list of my activities, please see my CV.</p>
+
+        </div>
 
         <h3 class="engagement-section-heading">Teaching and Mentorship</h3>
 
