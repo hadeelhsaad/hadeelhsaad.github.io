@@ -26,13 +26,14 @@ sections:
         <a href="#professional-experience">Experience</a>
         <a href="#teaching-experience">Teaching</a>
         <a href="#professional-service">Service</a>
-        <a href="#invited-speaking">Invited Speaking</a>
+        <a href="#invited-speaker">Invited Speaker</a>
         <a href="#online-talks">Online Talks</a>
         <a href="#outreach">Outreach</a>
         <a href="#multimedia-projects">Multimedia</a>
         <a href="#educational-material">Educational Material</a>
         <a href="#workshops">Workshops</a>
-        <a href="#collections-field-work">Field Work</a>
+        <a href="#field-work">Field Work</a>
+        <a href="#collections">collections</a>
         <a href="#mentorship">Mentorship</a>
         </div>
 
@@ -203,9 +204,9 @@ sections:
 
         <div class="cv-entry"><strong>2021–present</strong> Black in Natural History Museums, Founding Member and Website Manager</div>
 
-        <a id="invited-speaking"></a>
+        <a id="invited-speaker"></a>
 
-        ## Invited Speaking
+        ## Invited Speaker
 
         <div class="cv-entry"><strong>2025</strong> “Hopping Hotspots: Comparing the Marine Cenozoic Records of Invertebrates and Fishes,” No Bones Seminar, Smithsonian National Museum of Natural History</div>
 
@@ -281,33 +282,37 @@ sections:
 
         <div class="cv-entry"><strong>2023</strong> Physalia, Paleobiology in R, January 12–17</div>
 
-        <a id="collections-field-work"></a>
+        <a id="field-work"></a>
 
-        ## Collections and Field Work
+        ## Field Work
 
-        <div class="cv-entry"><strong>2026</strong> Fieldwork: Carboniferous fish material from Bear Gulch, Montana — 5 days</div>
+        <div class="cv-entry"><strong>2026</strong> Geological: Carboniferous fish material from Bear Gulch, Montana — 5 days</div>
 
-        <div class="cv-entry"><strong>2026</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 5 days</div>
+        <div class="cv-entry"><strong>2026</strong> Geological: Carboniferous fish material around Pittsburgh, Pennsylvania — 5 days</div>
 
-        <div class="cv-entry"><strong>2026</strong> Collection visit: Museum of Natural History, Copenhagen, Denmark — 2 days</div>
+        <div class="cv-entry"><strong>2025</strong> Geological: Carboniferous fish material around Pittsburgh, Pennsylvania — 8 days</div>
 
-        <div class="cv-entry"><strong>2025</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 8 days</div>
+        <div class="cv-entry"><strong>2025</strong> Geological: Carboniferous fish material from mines in Lansing, Michigan — 1 day</div>
 
-        <div class="cv-entry"><strong>2025</strong> Fieldwork: Carboniferous fish material from mines in Lansing, Michigan — 1 day</div>
+        <div class="cv-entry"><strong>2024</strong> Geological: Carboniferous fish material around Pittsburgh, Pennsylvania — 2 days</div>
 
-        <div class="cv-entry"><strong>2025</strong> Collection visit: National Museum of Natural History, Paris, France — 5 days</div>
+        <div class="cv-entry"><strong>2018</strong> Biological: Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks</div>
 
-        <div class="cv-entry"><strong>2024</strong> Fieldwork: Carboniferous fish material around Pittsburgh, Pennsylvania — 2 days</div>
+        <a id="collections"></a>
 
-        <div class="cv-entry"><strong>2023</strong> Collection visit: Queensland Museum Tropics, Townsville, Queensland, Australia — 3 days</div>
+        ## Collections
 
-        <div class="cv-entry"><strong>2023</strong> Collection visit: Hessisches Landesmuseum Darmstadt, Darmstadt, Germany — 4 days</div>
+        <div class="cv-entry"><strong>2026</strong> Museum of Natural History, Copenhagen, Denmark — 2 days</div>
 
-        <div class="cv-entry"><strong>2023</strong> Collection visit: Naturalis Biodiversity Center, Leiden, Netherlands — 5 days</div>
+        <div class="cv-entry"><strong>2025</strong> National Museum of Natural History, Paris, France — 5 days</div>
 
-        <div class="cv-entry"><strong>2023</strong> Collection visit: National Museum of Natural History, Paris, France — 5 days</div>
+        <div class="cv-entry"><strong>2023</strong> Queensland Museum Tropics, Townsville, Queensland, Australia — 3 days</div>
 
-        <div class="cv-entry"><strong>2018</strong> Fieldwork: Scripps Pier molluscan larvae collecting, San Diego, California — 10 weeks</div>
+        <div class="cv-entry"><strong>2023</strong> Hessisches Landesmuseum Darmstadt, Darmstadt, Germany — 4 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> Naturalis Biodiversity Center, Leiden, Netherlands — 5 days</div>
+
+        <div class="cv-entry"><strong>2023</strong> National Museum of Natural History, Paris, France — 5 days</div>
 
         <a id="mentorship"></a>
 
@@ -316,6 +321,12 @@ sections:
         <div class="cv-entry"><strong>Raven Killbrew</strong><br>B.S. Earth and Environmental Science<br>Concentration: Paleontology</div>
 
         <div class="cv-entry"><strong>Anna Zhao</strong><br>B.S. Ecology and Evolutionary Biology<br>Minor: Paleontology<br>Recommendation for the Stocker-Nesbitt Fund; received</div>
+
+        <a id="Secret skills"></a>
+
+        ## Secret skills
+
+        <div class="cv-entry"> I am a great barista :)</div>
 
         </div>
 
