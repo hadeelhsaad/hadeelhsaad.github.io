@@ -18,7 +18,8 @@ sections:
         <div class="outreach-split">
         <div class="outreach-text">
         <h4>CTraditional Classroom</h4>
-        <p>I have taught biological and geological courses at both the George Washington University and the University of Michigan, Ann Arbor, in roles ranging from undergraduate teaching assistant to instructor of record. My courses often include assignments including project using publicly available resources, such as ArcGIS, NCBI, iNaturalist, ICUN, and the Paleobiology Database, to help students engage directly with the natural world. These experiences have allowed me to work with students from diverse backgrounds and help them explore how geology and biology have shaped their lives and experiences.</p>
+        <p>I have taught biological and geological courses at both the George Washington University and the University of Michigan, Ann Arbor, in roles ranging from undergraduate teaching assistant to instructor of record.<p>
+        <p> My courses often include assignments including project using publicly available resources, such as ArcGIS, NCBI, iNaturalist, ICUN, and the Paleobiology Database, to help students engage directly with the natural world. These experiences have allowed me to work with students from diverse backgrounds and help them explore how geology and biology have shaped their lives and experiences.</p>
         </div>
         <div class="outreach-carousel-wrap">
         {{< carousel pattern="teaching-*" alt="Classroom teaching photo" >}}
