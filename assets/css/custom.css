@@ -1371,20 +1371,36 @@ body:not(:has(.home-custom-section))
 
 
 /* =========================================================
-   REMOVE DARK OVERLAY FROM HOMEPAGE BACKGROUND
+   PREVENT HOMEPAGE BACKGROUND IMAGE FROM BEING INVERTED
    ========================================================= */
 
+.home-custom-section,
+.home-custom-section *,
+.home-custom-section::before,
+.home-custom-section::after {
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
 .home-custom-section {
-  background-image: url("/media/background.png") !important;
+  background:
+    url("/media/background.png")
+    center center / cover
+    no-repeat !important;
+
   background-color: #ffffff !important;
   background-blend-mode: normal !important;
 }
 
-/* Remove dark overlay layers */
-.home-custom-section::before,
-.home-custom-section::after {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-  opacity: 0 !important;
+body:has(.home-custom-section) [style*="background-image"],
+body:has(.home-custom-section) [class*="background"],
+body:has(.home-custom-section) [class*="hero"] {
+  filter: none !important;
+  -webkit-filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  mix-blend-mode: normal !important;
 }
