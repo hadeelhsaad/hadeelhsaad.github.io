@@ -9,7 +9,7 @@ sections:
     content:
       title: ""
       text: |
-        My path into science was shaped by museums and mentorship. I believe science should not be restricted to traditional academic settings, so you can often find me working with students in the classroom, sharing fossils with museum visitors, or conducting fieldwork.
+       I would not be a scientist if it were not for museums and mentorship in my life. I believe science should not be restricted to traditional academic settings, so you can often find me teaching students or sharing fossils with museum visitors.
 
         Here, I provide a brief overview of the experiences that have shaped my commitment to making scientific knowledge accessible to the public. For a complete list of my activities, please see my CV.
 
@@ -17,9 +17,8 @@ sections:
 
         <div class="outreach-split">
         <div class="outreach-text">
-        <h4>Classroom Teaching</h4>
-        <p>I have taught biology and geology courses at both the George Washington University and the University of Michigan, Ann Arbor, in roles ranging from undergraduate teaching assistant to instructor of record.</p>
-        <p>My courses often include project-based assignments that use publicly available resources, such as ArcGIS, NCBI, iNaturalist, the IUCN Red List, and the Paleobiology Database, to help students engage directly with the natural world. These experiences have allowed me to work with students from diverse backgrounds and help them explore how geology and biology have shaped their lives and experiences.</p>
+        <h4>CTraditional Classroom</h4>
+        <p>I have taught biological and geological courses at both the George Washington University and the University of Michigan, Ann Arbor, in roles ranging from undergraduate teaching assistant to instructor of record. My courses often include assignments including project using publicly available resources, such as ArcGIS, NCBI, iNaturalist, ICUN, and the Paleobiology Database, to help students engage directly with the natural world. These experiences have allowed me to work with students from diverse backgrounds and help them explore how geology and biology have shaped their lives and experiences.</p>
         </div>
         <div class="outreach-carousel-wrap">
         {{< carousel pattern="teaching-*" alt="Classroom teaching photo" >}}
@@ -33,15 +32,15 @@ sections:
         <div class="outreach-text">
         <h4>Mentorship</h4>
         <p>Mentorship is another important part of my teaching. At the University of Michigan, I have worked with several students through the Undergraduate Research Opportunity Program (UROP).</p>
-        <p>These projects have ranged from training machine-learning models to extract information from historical texts and documenting the depositional environments of fossil localities across the Mediterranean Basin to redescribing Miocene fossil fishes from Indonesia.</p>
+         <p>These projects have ranged from training machine-learning models to extract information from historical texts and documenting the depositional environments of fossil localities across the Mediterranean Basin to redescribing Miocene fossil fishes from Indonesia.</p>
         </div>
         </div>
 
         <div class="outreach-split">
         <div class="outreach-text">
-        <h4>Field-Based Teaching</h4>
-        <p>Although my research is largely museum-based and analytical, I recognize that without the contributions of field scientists, there would be no specimens to study.</p>
-        <p>Field-based courses are an important way for students to engage directly with the natural sciences, and much of my recent teaching has incorporated fieldwork in both geology and biology.</p>
+        <h4>Field courses</h4>
+        <p>Although my research is largely museum-based and analytical, I recognize that without the contributions of field scientists, there would be no specimens to study.<p>
+        <p>Courses in the field are an important way for students to engage with the natural sciences, and much of my recent teaching experience has incorporated fieldwork in both geology and biology.</p>
         </div>
         <div class="outreach-carousel-wrap">
         {{< carousel pattern="field-*" alt="Field-based teaching photo" >}}
@@ -56,16 +55,16 @@ sections:
         </div>
         <div class="outreach-text">
         <h4>Public Outreach</h4>
-        <p>Since my undergraduate years, I have participated in a wide range of museum and public outreach activities. These experiences have included serving as an Evolution Ambassador at the Smithsonian and completing fellowships in science communication and museum studies.</p>
-        <p>At the University of Michigan, Ann Arbor, I have also developed several new museum activities centered on fossils, biodiversity, and evolution.</p>
+        <p> Since my undergraduate years, I have participated in a wide range of museum and public outreach activities. These experiences have included serving as an Evolution Ambassador at the Smithsonian, completing science communication fellowships, and a museum studies fellowship.</p>
+        <p>At the University of Michigan, Ann Arbor, I have also had numerous opportunities to create new museum activities involving fossils, biodiversity, and evolution.</p>
         </div>
         </div>
 
         <div class="outreach-split">
         <div class="outreach-text">
-        <h4>Museum Exhibit Development</h4>
-        <p>I have also contributed to the development of museum exhibits at the University of Michigan, the University of Florida, and the American Museum of Natural History.</p>
-        <p>These projects have ranged from creating digital media and research-focused displays to developing exhibitions that celebrate the histories, accomplishments, and people of these institutions.</p>
+        <h4>Museum Exhibits </h4>
+        <p>I have also contributed to the development of museum exhibits at the University of Michigan, the University of Florida, and the American Museum of Natural History.<p>
+        <p>My role in these projects has ranged from creating and appearing in digital media, planning and preparing content for research-related exhibits, and developing exhibits that celebrate the histories and accomplishments of scientists and institutions.</p>
         </div>
         <div class="outreach-carousel-wrap">
         {{< carousel pattern="exhibits-*" alt="Museum exhibit development photo" >}}
