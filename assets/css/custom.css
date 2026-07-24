@@ -1340,3 +1340,31 @@ body:not(:has(.home-custom-section))
 .home-bio a.home-bio-link:focus-visible {
   color: #da77ac !important;
 }
+
+
+/* =========================================================
+   WIDER INTRODUCTION TEXT — DESKTOP ONLY
+   Matches the width used by the Measuring Biodiversity section.
+   ========================================================= */
+
+@media (min-width: 1025px) {
+  .page-intro-wide {
+    position: relative;
+    left: 50%;
+
+    width: 95vw;
+    max-width: 1100px;
+
+    margin-top: 0;
+    margin-bottom: 3rem;
+
+    transform: translateX(-50%);
+  }
+
+  .page-intro-wide p {
+    max-width: none !important;
+
+    font-size: 1.25rem;
+    line-height: 1.7;
+  }
+}
